@@ -23,7 +23,7 @@ O pedido não define uma matriz própria de cargos. Por isso, os direitos de ace
 
 ## Arquitetura e fluxo
 
-`erpnext/hooks.py` fornecerá `app_title`, logo, favicon e bundles de estilo de Kubera ERP. O instalador define o nome do produto em `System Settings`. Um patch idempotente corrige instâncias que ainda mostram o nome padrão do ERPNext, sem sobrescrever um nome personalizado existente. `Website Settings` e `Navbar Settings` poderão prevalecer conforme o comportamento normal do Frappe.
+`erpnext/hooks.py` fornecerá `app_title`, logo, favicon e bundles de estilo de Kubera ERP. O instalador define o nome do produto em `System Settings` e `Website Settings`, pois o login do Frappe v16 prioriza o segundo. Um patch idempotente corrige instâncias que ainda mostram os nomes padrão `ERPNext` ou `Frappe`, sem sobrescrever um nome personalizado existente. Logos personalizados em `Website Settings` e `Navbar Settings` poderão prevalecer conforme o comportamento normal do Frappe.
 
 No Desk v16, o Dock e Desktop Icon receberão nomes e assets de apresentação. O Dock conserva todos os `link_to`, `link_type`, `hidden` e a ordem originais. As Sidebars conservam seus destinos. Não serão renomeados identificadores `name` dos registros padrão nem IDs de DocType, Workspace e Module Def.
 
@@ -31,7 +31,7 @@ O tema será aplicado no bundle CSS já carregado pelo ERPNext, com tokens limit
 
 ## Comportamento de erro e atualização
 
-Sem o logo local, o carregamento da interface continua, mas o app não deve apontar para marca do ERPNext como fallback explícito. O patch de nome só altera valores `ERPNext` ou vazios; valores específicos de um site são preservados. Links internos continuam iguais, de modo que favoritos, permissões e integrações sigam funcionando.
+Sem o logo local, o carregamento da interface continua, mas o app não deve apontar para marca do ERPNext como fallback explícito. O patch de nome só altera valores `ERPNext`, `Frappe` ou vazios; valores específicos de um site são preservados. Links internos continuam iguais, de modo que favoritos, permissões e integrações sigam funcionando.
 
 Atualizações futuras exigem rebase e revisão dos poucos arquivos de apresentação modificados. A marca não muda o nome do pacote instalado nem a versão do ERPNext. Mudanças de navegação upstream serão comparadas antes do merge.
 

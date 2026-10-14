@@ -11,7 +11,7 @@
    "icon": "sliders-duotone",
    "link_to": "Setup",
    "link_type": "Sidebar",
-   "title": "Setup"
+   "title": "Configurações"
   },
   {
    "added": 0,
@@ -19,7 +19,7 @@
    "icon": "calculator-duotone",
    "link_to": "Accounts",
    "link_type": "Sidebar",
-   "title": "Accounts"
+   "title": "Contabilidade"
   },
   {
    "added": 0,
@@ -27,7 +27,7 @@
    "icon": "storefront-duotone",
    "link_to": "Selling",
    "link_type": "Sidebar",
-   "title": "Selling"
+   "title": "Vendas"
   },
   {
    "added": 0,
@@ -35,7 +35,7 @@
    "icon": "shopping-cart-duotone",
    "link_to": "Buying",
    "link_type": "Sidebar",
-   "title": "Buying"
+   "title": "Compras"
   },
   {
    "added": 0,
@@ -43,7 +43,7 @@
    "icon": "shelf-rack-duotone",
    "link_to": "Stock",
    "link_type": "Sidebar",
-   "title": "Stock"
+   "title": "Estoque"
   },
   {
    "added": 0,
@@ -51,7 +51,7 @@
    "icon": "factory-duotone",
    "link_to": "Manufacturing",
    "link_type": "Sidebar",
-   "title": "Manufacturing"
+   "title": "Produção"
   },
   {
    "added": 0,
@@ -59,7 +59,7 @@
    "icon": "gantt-chart-duotone",
    "link_to": "Projects",
    "link_type": "Sidebar",
-   "title": "Projects"
+   "title": "Projetos"
   },
   {
    "added": 0,
@@ -67,7 +67,7 @@
    "icon": "asset-hand-duotone",
    "link_to": "Assets",
    "link_type": "Sidebar",
-   "title": "Assets"
+   "title": "Patrimônio"
   },
   {
    "added": 0,
@@ -75,7 +75,7 @@
    "icon": "quality-seal-duotone",
    "link_to": "Quality",
    "link_type": "Sidebar",
-   "title": "Quality"
+   "title": "Qualidade"
   },
   {
    "added": 0,
@@ -91,7 +91,7 @@
    "icon": "headset",
    "link_to": "Support",
    "link_type": "Sidebar",
-   "title": "Support"
+   "title": "Suporte"
   },
   {
    "added": 0,

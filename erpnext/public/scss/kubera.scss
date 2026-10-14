@@ -1,0 +1,34 @@
+// This bundle is loaded by app_include_css on the Desk. Keep brand tokens here so
+// ERPNext's website, print formats, and functional layouts retain their defaults.
+:root:not([data-theme="dark"]),
+[data-theme="light"] {
+	--kubera-canvas: #f2efe8;
+	--kubera-ink: #171714;
+	--kubera-surface: #ffffff;
+	--kubera-line: rgba(23, 23, 20, 0.18);
+
+	--brand-color: var(--kubera-ink);
+	--primary-color: var(--kubera-ink);
+	--btn-primary: var(--kubera-ink);
+	--bg-color: var(--kubera-canvas);
+	--fg-color: var(--kubera-surface);
+	--text-color: var(--kubera-ink);
+	--border-color: var(--kubera-line);
+}
+
+[data-theme="dark"] {
+	--kubera-canvas: #11110f;
+	--kubera-ink: #ece6dc;
+	--kubera-surface: #171714;
+	--kubera-line: rgba(236, 230, 220, 0.18);
+
+	--brand-color: var(--kubera-ink);
+	--bg-color: var(--kubera-canvas);
+	--fg-color: var(--kubera-surface);
+	--text-color: var(--kubera-ink);
+	--border-color: var(--kubera-line);
+}
+
+:root {
+	--font-stack: Poppins, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}

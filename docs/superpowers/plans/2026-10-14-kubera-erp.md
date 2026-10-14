@@ -20,7 +20,7 @@
 
 ## Review Focus
 
-- Instância com nome personalizado: patch mantém o valor; testar antes de escrever.
+- Instância com nome personalizado em System Settings ou Website Settings: patch mantém cada valor; testar antes de escrever.
 - Usuário de website e usuário Desk não administrador: acesso ao app permanece como upstream; testar função de permissão e navegação.
 - Tema escuro ou falta de fonte remota: interface continua legível; verificar no navegador.
 - Menu oculto de CRM/Suporte: estado `hidden` permanece igual à base; teste de comparação JSON.
@@ -39,10 +39,10 @@
 
 ### Task 2: Configuração do site e migração idempotente
 
-**Files:** `erpnext/setup/install.py`, `erpnext/patches.txt`, `erpnext/patches/v16_0/kubera_app_name.py`, `erpnext/tests/test_kubera_branding.py`.
+**Files:** `erpnext/setup/install.py`, `erpnext/patches.txt`, `erpnext/patches/v16_0/kubera_app_name.py`, `erpnext/tests/test_kubera_app_name.py`.
 
-- [ ] Escrever teste falhando: instalação usa Kubera ERP; patch converte `ERPNext` para `Kubera ERP`, preserva nome personalizado e não altera outros ajustes.
-- [ ] Implementar patch com entrada ao final de `patches.txt` e ajustar instalador.
+- [ ] Escrever teste falhando: instalação usa Kubera ERP em System Settings e Website Settings; patch converte `ERPNext`/`Frappe` para `Kubera ERP`, preserva nome personalizado e não altera outros ajustes.
+- [ ] Implementar patch com entrada ao final de `patches.txt`, ajustar instalador e trocar o rodapé padrão de e-mail para a marca Kubera ERP.
 - [ ] Rodar testes da tarefa e compilação Python; commit.
 
 ### Task 3: Tema do Desk
