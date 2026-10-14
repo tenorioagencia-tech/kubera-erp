@@ -3,7 +3,7 @@
  "charts": [
   {
    "chart_name": "Project Summary",
-   "label": "Project Summary"
+   "label": "Resumo do Projeto"
   }
  ],
  "content": "[{\"id\": \"a26c8edf16\", \"type\": \"onboarding\", \"data\": {\"onboarding_name\": \"Projects Onboarding\", \"col\": 12}}, {\"id\": \"7da431fdc9\", \"type\": \"chart\", \"data\": {\"chart_name\": \"Project Summary\", \"col\": 12}}, {\"id\": \"e8d82ebeb8\", \"type\": \"number_card\", \"data\": {\"number_card_name\": \"Open Projects\", \"col\": 4}}, {\"id\": \"69ce81d0bd\", \"type\": \"number_card\", \"data\": {\"number_card_name\": \"Non Completed Tasks\", \"col\": 4}}, {\"id\": \"c7432e7d92\", \"type\": \"number_card\", \"data\": {\"number_card_name\": \"Timesheet Working Hours\", \"col\": 4}}, {\"id\": \"prjcard000\", \"type\": \"card\", \"data\": {\"card_name\": \"Relatórios de projetos\", \"col\": 4}}]",
@@ -29,7 +29,7 @@
   {
    "hidden": 0,
    "is_query_report": 1,
-   "label": "Project Summary",
+   "label": "Resumo do Projeto",
    "link_count": 0,
    "link_to": "Project Summary",
    "link_type": "Report",
@@ -49,7 +49,7 @@
   {
    "hidden": 0,
    "is_query_report": 1,
-   "label": "Daily Timesheet Summary",
+   "label": "Resumo Diário Dos Registros de Tempo",
    "link_count": 0,
    "link_to": "Daily Timesheet Summary",
    "link_type": "Report",
@@ -69,7 +69,7 @@
   {
    "hidden": 0,
    "is_query_report": 1,
-   "label": "Project wise Stock Tracking",
+   "label": "Rastreio de Estoque por Projeto",
    "link_count": 0,
    "link_to": "Project wise Stock Tracking",
    "link_type": "Report",
@@ -83,7 +83,7 @@
  "name": "Projects",
  "number_cards": [
   {
-   "label": "Open Projects",
+   "label": "Projetos Abertos",
    "number_card_name": "Open Projects"
   },
   {
@@ -167,7 +167,7 @@
    "icon": "calendar-clock",
    "indent": 0,
    "keep_closed": 0,
-   "label": "Timesheet",
+   "label": "Registro de Tempo",
    "link_to": "Timesheet",
    "link_type": "DocType",
    "open_in_new_tab": 0,
@@ -193,7 +193,7 @@
    "default_workspace": 0,
    "indent": 0,
    "keep_closed": 0,
-   "label": "Activity Type",
+   "label": "Tipo de Atividade",
    "link_to": "Activity Type",
    "link_type": "DocType",
    "open_in_new_tab": 0,
@@ -206,7 +206,7 @@
    "default_workspace": 0,
    "indent": 0,
    "keep_closed": 0,
-   "label": "Activity Cost",
+   "label": "Custo da Atividade",
    "link_to": "Activity Cost",
    "link_type": "DocType",
    "open_in_new_tab": 0,
@@ -219,7 +219,7 @@
    "default_workspace": 0,
    "indent": 0,
    "keep_closed": 0,
-   "label": "Project Template",
+   "label": "Modelo de Projeto",
    "link_to": "Project Template",
    "link_type": "DocType",
    "open_in_new_tab": 0,
@@ -232,7 +232,7 @@
    "default_workspace": 0,
    "indent": 0,
    "keep_closed": 0,
-   "label": "Project Type",
+   "label": "Tipo de Projeto",
    "link_to": "Project Type",
    "link_type": "DocType",
    "open_in_new_tab": 0,
@@ -245,7 +245,7 @@
    "default_workspace": 0,
    "indent": 0,
    "keep_closed": 0,
-   "label": "Project Update",
+   "label": "Atualização de Projeto",
    "link_to": "Project Update",
    "link_type": "DocType",
    "open_in_new_tab": 0,
@@ -272,7 +272,7 @@
    "icon": "",
    "indent": 0,
    "keep_closed": 0,
-   "label": "Project Summary",
+   "label": "Resumo do Projeto",
    "link_to": "Project Summary",
    "link_type": "Report",
    "open_in_new_tab": 0,
@@ -285,7 +285,7 @@
    "default_workspace": 0,
    "indent": 0,
    "keep_closed": 0,
-   "label": "Daily Timesheet Summary",
+   "label": "Resumo Diário Dos Registros de Tempo",
    "link_to": "Daily Timesheet Summary",
    "link_type": "Report",
    "open_in_new_tab": 0,
@@ -311,7 +311,7 @@
    "default_workspace": 0,
    "indent": 0,
    "keep_closed": 0,
-   "label": "Project wise Stock Tracking",
+   "label": "Rastreio de Estoque por Projeto",
    "link_to": "Project wise Stock Tracking",
    "link_type": "Report",
    "open_in_new_tab": 0,

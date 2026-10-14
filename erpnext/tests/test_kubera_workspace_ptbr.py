@@ -49,6 +49,11 @@ class TestKuberaWorkspacePortuguese(unittest.TestCase):
 			set(cards),
 		)
 		self.assertTrue(any(row.get("link_to") == "Balance Sheet" for row in workspace["links"]))
+		self.assertTrue(any(
+			row.get("link_to") == "Accounts Receivable Summary"
+			and row.get("label") == "Resumo de contas a receber"
+			for row in workspace["links"]
+		))
 
 	def test_home_cards_and_chart_copy(self):
 		home = source("setup", "workspace", "home", "home.json")

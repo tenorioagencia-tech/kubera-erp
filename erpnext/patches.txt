@@ -522,3 +522,5 @@ erpnext.patches.v16_0.kubera_onboarding_title
 erpnext.patches.v16_0.kubera_portuguese_default
 erpnext.patches.v16_0.kubera_onboarding_ptbr
 erpnext.patches.v16_0.kubera_workspace_ptbr
+erpnext.patches.v16_0.kubera_workspace_ptbr_round2
+erpnext.patches.v16_0.kubera_user_language_ptbr

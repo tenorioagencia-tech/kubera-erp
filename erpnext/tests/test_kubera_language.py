@@ -22,6 +22,41 @@ class FakeSystemSettings:
 
 
 class TestKuberaLanguage(unittest.TestCase):
+	def _user_language_module(self, default, users):
+		writes = []
+		frappe = types.ModuleType("frappe")
+		frappe.db = types.SimpleNamespace(
+			get_single_value=lambda doctype, field: default,
+			set_value=lambda *args, **kwargs: writes.append((args, kwargs)),
+		)
+		frappe.get_all = lambda *args, **kwargs: users
+		path = ERPNEXT_ROOT / "setup" / "user_language.py"
+		with patch.dict(sys.modules, {"frappe": frappe}):
+			spec = importlib.util.spec_from_file_location("kubera_user_language_under_test", path)
+			module = importlib.util.module_from_spec(spec)
+			spec.loader.exec_module(module)
+		return module, writes
+
+	def test_new_user_inherits_portuguese_and_keeps_explicit_choice(self):
+		module, _ = self._user_language_module("pt-BR", [])
+		user = types.SimpleNamespace(language=None)
+		module.set_user_language_if_blank(user)
+		self.assertEqual(user.language, "pt-BR")
+		user.language = "es"
+		module.set_user_language_if_blank(user)
+		self.assertEqual(user.language, "es")
+
+	def test_existing_empty_user_languages_are_filled_only(self):
+		users = [
+			types.SimpleNamespace(name="Administrator", language=None),
+			types.SimpleNamespace(name="custom@example.com", language="es"),
+		]
+		module, writes = self._user_language_module("pt-BR", users)
+		module.fill_empty_user_languages()
+		self.assertEqual(writes, [
+			(("User", "Administrator", "language", "pt-BR"), {"update_modified": False})
+		])
+
 	def _run_install_function(self, language, runs=1):
 		source = (ERPNEXT_ROOT / "setup" / "install.py").read_text(encoding="utf-8")
 		functions = [

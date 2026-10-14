@@ -1,42 +1,25 @@
 # Verificação do Kubera ERP
 
-Este arquivo registra somente verificações executadas em 14/10/2026 no Windows, com Frappe v16 e o fork `kubera-v16`.
+Verificações locais executadas em 14/10/2026 com Frappe v16 e o fork `kubera-v16`.
 
-## Testes automatizados
+## Testes de código e traduções
 
-Execute na raiz do repositório:
+Na raiz do repositório:
 
 ```bash
-python erpnext/tests/test_kubera_branding.py
-python erpnext/tests/test_kubera_app_name.py
-python erpnext/tests/test_kubera_navigation.py
-python erpnext/tests/test_kubera_onboarding.py
-python -m compileall -q erpnext/hooks.py erpnext/setup/install.py erpnext/patches/v16_0/kubera_app_name.py erpnext/patches/v16_0/kubera_onboarding_title.py
+python -m unittest discover -s erpnext/tests -p 'test_kubera_*.py'
+python -m compileall -q erpnext/hooks.py erpnext/setup/install.py erpnext/patches/v16_0
 git diff --check
 ```
 
-Os quatro arquivos de teste passaram: **12 testes** no total. Os arquivos Python alterados compilaram, os JSON alterados foram parseados e `git diff --check` terminou sem erros.
+Os **29 testes** passaram. Eles cobrem a marca, o idioma padrão do site e de usuários, traduções complementares, preservação de identificadores e links, e migrações idempotentes. O catálogo `pt_BR.po` foi parseado e compilado: 10.059 de 10.308 mensagens têm tradução; as 4.888 mensagens alteradas nesta etapa preservam os mesmos placeholders do texto de origem. Os JSON dos painéis foram parseados e os cartões continuaram ligados às respectivas seções.
 
-## Interface e instalação local
+## Site e navegador
 
-Com um site local em execução, use o `agent-browser` da Vercel:
+Uma imagem local com Frappe v16 e este fork foi construída. No site Docker `frontend`, `bench --site frontend migrate` terminou sem erro e executou `kubera_workspace_ptbr_round2` e `kubera_user_language_ptbr`; `bench compile-po-to-mo --app erpnext --locale pt_BR --force` gerou o arquivo MO. A consulta ao banco confirmou `System Settings.language = pt-BR`, `User/Administrator.language = pt-BR`, `Workspace/Accounting.label = Contabilidade` e `Module Onboarding/Accounting Onboarding.title = Prepare sua contabilidade`.
 
-```bash
-agent-browser --session kubera open http://localhost:8080/login
-agent-browser --session kubera snapshot -i
-agent-browser --session kubera screenshot kubera-login.png --full
-agent-browser --session kubera errors
-```
+Com o `agent-browser` da Vercel, foram conferidos login, Dock, assistente de Contabilidade, relatórios e abertura de um relatório a partir do rótulo traduzido. “Entrar”, “Esqueceu a senha?”, “Opcional”, “Reproduzir vídeo”, títulos de relatórios e filtros apareceram em português. O navegador confirmou `frappe.boot.user.language = pt-BR` e o calendário mostrou “Outubro” e “Hoje”; `agent-browser errors` não retornou erros. Evidências visuais estão no relatório de entrega, fora do repositório.
 
-Uma imagem Docker personalizada foi construída com Frappe v16 e este fork; o site `frontend` foi criado com `--install-app erpnext`. Após atualizações incrementais da imagem local, `bench --site frontend migrate` executou `kubera_onboarding_title` e terminou sem erro. No site instalado, `Website Settings.app_logo` apontou para `kubera-wordmark.svg`, e `Module Onboarding/Organization Onboarding.title` passou a `Get to know Kubera ERP`.
+## Limites
 
-Com o `agent-browser` da Vercel, foram verificados:
-
-- Login HTTP 200, wordmark **Kubera ERP** legível, sem erros retornados por `agent-browser errors`.
-- Autenticação do administrador e Desk com Dock em português. Contabilidade abriu `/desk/accounts/accounting` com Chart of Accounts e Sales Invoice; Vendas abriu `/desk/selling` com Quotation e Sales Order; Estoque abriu `/desk/stock` com Item e Stock Entry; Produção abriu `/desk/manufacturing` com BOM e Work Order.
-- Usuário de sistema com apenas `Accounts User` entrou no Desk e abriu Contabilidade. Usuário `Website User` recebeu `Not Permitted` ao abrir `/desk/home`.
-- Tema claro e atributos de tema escuro no Desk exibiram texto e ações legíveis. Capturas locais estão no relatório de entrega, fora do repositório.
-
-## Limites observados
-
-Os testes cobrem instalação, migração, apresentação, navegação e dois perfis de acesso em um site local com dados fictícios. Não foram executados fluxos transacionais completos, teste de carga, implantação em produção ou auditoria exaustiva de todas as permissões de cada DocType. A imagem local final foi atualizada por camada incremental sobre o build completo anterior, após o Docker Desktop interromper uma segunda construção completa; o código final do fork, inclusive os dois patches, foi aplicado ao site e migrado.
+O catálogo do ERPNext ainda possui 249 mensagens sem tradução, em sua maioria unidades técnicas, HTML, modelos de mensagem ou texto longo. O framework Frappe mantém seu próprio catálogo, separado deste fork; telas não percorridas podem apresentar termos em inglês. Parte das novas traduções foi gerada com auxílio automático e validada estruturalmente, mas não passou por revisão linguística integral. Os testes foram locais, com dados fictícios; não houve auditoria de todas as telas, fluxos transacionais completos, carga ou implantação em produção.

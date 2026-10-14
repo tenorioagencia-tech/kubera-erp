@@ -13,10 +13,12 @@ bench get-app --branch kubera-v16 https://github.com/tenorioagencia-tech/kubera-
 bench new-site kubera.localhost
 bench --site kubera.localhost install-app erpnext
 bench build --app erpnext
+bench compile-po-to-mo --app erpnext --locale pt_BR --force
 bench --site kubera.localhost migrate
+bench --site kubera.localhost clear-cache
 ```
 
-Se o site já contém ERPNext v16, faça backup do banco e arquivos, atualize o checkout do app para `kubera-v16`, execute `bench --site <site> migrate`, `bench build --app erpnext` e limpe o cache. Verifique login e fluxos antes de liberar usuários. O patch `kubera_app_name` só troca nomes e logos padrão; `kubera_onboarding_title` só troca o título padrão do onboarding. Personalizações existentes não são sobrescritas.
+Se o site já contém ERPNext v16, faça backup do banco e arquivos, atualize o checkout do app para `kubera-v16`, execute `bench --site <site> migrate`, `bench build --app erpnext`, `bench compile-po-to-mo --app erpnext --locale pt_BR --force` e limpe o cache. Verifique login e fluxos antes de liberar usuários. Os patches de idioma e apresentação só substituem valores padrão do ERPNext; edições feitas no site são preservadas.
 
 ## Imagem Docker personalizada
 
@@ -33,6 +35,8 @@ Use a [construção oficial de imagem customizada](https://github.com/frappe/fra
 - O app continua com o identificador técnico `erpnext`. Não renomeie pacotes Python, DocTypes, nomes de Workspace, `link_to` ou rotas.
 - O nome exibido é **Kubera ERP**. O instalador define `Website Settings.app_name` e o wordmark de login em `Website Settings.app_logo`. O patch de migração só altera nomes e logos vazios ou padrão; logos personalizados permanecem. `Navbar Settings.app_logo` pode substituir o ícone do hook no Desk.
 - O Dock usa rótulos em português, com destinos, ordem e visibilidade originais. Sidebars, Workspaces e menus mantêm as ações nativas.
+- Novos sites usam `pt-BR` como idioma padrão. Em sites existentes, o patch altera apenas `System Settings.language` vazio ou `en`. Perfis com idioma individual vazio herdam o idioma do site na instalação ou migração; novos perfis também recebem esse idioma. Idiomas escolhidos explicitamente por usuários são preservados.
+- O catálogo `pt_BR.po` cobre as mensagens do app ERPNext; compile o arquivo MO após atualizar o fork. As traduções do framework Frappe continuam gerenciadas separadamente pelo próprio framework, com complementos em `erpnext/translations/pt-BR.csv`.
 - O fork não altera as permissões de DocTypes. Configure usuários, Role Profiles e Role Permission Manager no site, segundo a matriz de acesso da Kubera. Ocultar um menu não revoga acesso ao documento.
 
 ## Atualização

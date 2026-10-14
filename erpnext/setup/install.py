@@ -36,6 +36,9 @@ def after_install():
 	add_standard_navbar_items()
 	add_app_name()
 	set_default_site_language()
+	from erpnext.setup.user_language import fill_empty_user_languages
+
+	fill_empty_user_languages()
 	update_roles()
 	make_default_operations()
 	update_pegged_currencies()

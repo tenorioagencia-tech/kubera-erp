@@ -394,7 +394,10 @@ doc_events = {
 	},
 	"User": {
 		"after_insert": "frappe.contacts.doctype.contact.contact.update_contact",
-		"validate": "erpnext.setup.doctype.employee.employee.validate_employee_role",
+		"validate": [
+			"erpnext.setup.doctype.employee.employee.validate_employee_role",
+			"erpnext.setup.user_language.set_user_language_if_blank",
+		],
 		"on_update": "erpnext.portal.utils.set_default_role",
 	},
 	"Communication": {
