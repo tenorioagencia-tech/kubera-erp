@@ -11,7 +11,7 @@
  "idx": 0,
  "is_public": 1,
  "is_standard": 1,
- "label": "Total Purchase Amount",
+ "label": "Valor total de compras",
  "modified": "2025-12-19 16:57:24.263495",
  "modified_by": "Administrator",
  "module": "Buying",

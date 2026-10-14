@@ -6,7 +6,7 @@
  "docstatus": 0,
  "doctype": "Dashboard Chart",
  "dynamic_filters_json": "{\"company\":\"frappe.defaults.get_user_default(\\\"Company\\\")\",\"to_date\":\"frappe.datetime.nowdate()\"}",
- "empty_state_message": "Sales orders still waiting to be delivered or billed.",
+ "empty_state_message": "Pedidos de venda aguardando entrega ou faturamento.",
  "filters_json": "{\"status\":[\"To Bill\",\"To Deliver\"],\"group_by_so\":0,\"from_date\":\"2020-06-22\"}",
  "idx": 0,
  "is_public": 1,

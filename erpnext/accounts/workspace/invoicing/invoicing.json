@@ -3,7 +3,7 @@
  "charts": [
   {
    "chart_name": "Outgoing Bills (Sales Invoice)",
-   "label": "Outgoing Bills (Sales Invoice)"
+   "label": "Faturas de venda emitidas"
   }
  ],
  "content": "[{\"id\": \"89faa04783\", \"type\": \"chart\", \"data\": {\"chart_name\": \"Outgoing Bills (Sales Invoice)\", \"col\": 12}}, {\"id\": \"aa2a9ef0d3\", \"type\": \"number_card\", \"data\": {\"number_card_name\": \"Total Outgoing Bills\", \"col\": 4}}, {\"id\": \"f24f8645d6\", \"type\": \"number_card\", \"data\": {\"number_card_name\": \"Total Incoming Bills\", \"col\": 4}}, {\"id\": \"a2cd2dc7f7\", \"type\": \"number_card\", \"data\": {\"number_card_name\": \"Total Outgoing Payment\", \"col\": 4}}]",
@@ -26,15 +26,15 @@
  "name": "Invoicing",
  "number_cards": [
   {
-   "label": "Total Outgoing Bills",
+   "label": "Total de faturas de venda",
    "number_card_name": "Total Outgoing Bills"
   },
   {
-   "label": "Total Incoming Bills",
+   "label": "Total de faturas de compra",
    "number_card_name": "Total Incoming Bills"
   },
   {
-   "label": "Total Outgoing Payment",
+   "label": "Total de pagamentos efetuados",
    "number_card_name": "Total Outgoing Payment"
   }
  ],
@@ -53,7 +53,7 @@
    "icon": "house",
    "indent": 0,
    "keep_closed": 0,
-   "label": "Home",
+   "label": "Início",
    "link_to": "Invoicing",
    "link_type": "Workspace",
    "open_in_new_tab": 0,
@@ -66,7 +66,7 @@
    "icon": "chart-column",
    "indent": 0,
    "keep_closed": 0,
-   "label": "Dashboard",
+   "label": "Painel",
    "link_to": "Accounts",
    "link_type": "Dashboard",
    "open_in_new_tab": 0,
@@ -217,7 +217,7 @@
    "icon": "coins",
    "indent": 1,
    "keep_closed": 0,
-   "label": "Payments",
+   "label": "Pagamentos",
    "link_type": "DocType",
    "open_in_new_tab": 0,
    "show_arrow": 0,
@@ -288,7 +288,7 @@
    "collapsible": 1,
    "indent": 0,
    "keep_closed": 0,
-   "label": "Unreconcile Payment",
+   "label": "Desfazer conciliação de pagamento",
    "link_to": "Unreconcile Payment",
    "link_type": "DocType",
    "open_in_new_tab": 0,
@@ -300,7 +300,7 @@
    "collapsible": 1,
    "indent": 0,
    "keep_closed": 0,
-   "label": "Process Payment Reconciliation",
+   "label": "Processar conciliação de pagamentos",
    "link_to": "Process Payment Reconciliation",
    "link_type": "DocType",
    "open_in_new_tab": 0,
@@ -312,7 +312,7 @@
    "collapsible": 1,
    "indent": 0,
    "keep_closed": 0,
-   "label": "Repost Accounting Ledger",
+   "label": "Reprocessar razão contábil",
    "link_to": "Repost Accounting Ledger",
    "link_type": "DocType",
    "open_in_new_tab": 0,
@@ -324,7 +324,7 @@
    "collapsible": 1,
    "indent": 0,
    "keep_closed": 0,
-   "label": "Repost Payment Ledger",
+   "label": "Reprocessar razão de pagamentos",
    "link_to": "Repost Payment Ledger",
    "link_type": "DocType",
    "open_in_new_tab": 0,
@@ -337,7 +337,7 @@
    "icon": "sheet",
    "indent": 1,
    "keep_closed": 0,
-   "label": "Reports",
+   "label": "Relatórios",
    "link_type": "DocType",
    "open_in_new_tab": 0,
    "show_arrow": 0,
@@ -372,7 +372,7 @@
    "collapsible": 1,
    "indent": 0,
    "keep_closed": 0,
-   "label": "Financial Reports",
+   "label": "Relatórios financeiros",
    "link_to": "Financial Reports",
    "link_type": "Workspace",
    "open_in_new_tab": 0,
@@ -385,7 +385,7 @@
    "icon": "settings",
    "indent": 0,
    "keep_closed": 0,
-   "label": "Settings",
+   "label": "Configurações",
    "link_to": "Accounts Settings",
    "link_type": "DocType",
    "open_in_new_tab": 0,

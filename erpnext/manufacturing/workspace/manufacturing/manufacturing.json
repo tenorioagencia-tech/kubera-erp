@@ -6,7 +6,7 @@
    "label": "Work Order Analysis"
   }
  ],
- "content": "[{\"id\": \"edd70d2aa1\", \"type\": \"onboarding\", \"data\": {\"onboarding_name\": \"Manufacturing Onboarding\", \"col\": 12}}, {\"id\": \"13b8fcbb95\", \"type\": \"chart\", \"data\": {\"chart_name\": \"Work Order Analysis\", \"col\": 12}}, {\"id\": \"5213f36c4a\", \"type\": \"number_card\", \"data\": {\"number_card_name\": \"Open Work Orders\", \"col\": 4}}, {\"id\": \"95ca4e04c1\", \"type\": \"number_card\", \"data\": {\"number_card_name\": \"WIP Work Orders\", \"col\": 4}}, {\"id\": \"2dc98dbd6f\", \"type\": \"number_card\", \"data\": {\"number_card_name\": \"Monthly Completed Work Order\", \"col\": 4}}, {\"id\": \"mfgcard000\", \"type\": \"card\", \"data\": {\"card_name\": \"Production Reports\", \"col\": 4}}, {\"id\": \"mfgcard001\", \"type\": \"card\", \"data\": {\"card_name\": \"Planning Reports\", \"col\": 4}}, {\"id\": \"mfgcard002\", \"type\": \"card\", \"data\": {\"card_name\": \"BOM Reports\", \"col\": 4}}, {\"id\": \"mfgcard003\", \"type\": \"card\", \"data\": {\"card_name\": \"Planning\", \"col\": 4}}, {\"id\": \"mfgcard004\", \"type\": \"card\", \"data\": {\"card_name\": \"Tools\", \"col\": 4}}, {\"id\": \"mfgcard005\", \"type\": \"card\", \"data\": {\"card_name\": \"Setup\", \"col\": 4}}]",
+ "content": "[{\"id\": \"edd70d2aa1\", \"type\": \"onboarding\", \"data\": {\"onboarding_name\": \"Manufacturing Onboarding\", \"col\": 12}}, {\"id\": \"13b8fcbb95\", \"type\": \"chart\", \"data\": {\"chart_name\": \"Work Order Analysis\", \"col\": 12}}, {\"id\": \"5213f36c4a\", \"type\": \"number_card\", \"data\": {\"number_card_name\": \"Open Work Orders\", \"col\": 4}}, {\"id\": \"95ca4e04c1\", \"type\": \"number_card\", \"data\": {\"number_card_name\": \"WIP Work Orders\", \"col\": 4}}, {\"id\": \"2dc98dbd6f\", \"type\": \"number_card\", \"data\": {\"number_card_name\": \"Monthly Completed Work Order\", \"col\": 4}}, {\"id\": \"mfgcard000\", \"type\": \"card\", \"data\": {\"card_name\": \"Relatórios de produção\", \"col\": 4}}, {\"id\": \"mfgcard001\", \"type\": \"card\", \"data\": {\"card_name\": \"Relatórios de planejamento\", \"col\": 4}}, {\"id\": \"mfgcard002\", \"type\": \"card\", \"data\": {\"card_name\": \"Relatórios de listas de materiais\", \"col\": 4}}, {\"id\": \"mfgcard003\", \"type\": \"card\", \"data\": {\"card_name\": \"Planning\", \"col\": 4}}, {\"id\": \"mfgcard004\", \"type\": \"card\", \"data\": {\"card_name\": \"Tools\", \"col\": 4}}, {\"id\": \"mfgcard005\", \"type\": \"card\", \"data\": {\"card_name\": \"Configuração\", \"col\": 4}}]",
  "creation": "2020-03-02 17:11:37.032604",
  "custom_blocks": [],
  "docstatus": 0,
@@ -16,12 +16,12 @@
  "icon": "building-complex",
  "idx": 1,
  "is_hidden": 0,
- "label": "Manufacturing",
+ "label": "Produção",
  "links": [
   {
    "hidden": 0,
    "is_query_report": 0,
-   "label": "Production Reports",
+   "label": "Relatórios de produção",
    "link_count": 13,
    "onboard": 0,
    "type": "Card Break"
@@ -79,7 +79,7 @@
   {
    "hidden": 0,
    "is_query_report": 1,
-   "label": "Work Order Consumed Materials",
+   "label": "Materiais consumidos por ordem de produção",
    "link_count": 0,
    "link_to": "Work Order Consumed Materials",
    "link_type": "Report",
@@ -129,7 +129,7 @@
   {
    "hidden": 0,
    "is_query_report": 1,
-   "label": "Process Loss Report",
+   "label": "Relatório de perdas no processo",
    "link_count": 0,
    "link_to": "Process Loss Report",
    "link_type": "Report",
@@ -139,7 +139,7 @@
   {
    "hidden": 0,
    "is_query_report": 1,
-   "label": "Cost of Poor Quality Report",
+   "label": "Relatório do custo da má qualidade",
    "link_count": 0,
    "link_to": "Cost of Poor Quality Report",
    "link_type": "Report",
@@ -159,7 +159,7 @@
   {
    "hidden": 0,
    "is_query_report": 0,
-   "label": "Planning Reports",
+   "label": "Relatórios de planejamento",
    "link_count": 4,
    "onboard": 0,
    "type": "Card Break"
@@ -177,7 +177,7 @@
   {
    "hidden": 0,
    "is_query_report": 1,
-   "label": "Production Plan Summary",
+   "label": "Resumo do plano de produção",
    "link_count": 0,
    "link_to": "Production Plan Summary",
    "link_type": "Report",
@@ -187,7 +187,7 @@
   {
    "hidden": 0,
    "is_query_report": 1,
-   "label": "Material Requirements Planning Report",
+   "label": "Relatório de necessidades de materiais",
    "link_count": 0,
    "link_to": "Material Requirements Planning Report",
    "link_type": "Report",
@@ -197,7 +197,7 @@
   {
    "hidden": 0,
    "is_query_report": 1,
-   "label": "Forecasting",
+   "label": "Previsões",
    "link_count": 0,
    "link_to": "Exponential Smoothing Forecasting",
    "link_type": "Report",
@@ -207,7 +207,7 @@
   {
    "hidden": 0,
    "is_query_report": 0,
-   "label": "BOM Reports",
+   "label": "Relatórios de listas de materiais",
    "link_count": 5,
    "onboard": 0,
    "type": "Card Break"
@@ -235,7 +235,7 @@
   {
    "hidden": 0,
    "is_query_report": 1,
-   "label": "BOM Stock Analysis",
+   "label": "Análise de estoque por lista de materiais",
    "link_count": 0,
    "link_to": "BOM Stock Analysis",
    "link_type": "Report",
@@ -273,7 +273,7 @@
   {
    "hidden": 0,
    "is_query_report": 0,
-   "label": "Master Production Schedule",
+   "label": "Plano mestre de produção",
    "link_count": 0,
    "link_to": "Master Production Schedule",
    "link_type": "DocType",
@@ -283,7 +283,7 @@
   {
    "hidden": 0,
    "is_query_report": 0,
-   "label": "Sales Forecast",
+   "label": "Previsão de vendas",
    "link_count": 0,
    "link_to": "Sales Forecast",
    "link_type": "DocType",
@@ -301,7 +301,7 @@
   {
    "hidden": 0,
    "is_query_report": 0,
-   "label": "Visual Plant Floor",
+   "label": "Visão do chão de fábrica",
    "link_count": 0,
    "link_to": "visual-plant-floor",
    "link_type": "Page",
@@ -311,7 +311,7 @@
   {
    "hidden": 0,
    "is_query_report": 0,
-   "label": "Setup",
+   "label": "Configuração",
    "link_count": 3,
    "onboard": 0,
    "type": "Card Break"
@@ -319,7 +319,7 @@
   {
    "hidden": 0,
    "is_query_report": 0,
-   "label": "Workstation Type",
+   "label": "Tipo de estação de trabalho",
    "link_count": 0,
    "link_to": "Workstation Type",
    "link_type": "DocType",
@@ -339,7 +339,7 @@
   {
    "hidden": 0,
    "is_query_report": 0,
-   "label": "Warehouse",
+   "label": "Armazém",
    "link_count": 0,
    "link_to": "Warehouse",
    "link_type": "DocType",
@@ -358,11 +358,11 @@
    "number_card_name": "Open Work Orders"
   },
   {
-   "label": "WIP Work Orders",
+   "label": "Ordens de produção em andamento",
    "number_card_name": "WIP Work Orders"
   },
   {
-   "label": "Monthly Completed Work Order",
+   "label": "Ordens de produção concluídas no mês",
    "number_card_name": "Monthly Completed Work Order"
   }
  ],
@@ -382,7 +382,7 @@
    "icon": "house",
    "indent": 0,
    "keep_closed": 0,
-   "label": "Home",
+   "label": "Início",
    "link_to": "Manufacturing",
    "link_type": "Workspace",
    "open_in_new_tab": 0,
@@ -396,7 +396,7 @@
    "icon": "chart-column",
    "indent": 0,
    "keep_closed": 0,
-   "label": "Dashboard",
+   "label": "Painel",
    "link_to": "Manufacturing",
    "link_type": "Dashboard",
    "open_in_new_tab": 0,
@@ -466,7 +466,7 @@
    "icon": "rocket",
    "indent": 1,
    "keep_closed": 1,
-   "label": "Material Planning",
+   "label": "Planejamento de materiais",
    "link_type": "DocType",
    "open_in_new_tab": 0,
    "show_arrow": 0,
@@ -479,7 +479,7 @@
    "icon": "",
    "indent": 0,
    "keep_closed": 0,
-   "label": "Item Lead Time",
+   "label": "Prazo de reposição do item",
    "link_to": "Item Lead Time",
    "link_type": "DocType",
    "open_in_new_tab": 0,
@@ -506,7 +506,7 @@
    "icon": "",
    "indent": 0,
    "keep_closed": 0,
-   "label": "Forecasting",
+   "label": "Previsões",
    "link_to": "Exponential Smoothing Forecasting",
    "link_type": "Report",
    "open_in_new_tab": 0,
@@ -519,7 +519,7 @@
    "default_workspace": 0,
    "indent": 0,
    "keep_closed": 0,
-   "label": "Master Production Schedule",
+   "label": "Plano mestre de produção",
    "link_to": "Master Production Schedule",
    "link_type": "DocType",
    "open_in_new_tab": 0,
@@ -532,7 +532,7 @@
    "default_workspace": 0,
    "indent": 0,
    "keep_closed": 0,
-   "label": "Sales Forecast",
+   "label": "Previsão de vendas",
    "link_to": "Sales Forecast",
    "link_type": "DocType",
    "open_in_new_tab": 0,
@@ -571,7 +571,7 @@
    "default_workspace": 0,
    "indent": 0,
    "keep_closed": 0,
-   "label": "BOM Creator",
+   "label": "Criador de listas de materiais",
    "link_to": "BOM Creator",
    "link_type": "DocType",
    "open_in_new_tab": 0,
@@ -624,7 +624,7 @@
    "icon": "notepad-text",
    "indent": 1,
    "keep_closed": 1,
-   "label": "Reports",
+   "label": "Relatórios",
    "link_type": "DocType",
    "open_in_new_tab": 0,
    "show_arrow": 0,
@@ -740,7 +740,7 @@
    "default_workspace": 0,
    "indent": 0,
    "keep_closed": 0,
-   "label": "Work Order Consumed Materials",
+   "label": "Materiais consumidos por ordem de produção",
    "link_to": "Work Order Consumed Materials",
    "link_type": "Report",
    "open_in_new_tab": 0,
@@ -754,7 +754,7 @@
    "icon": "database",
    "indent": 1,
    "keep_closed": 1,
-   "label": "Setup",
+   "label": "Configuração",
    "link_type": "DocType",
    "open_in_new_tab": 0,
    "show_arrow": 0,
@@ -781,7 +781,7 @@
    "icon": "",
    "indent": 0,
    "keep_closed": 0,
-   "label": "Warehouse",
+   "label": "Armazém",
    "link_to": "Warehouse",
    "link_type": "DocType",
    "open_in_new_tab": 0,
@@ -794,7 +794,7 @@
    "default_workspace": 0,
    "indent": 0,
    "keep_closed": 0,
-   "label": "Operation",
+   "label": "Operação",
    "link_to": "Operation",
    "link_type": "DocType",
    "open_in_new_tab": 0,
@@ -821,7 +821,7 @@
    "default_workspace": 0,
    "indent": 0,
    "keep_closed": 0,
-   "label": "Workstation Type",
+   "label": "Tipo de estação de trabalho",
    "link_to": "Workstation Type",
    "link_type": "DocType",
    "open_in_new_tab": 0,
@@ -834,7 +834,7 @@
    "default_workspace": 0,
    "indent": 0,
    "keep_closed": 0,
-   "label": "Plant Floor",
+   "label": "Chão de fábrica",
    "link_to": "Plant Floor",
    "link_type": "DocType",
    "open_in_new_tab": 0,
@@ -861,7 +861,7 @@
    "icon": "settings",
    "indent": 0,
    "keep_closed": 0,
-   "label": "Settings",
+   "label": "Configurações",
    "link_to": "Manufacturing Settings",
    "link_type": "DocType",
    "open_in_new_tab": 0,
@@ -870,6 +870,6 @@
   }
  ],
  "standard": 1,
- "title": "Manufacturing",
+ "title": "Produção",
  "type": "Workspace"
 }

@@ -11,7 +11,7 @@
  "idx": 1,
  "is_public": 1,
  "is_standard": 1,
- "label": "Purchase Orders Count",
+ "label": "Quantidade de pedidos de compra",
  "modified": "2025-12-19 16:57:12.960310",
  "modified_by": "Administrator",
  "module": "Buying",

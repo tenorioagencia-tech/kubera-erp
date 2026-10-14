@@ -3,10 +3,10 @@
  "charts": [
   {
    "chart_name": "Profit and Loss",
-   "label": "Profit and Loss"
+   "label": "Lucros e perdas"
   }
  ],
- "content": "[{\"id\": \"0dd9453224\", \"type\": \"onboarding\", \"data\": {\"onboarding_name\": \"Accounting Onboarding\", \"col\": 12}}, {\"id\": \"a17de17773\", \"type\": \"chart\", \"data\": {\"chart_name\": \"Profit and Loss\", \"col\": 12}}, {\"id\": \"9a0e234f25\", \"type\": \"number_card\", \"data\": {\"number_card_name\": \"Total Outgoing Bills\", \"col\": 4}}, {\"id\": \"58b384d2dd\", \"type\": \"number_card\", \"data\": {\"number_card_name\": \"Total Incoming Bills\", \"col\": 4}}, {\"id\": \"575d11919a\", \"type\": \"number_card\", \"data\": {\"number_card_name\": \"Total Incoming Payment\", \"col\": 4}}, {\"id\": \"acccard000\", \"type\": \"card\", \"data\": {\"card_name\": \"Financial Statements\", \"col\": 4}}, {\"id\": \"acccard001\", \"type\": \"card\", \"data\": {\"card_name\": \"Receivables & Payables\", \"col\": 4}}, {\"id\": \"acccard002\", \"type\": \"card\", \"data\": {\"card_name\": \"Registers & Profitability\", \"col\": 4}}, {\"id\": \"acccard003\", \"type\": \"card\", \"data\": {\"card_name\": \"Tax & Compliance\", \"col\": 4}}, {\"id\": \"acccard004\", \"type\": \"card\", \"data\": {\"card_name\": \"Invoicing & Payments\", \"col\": 4}}, {\"id\": \"acccard005\", \"type\": \"card\", \"data\": {\"card_name\": \"Banking\", \"col\": 4}}, {\"id\": \"acccard006\", \"type\": \"card\", \"data\": {\"card_name\": \"Reconciliation\", \"col\": 4}}, {\"id\": \"acccard007\", \"type\": \"card\", \"data\": {\"card_name\": \"Opening & Closing\", \"col\": 4}}, {\"id\": \"acccard008\", \"type\": \"card\", \"data\": {\"card_name\": \"Ledger Tools\", \"col\": 4}}, {\"id\": \"acccard009\", \"type\": \"card\", \"data\": {\"card_name\": \"Share Management\", \"col\": 4}}, {\"id\": \"acccard010\", \"type\": \"card\", \"data\": {\"card_name\": \"Setup\", \"col\": 4}}]",
+ "content": "[{\"id\": \"0dd9453224\", \"type\": \"onboarding\", \"data\": {\"onboarding_name\": \"Accounting Onboarding\", \"col\": 12}}, {\"id\": \"a17de17773\", \"type\": \"chart\", \"data\": {\"chart_name\": \"Profit and Loss\", \"col\": 12}}, {\"id\": \"9a0e234f25\", \"type\": \"number_card\", \"data\": {\"number_card_name\": \"Total Outgoing Bills\", \"col\": 4}}, {\"id\": \"58b384d2dd\", \"type\": \"number_card\", \"data\": {\"number_card_name\": \"Total Incoming Bills\", \"col\": 4}}, {\"id\": \"575d11919a\", \"type\": \"number_card\", \"data\": {\"number_card_name\": \"Total Incoming Payment\", \"col\": 4}}, {\"id\": \"acccard000\", \"type\": \"card\", \"data\": {\"card_name\": \"Demonstrações financeiras\", \"col\": 4}}, {\"id\": \"acccard001\", \"type\": \"card\", \"data\": {\"card_name\": \"Contas a receber e a pagar\", \"col\": 4}}, {\"id\": \"acccard002\", \"type\": \"card\", \"data\": {\"card_name\": \"Registros e lucratividade\", \"col\": 4}}, {\"id\": \"acccard003\", \"type\": \"card\", \"data\": {\"card_name\": \"Impostos e conformidade\", \"col\": 4}}, {\"id\": \"acccard004\", \"type\": \"card\", \"data\": {\"card_name\": \"Faturamento e pagamentos\", \"col\": 4}}, {\"id\": \"acccard005\", \"type\": \"card\", \"data\": {\"card_name\": \"Bancos\", \"col\": 4}}, {\"id\": \"acccard006\", \"type\": \"card\", \"data\": {\"card_name\": \"Conciliação\", \"col\": 4}}, {\"id\": \"acccard007\", \"type\": \"card\", \"data\": {\"card_name\": \"Abertura e encerramento\", \"col\": 4}}, {\"id\": \"acccard008\", \"type\": \"card\", \"data\": {\"card_name\": \"Ferramentas do razão\", \"col\": 4}}, {\"id\": \"acccard009\", \"type\": \"card\", \"data\": {\"card_name\": \"Gestão de participações\", \"col\": 4}}, {\"id\": \"acccard010\", \"type\": \"card\", \"data\": {\"card_name\": \"Configuração\", \"col\": 4}}]",
  "creation": "2026-07-14 12:00:00",
  "custom_blocks": [],
  "docstatus": 0,
@@ -17,13 +17,13 @@
  "idx": 0,
  "indicator_color": "green",
  "is_hidden": 0,
- "label": "Accounting",
+ "label": "Contabilidade",
  "link_type": "DocType",
  "links": [
   {
    "hidden": 0,
    "is_query_report": 0,
-   "label": "Financial Statements",
+   "label": "Demonstrações financeiras",
    "link_count": 9,
    "onboard": 0,
    "type": "Card Break"
@@ -31,7 +31,7 @@
   {
    "hidden": 0,
    "is_query_report": 1,
-   "label": "Profit and Loss",
+   "label": "Lucros e perdas",
    "link_count": 0,
    "link_to": "Profit and Loss Statement",
    "link_type": "Report",
@@ -81,7 +81,7 @@
   {
    "hidden": 0,
    "is_query_report": 1,
-   "label": "Consolidated Report",
+   "label": "Relatório consolidado",
    "link_count": 0,
    "link_to": "Consolidated Financial Statement",
    "link_type": "Report",
@@ -91,7 +91,7 @@
   {
    "hidden": 0,
    "is_query_report": 1,
-   "label": "Custom Financial Statement",
+   "label": "Demonstrativo financeiro personalizado",
    "link_count": 0,
    "link_to": "Custom Financial Statement",
    "link_type": "Report",
@@ -101,7 +101,7 @@
   {
    "hidden": 0,
    "is_query_report": 1,
-   "label": "Consolidated Trial Balance",
+   "label": "Balancete consolidado",
    "link_count": 0,
    "link_to": "Consolidated Trial Balance",
    "link_type": "Report",
@@ -111,7 +111,7 @@
   {
    "hidden": 0,
    "is_query_report": 1,
-   "label": "Financial Ratios",
+   "label": "Indicadores financeiros",
    "link_count": 0,
    "link_to": "Financial Ratios",
    "link_type": "Report",
@@ -121,7 +121,7 @@
   {
    "hidden": 0,
    "is_query_report": 0,
-   "label": "Receivables & Payables",
+   "label": "Contas a receber e a pagar",
    "link_count": 9,
    "onboard": 0,
    "type": "Card Break"
@@ -219,7 +219,7 @@
   {
    "hidden": 0,
    "is_query_report": 0,
-   "label": "Registers & Profitability",
+   "label": "Registros e lucratividade",
    "link_count": 11,
    "onboard": 0,
    "type": "Card Break"
@@ -297,7 +297,7 @@
   {
    "hidden": 0,
    "is_query_report": 1,
-   "label": "Deferred Revenue and Expense",
+   "label": "Receitas e despesas diferidas",
    "link_count": 0,
    "link_to": "Deferred Revenue and Expense",
    "link_type": "Report",
@@ -337,7 +337,7 @@
   {
    "hidden": 0,
    "is_query_report": 0,
-   "label": "Tax & Compliance",
+   "label": "Impostos e conformidade",
    "link_count": 7,
    "onboard": 0,
    "type": "Card Break"
@@ -355,7 +355,7 @@
   {
    "hidden": 0,
    "is_query_report": 1,
-   "label": "Tax Withholding Details",
+   "label": "Detalhes de retenção de impostos",
    "link_count": 0,
    "link_to": "Tax Withholding Details",
    "link_type": "Report",
@@ -365,7 +365,7 @@
   {
    "hidden": 0,
    "is_query_report": 1,
-   "label": "UAE VAT 201",
+   "label": "IVA 201 dos Emirados Árabes Unidos",
    "link_count": 0,
    "link_to": "UAE VAT 201",
    "link_type": "Report",
@@ -376,7 +376,7 @@
   {
    "hidden": 0,
    "is_query_report": 1,
-   "label": "VAT Audit Report",
+   "label": "Relatório de auditoria de IVA",
    "link_count": 0,
    "link_to": "VAT Audit Report",
    "link_type": "Report",
@@ -387,7 +387,7 @@
   {
    "hidden": 0,
    "is_query_report": 0,
-   "label": "South Africa VAT Settings",
+   "label": "Configurações de IVA da África do Sul",
    "link_count": 0,
    "link_to": "South Africa VAT Settings",
    "link_type": "DocType",
@@ -420,7 +420,7 @@
   {
    "hidden": 0,
    "is_query_report": 0,
-   "label": "Invoicing & Payments",
+   "label": "Faturamento e pagamentos",
    "link_count": 6,
    "onboard": 0,
    "type": "Card Break"
@@ -488,7 +488,7 @@
   {
    "hidden": 0,
    "is_query_report": 0,
-   "label": "Banking",
+   "label": "Bancos",
    "link_count": 10,
    "onboard": 0,
    "type": "Card Break"
@@ -496,7 +496,7 @@
   {
    "hidden": 0,
    "is_query_report": 0,
-   "label": "Bank Reconciliation (old)",
+   "label": "Conciliação bancária (antiga)",
    "link_count": 0,
    "link_to": "Bank Reconciliation Tool",
    "link_type": "DocType",
@@ -516,7 +516,7 @@
   {
    "hidden": 0,
    "is_query_report": 0,
-   "label": "Bank Statement Import",
+   "label": "Importação de extrato bancário",
    "link_count": 0,
    "link_to": "Bank Statement Import",
    "link_type": "DocType",
@@ -596,7 +596,7 @@
   {
    "hidden": 0,
    "is_query_report": 0,
-   "label": "Reconciliation",
+   "label": "Conciliação",
    "link_count": 3,
    "onboard": 0,
    "type": "Card Break"
@@ -614,7 +614,7 @@
   {
    "hidden": 0,
    "is_query_report": 0,
-   "label": "Process Payment Reconciliation",
+   "label": "Processar conciliação de pagamentos",
    "link_count": 0,
    "link_to": "Process Payment Reconciliation",
    "link_type": "DocType",
@@ -624,7 +624,7 @@
   {
    "hidden": 0,
    "is_query_report": 0,
-   "label": "Unreconcile Payment",
+   "label": "Desfazer conciliação de pagamento",
    "link_count": 0,
    "link_to": "Unreconcile Payment",
    "link_type": "DocType",
@@ -634,7 +634,7 @@
   {
    "hidden": 0,
    "is_query_report": 0,
-   "label": "Opening & Closing",
+   "label": "Abertura e encerramento",
    "link_count": 6,
    "onboard": 0,
    "type": "Card Break"
@@ -642,7 +642,7 @@
   {
    "hidden": 0,
    "is_query_report": 0,
-   "label": "COA Importer",
+   "label": "Importador do plano de contas",
    "link_count": 0,
    "link_to": "Chart of Accounts Importer",
    "link_type": "DocType",
@@ -652,7 +652,7 @@
   {
    "hidden": 0,
    "is_query_report": 0,
-   "label": "Opening Invoice Tool",
+   "label": "Ferramenta de saldos iniciais de faturas",
    "link_count": 0,
    "link_to": "Opening Invoice Creation Tool",
    "link_type": "DocType",
@@ -672,7 +672,7 @@
   {
    "hidden": 0,
    "is_query_report": 0,
-   "label": "FX Revaluation",
+   "label": "Reavaliação cambial",
    "link_count": 0,
    "link_to": "Exchange Rate Revaluation",
    "link_type": "DocType",
@@ -702,7 +702,7 @@
   {
    "hidden": 0,
    "is_query_report": 0,
-   "label": "Ledger Tools",
+   "label": "Ferramentas do razão",
    "link_count": 5,
    "onboard": 0,
    "type": "Card Break"
@@ -710,7 +710,7 @@
   {
    "hidden": 0,
    "is_query_report": 0,
-   "label": "Repost Accounting Ledger",
+   "label": "Reprocessar razão contábil",
    "link_count": 0,
    "link_to": "Repost Accounting Ledger",
    "link_type": "DocType",
@@ -720,7 +720,7 @@
   {
    "hidden": 0,
    "is_query_report": 0,
-   "label": "Repost Payment Ledger",
+   "label": "Reprocessar razão de pagamentos",
    "link_count": 0,
    "link_to": "Repost Payment Ledger",
    "link_type": "DocType",
@@ -730,7 +730,7 @@
   {
    "hidden": 0,
    "is_query_report": 0,
-   "label": "Ledger Merge",
+   "label": "Mesclagem de contas do razão",
    "link_count": 0,
    "link_to": "Ledger Merge",
    "link_type": "DocType",
@@ -740,7 +740,7 @@
   {
    "hidden": 0,
    "is_query_report": 0,
-   "label": "Ledger Health Monitor",
+   "label": "Monitor de integridade do razão",
    "link_count": 0,
    "link_to": "Ledger Health Monitor",
    "link_type": "DocType",
@@ -760,7 +760,7 @@
   {
    "hidden": 0,
    "is_query_report": 0,
-   "label": "Share Management",
+   "label": "Gestão de participações",
    "link_count": 5,
    "onboard": 0,
    "type": "Card Break"
@@ -818,7 +818,7 @@
   {
    "hidden": 0,
    "is_query_report": 0,
-   "label": "Setup",
+   "label": "Configuração",
    "link_count": 10,
    "onboard": 0,
    "type": "Card Break"
@@ -826,7 +826,7 @@
   {
    "hidden": 0,
    "is_query_report": 0,
-   "label": "Currency",
+   "label": "Moeda",
    "link_count": 0,
    "link_to": "Currency",
    "link_type": "DocType",
@@ -866,7 +866,7 @@
   {
    "hidden": 0,
    "is_query_report": 0,
-   "label": "Tax Withholding Group",
+   "label": "Grupo de retenção de impostos",
    "link_count": 0,
    "link_to": "Tax Withholding Group",
    "link_type": "DocType",
@@ -876,7 +876,7 @@
   {
    "hidden": 0,
    "is_query_report": 0,
-   "label": "Deduction Certificate",
+   "label": "Comprovante de dedução",
    "link_count": 0,
    "link_to": "Lower Deduction Certificate",
    "link_type": "DocType",
@@ -931,15 +931,15 @@
  "name": "Accounting",
  "number_cards": [
   {
-   "label": "Total Outgoing Bills",
+   "label": "Total de faturas de venda",
    "number_card_name": "Total Outgoing Bills"
   },
   {
-   "label": "Total Incoming Bills",
+   "label": "Total de faturas de compra",
    "number_card_name": "Total Incoming Bills"
   },
   {
-   "label": "Total Incoming Payment",
+   "label": "Total de pagamentos recebidos",
    "number_card_name": "Total Incoming Payment"
   }
  ],
@@ -957,7 +957,7 @@
    "icon": "house",
    "indent": 0,
    "keep_closed": 0,
-   "label": "Home",
+   "label": "Início",
    "link_to": "Accounting",
    "link_type": "Workspace",
    "open_in_new_tab": 0,
@@ -971,7 +971,7 @@
    "icon": "database",
    "indent": 1,
    "keep_closed": 0,
-   "label": "Setup",
+   "label": "Configuração",
    "link_type": "DocType",
    "open_in_new_tab": 0,
    "show_arrow": 0,
@@ -1035,7 +1035,7 @@
    "default_workspace": 0,
    "indent": 0,
    "keep_closed": 0,
-   "label": "Currency",
+   "label": "Moeda",
    "link_to": "Currency",
    "link_type": "DocType",
    "open_in_new_tab": 0,
@@ -1153,7 +1153,7 @@
    "icon": "book-open-check",
    "indent": 1,
    "keep_closed": 1,
-   "label": "Opening & Closing",
+   "label": "Abertura e encerramento",
    "link_type": "DocType",
    "open_in_new_tab": 0,
    "show_arrow": 0,
@@ -1166,7 +1166,7 @@
    "icon": "",
    "indent": 0,
    "keep_closed": 0,
-   "label": "COA Importer",
+   "label": "Importador do plano de contas",
    "link_to": "Chart of Accounts Importer",
    "link_type": "DocType",
    "open_in_new_tab": 0,
@@ -1180,7 +1180,7 @@
    "icon": "",
    "indent": 0,
    "keep_closed": 0,
-   "label": "Opening Invoice Tool",
+   "label": "Ferramenta de saldos iniciais de faturas",
    "link_to": "Opening Invoice Creation Tool",
    "link_type": "DocType",
    "open_in_new_tab": 0,
@@ -1208,7 +1208,7 @@
    "icon": "",
    "indent": 0,
    "keep_closed": 0,
-   "label": "FX Revaluation",
+   "label": "Reavaliação cambial",
    "link_to": "Exchange Rate Revaluation",
    "link_type": "DocType",
    "open_in_new_tab": 0,
@@ -1333,7 +1333,7 @@
    "default_workspace": 0,
    "indent": 0,
    "keep_closed": 0,
-   "label": "Tax Withholding Group",
+   "label": "Grupo de retenção de impostos",
    "link_to": "Tax Withholding Group",
    "link_type": "DocType",
    "open_in_new_tab": 0,
@@ -1347,7 +1347,7 @@
    "icon": "notebook-text",
    "indent": 0,
    "keep_closed": 0,
-   "label": "Deduction Certificate",
+   "label": "Comprovante de dedução",
    "link_to": "Lower Deduction Certificate",
    "link_type": "DocType",
    "open_in_new_tab": 0,
@@ -1361,7 +1361,7 @@
    "icon": "wallet",
    "indent": 1,
    "keep_closed": 1,
-   "label": "Budgeting",
+   "label": "Orçamento",
    "link_type": "DocType",
    "open_in_new_tab": 0,
    "show_arrow": 0,
@@ -1388,7 +1388,7 @@
    "icon": "notepad-text",
    "indent": 0,
    "keep_closed": 0,
-   "label": "Cost Center Allocation",
+   "label": "Alocação de centros de custo",
    "link_to": "Cost Center Allocation",
    "link_type": "DocType",
    "open_in_new_tab": 0,
@@ -1402,7 +1402,7 @@
    "icon": "coins",
    "indent": 1,
    "keep_closed": 1,
-   "label": "Share Management",
+   "label": "Gestão de participações",
    "link_type": "DocType",
    "open_in_new_tab": 0,
    "show_arrow": 0,
@@ -1498,7 +1498,7 @@
    "icon": "sheet",
    "indent": 1,
    "keep_closed": 1,
-   "label": "Reports",
+   "label": "Relatórios",
    "link_type": "DocType",
    "open_in_new_tab": 0,
    "show_arrow": 0,
@@ -1523,7 +1523,7 @@
    "default_workspace": 0,
    "indent": 0,
    "keep_closed": 0,
-   "label": "Tax Withholding Details",
+   "label": "Detalhes de retenção de impostos",
    "link_to": "Tax Withholding Details",
    "link_type": "Report",
    "open_in_new_tab": 0,
@@ -1537,7 +1537,7 @@
    "icon": "sheet",
    "indent": 0,
    "keep_closed": 0,
-   "label": "Budget Variance",
+   "label": "Variação orçamentária",
    "link_to": "Budget Variance Report",
    "link_type": "Report",
    "open_in_new_tab": 0,
@@ -1579,7 +1579,7 @@
    "icon": "wrench",
    "indent": 1,
    "keep_closed": 1,
-   "label": "Settings",
+   "label": "Configurações",
    "link_type": "DocType",
    "open_in_new_tab": 0,
    "show_arrow": 0,
@@ -1614,6 +1614,6 @@
   }
  ],
  "standard": 1,
- "title": "Accounting",
+ "title": "Contabilidade",
  "type": "Workspace"
 }

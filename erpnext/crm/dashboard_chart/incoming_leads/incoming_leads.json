@@ -8,7 +8,7 @@
  "doctype": "Dashboard Chart",
  "document_type": "Lead",
  "dynamic_filters_json": "[[\"Lead\",\"company\",\"=\",\"frappe.defaults.get_user_default(\\\"Company\\\")\"]]",
- "empty_state_message": "New leads coming in each week.",
+ "empty_state_message": "Novos leads recebidos a cada semana.",
  "filters_json": "[]",
  "idx": 0,
  "is_public": 1,

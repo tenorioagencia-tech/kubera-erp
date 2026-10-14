@@ -7,7 +7,7 @@
  "doctype": "Dashboard Chart",
  "document_type": "Opportunity",
  "dynamic_filters_json": "[[\"Opportunity\",\"company\",\"=\",\"frappe.defaults.get_user_default(\\\"Company\\\")\"]]",
- "empty_state_message": "How many opportunities each territory brings in.",
+ "empty_state_message": "Quantidade de oportunidades por território.",
  "filters_json": "[]",
  "group_by_based_on": "territory",
  "group_by_type": "Count",

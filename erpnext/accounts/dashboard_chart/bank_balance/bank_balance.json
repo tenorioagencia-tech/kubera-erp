@@ -5,7 +5,7 @@
  "docstatus": 0,
  "doctype": "Dashboard Chart",
  "dynamic_filters_json": "{\"company\":\"frappe.defaults.get_user_default(\\\"Company\\\")\",\"account\":\"locals[\\\":Company\\\"][frappe.defaults.get_user_default(\\\"Company\\\")][\\\"default_bank_account\\\"]\"}",
- "empty_state_message": "How much money sits in your bank accounts, month by month.",
+ "empty_state_message": "Saldo das contas bancárias mês a mês.",
  "filters_json": "{}",
  "idx": 0,
  "is_public": 1,

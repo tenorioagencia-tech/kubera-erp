@@ -6,7 +6,7 @@
  "docstatus": 0,
  "doctype": "Dashboard Chart",
  "dynamic_filters_json": "{\"company\":\"frappe.defaults.get_user_default(\\\"Company\\\")\"}",
- "empty_state_message": "How far along your open projects are.",
+ "empty_state_message": "Andamento dos projetos em aberto.",
  "filters_json": "{\"status\":\"Open\"}",
  "idx": 0,
  "is_public": 1,

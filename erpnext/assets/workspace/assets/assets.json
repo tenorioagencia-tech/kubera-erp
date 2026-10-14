@@ -6,7 +6,7 @@
    "label": "Asset Value Analytics"
   }
  ],
- "content": "[{\"id\": \"5e2cd99893\", \"type\": \"onboarding\", \"data\": {\"onboarding_name\": \"Asset Onboarding\", \"col\": 12}}, {\"id\": \"91d49bd2aa\", \"type\": \"chart\", \"data\": {\"chart_name\": \"Asset Value Analytics\", \"col\": 12}}, {\"id\": \"6e2f5c71fd\", \"type\": \"number_card\", \"data\": {\"number_card_name\": \"Total Assets\", \"col\": 4}}, {\"id\": \"812fb9cc2a\", \"type\": \"number_card\", \"data\": {\"number_card_name\": \"Asset Value\", \"col\": 4}}, {\"id\": \"f8f0df5c57\", \"type\": \"number_card\", \"data\": {\"number_card_name\": \"New Assets (This Year)\", \"col\": 4}}, {\"id\": \"astcard000\", \"type\": \"card\", \"data\": {\"card_name\": \"Asset Reports\", \"col\": 4}}, {\"id\": \"astcard001\", \"type\": \"card\", \"data\": {\"card_name\": \"Setup\", \"col\": 4}}]",
+ "content": "[{\"id\": \"5e2cd99893\", \"type\": \"onboarding\", \"data\": {\"onboarding_name\": \"Asset Onboarding\", \"col\": 12}}, {\"id\": \"91d49bd2aa\", \"type\": \"chart\", \"data\": {\"chart_name\": \"Asset Value Analytics\", \"col\": 12}}, {\"id\": \"6e2f5c71fd\", \"type\": \"number_card\", \"data\": {\"number_card_name\": \"Total Assets\", \"col\": 4}}, {\"id\": \"812fb9cc2a\", \"type\": \"number_card\", \"data\": {\"number_card_name\": \"Asset Value\", \"col\": 4}}, {\"id\": \"f8f0df5c57\", \"type\": \"number_card\", \"data\": {\"number_card_name\": \"New Assets (This Year)\", \"col\": 4}}, {\"id\": \"astcard000\", \"type\": \"card\", \"data\": {\"card_name\": \"Relatórios de ativos\", \"col\": 4}}, {\"id\": \"astcard001\", \"type\": \"card\", \"data\": {\"card_name\": \"Configuração\", \"col\": 4}}]",
  "creation": "2020-03-02 15:43:27.634865",
  "custom_blocks": [],
  "docstatus": 0,
@@ -16,12 +16,12 @@
  "icon": "archive",
  "idx": 0,
  "is_hidden": 0,
- "label": "Assets",
+ "label": "Ativos",
  "links": [
   {
    "hidden": 0,
    "is_query_report": 0,
-   "label": "Asset Reports",
+   "label": "Relatórios de ativos",
    "link_count": 5,
    "onboard": 0,
    "type": "Card Break"
@@ -59,7 +59,7 @@
   {
    "hidden": 0,
    "is_query_report": 0,
-   "label": "Asset Activity",
+   "label": "Atividade dos ativos",
    "link_count": 0,
    "link_to": "Asset Activity",
    "link_type": "Report",
@@ -69,7 +69,7 @@
   {
    "hidden": 0,
    "is_query_report": 0,
-   "label": "Asset Maintenance Report",
+   "label": "Relatório de manutenção de ativos",
    "link_count": 0,
    "link_to": "Asset Maintenance",
    "link_type": "Report",
@@ -79,7 +79,7 @@
   {
    "hidden": 0,
    "is_query_report": 0,
-   "label": "Setup",
+   "label": "Configuração",
    "link_count": 3,
    "onboard": 0,
    "type": "Card Break"
@@ -97,7 +97,7 @@
   {
    "hidden": 0,
    "is_query_report": 0,
-   "label": "Asset Shift Factor",
+   "label": "Fator de turno de ativos",
    "link_count": 0,
    "link_to": "Asset Shift Factor",
    "link_type": "DocType",
@@ -107,7 +107,7 @@
   {
    "hidden": 0,
    "is_query_report": 0,
-   "label": "Asset Shift Allocation",
+   "label": "Alocação de turnos de ativos",
    "link_count": 0,
    "link_to": "Asset Shift Allocation",
    "link_type": "DocType",
@@ -122,7 +122,7 @@
  "name": "Assets",
  "number_cards": [
   {
-   "label": "Total Assets",
+   "label": "Total de ativos",
    "number_card_name": "Total Assets"
   },
   {
@@ -130,7 +130,7 @@
    "number_card_name": "Asset Value"
   },
   {
-   "label": "New Assets (This Year)",
+   "label": "Novos ativos (este ano)",
    "number_card_name": "New Assets (This Year)"
   }
  ],
@@ -149,7 +149,7 @@
    "icon": "house",
    "indent": 0,
    "keep_closed": 0,
-   "label": "Home",
+   "label": "Início",
    "link_to": "Assets",
    "link_type": "Workspace",
    "open_in_new_tab": 0,
@@ -162,7 +162,7 @@
    "icon": "chart-column",
    "indent": 0,
    "keep_closed": 0,
-   "label": "Dashboard",
+   "label": "Painel",
    "link_to": "Asset",
    "link_type": "Dashboard",
    "open_in_new_tab": 0,
@@ -201,7 +201,7 @@
    "icon": "sprout",
    "indent": 0,
    "keep_closed": 0,
-   "label": "Asset Capitalization",
+   "label": "Capitalização de ativos",
    "link_to": "Asset Capitalization",
    "link_type": "DocType",
    "open_in_new_tab": 0,
@@ -299,7 +299,7 @@
    "icon": "sheet",
    "indent": 1,
    "keep_closed": 1,
-   "label": "Reports",
+   "label": "Relatórios",
    "link_type": "DocType",
    "open_in_new_tab": 0,
    "show_arrow": 0,
@@ -358,7 +358,7 @@
    "collapsible": 1,
    "indent": 0,
    "keep_closed": 0,
-   "label": "Asset Activity",
+   "label": "Atividade dos ativos",
    "link_to": "Asset Activity",
    "link_type": "Report",
    "open_in_new_tab": 0,
@@ -371,7 +371,7 @@
    "icon": "database",
    "indent": 1,
    "keep_closed": 1,
-   "label": "Setup",
+   "label": "Configuração",
    "link_type": "DocType",
    "open_in_new_tab": 0,
    "show_arrow": 0,
@@ -406,7 +406,7 @@
    "collapsible": 1,
    "indent": 0,
    "keep_closed": 0,
-   "label": "Location",
+   "label": "Localização",
    "link_to": "Location",
    "link_type": "DocType",
    "open_in_new_tab": 0,
@@ -419,7 +419,7 @@
    "icon": "settings",
    "indent": 0,
    "keep_closed": 0,
-   "label": "Settings",
+   "label": "Configurações",
    "link_to": "Accounts Settings",
    "link_type": "DocType",
    "navigate_to_tab": "assets_tab",
@@ -430,6 +430,6 @@
   }
  ],
  "standard": 1,
- "title": "Assets",
+ "title": "Ativos",
  "type": "Workspace"
 }

@@ -6,7 +6,7 @@
  "docstatus": 0,
  "doctype": "Dashboard Chart",
  "document_type": "Work Order Operation",
- "empty_state_message": "Operations completed on your work orders each quarter.",
+ "empty_state_message": "Operações concluídas nas ordens de produção a cada trimestre.",
  "filters_json": "[[\"Work Order Operation\",\"docstatus\",\"=\",1]]",
  "group_by_type": "Count",
  "idx": 0,

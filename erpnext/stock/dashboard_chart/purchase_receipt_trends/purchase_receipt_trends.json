@@ -6,7 +6,7 @@
  "docstatus": 0,
  "doctype": "Dashboard Chart",
  "document_type": "Purchase Receipt",
- "empty_state_message": "What you receive from suppliers each month.",
+ "empty_state_message": "O que você recebe dos fornecedores a cada mês.",
  "filters_json": "[[\"Purchase Receipt\",\"docstatus\",\"=\",1]]",
  "idx": 0,
  "is_public": 1,

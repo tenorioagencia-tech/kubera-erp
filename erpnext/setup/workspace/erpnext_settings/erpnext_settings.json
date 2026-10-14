@@ -3,7 +3,7 @@
  "charts": [
   {
    "chart_name": "Top Customers",
-   "label": "Top Customers"
+   "label": "Principais clientes"
   }
  ],
  "content": "[{\"id\": \"1c097e6187\", \"type\": \"chart\", \"data\": {\"chart_name\": \"Top Customers\", \"col\": 12}}, {\"id\": \"719ae0d3bd\", \"type\": \"number_card\", \"data\": {\"number_card_name\": \"Active Customers\", \"col\": 4}}, {\"id\": \"8058b27fbe\", \"type\": \"number_card\", \"data\": {\"number_card_name\": \"Active Suppliers\", \"col\": 4}}, {\"id\": \"183d2da232\", \"type\": \"number_card\", \"data\": {\"number_card_name\": \"Total Warehouses\", \"col\": 4}}]",
@@ -24,15 +24,15 @@
  "name": "ERPNext Settings",
  "number_cards": [
   {
-   "label": "Active Customers",
+   "label": "Clientes ativos",
    "number_card_name": "Active Customers"
   },
   {
-   "label": "Active Suppliers",
+   "label": "Fornecedores ativos",
    "number_card_name": "Active Suppliers"
   },
   {
-   "label": "Total Warehouses",
+   "label": "Total de armazéns",
    "number_card_name": "Total Warehouses"
   }
  ],
@@ -64,7 +64,7 @@
    "icon": "washing-machine",
    "indent": 0,
    "keep_closed": 0,
-   "label": "System Settings",
+   "label": "Configurações do sistema",
    "link_to": "System Settings",
    "link_type": "DocType",
    "open_in_new_tab": 0,
@@ -168,7 +168,7 @@
    "icon": "handshake",
    "indent": 0,
    "keep_closed": 0,
-   "label": "CRM Settings",
+   "label": "Configurações de CRM",
    "link_to": "CRM Settings",
    "link_type": "DocType",
    "open_in_new_tab": 0,
@@ -265,7 +265,7 @@
    "collapsible": 1,
    "indent": 0,
    "keep_closed": 0,
-   "label": "Stock Reposting Settings",
+   "label": "Configurações de reprocessamento de estoque",
    "link_to": "Stock Reposting Settings",
    "link_type": "DocType",
    "open_in_new_tab": 0,
@@ -305,7 +305,7 @@
    "icon": "book-text",
    "indent": 0,
    "keep_closed": 0,
-   "label": "Letter Head",
+   "label": "Papel timbrado",
    "link_to": "Letter Head",
    "link_type": "DocType",
    "open_in_new_tab": 0,
@@ -319,7 +319,7 @@
    "icon": "file-user",
    "indent": 0,
    "keep_closed": 0,
-   "label": "Department",
+   "label": "Departamento",
    "link_to": "Department",
    "link_type": "DocType",
    "open_in_new_tab": 0,
@@ -333,7 +333,7 @@
    "icon": "book-user",
    "indent": 0,
    "keep_closed": 0,
-   "label": "Branch",
+   "label": "Filial",
    "link_to": "Branch",
    "link_type": "DocType",
    "open_in_new_tab": 0,
@@ -347,7 +347,7 @@
    "icon": "users",
    "indent": 0,
    "keep_closed": 0,
-   "label": "User",
+   "label": "Usuário",
    "link_to": "User",
    "link_type": "DocType",
    "open_in_new_tab": 0,
@@ -361,7 +361,7 @@
    "icon": "user-round-check",
    "indent": 0,
    "keep_closed": 0,
-   "label": "Role Permissions",
+   "label": "Permissões por perfil",
    "link_to": "permission-manager",
    "link_type": "Page",
    "open_in_new_tab": 0,
@@ -375,7 +375,7 @@
    "icon": "mail",
    "indent": 0,
    "keep_closed": 0,
-   "label": "Email Account",
+   "label": "Conta de e-mail",
    "link_to": "Email Account",
    "link_type": "DocType",
    "open_in_new_tab": 0,

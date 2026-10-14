@@ -6,7 +6,7 @@
    "label": "Project Summary"
   }
  ],
- "content": "[{\"id\": \"a26c8edf16\", \"type\": \"onboarding\", \"data\": {\"onboarding_name\": \"Projects Onboarding\", \"col\": 12}}, {\"id\": \"7da431fdc9\", \"type\": \"chart\", \"data\": {\"chart_name\": \"Project Summary\", \"col\": 12}}, {\"id\": \"e8d82ebeb8\", \"type\": \"number_card\", \"data\": {\"number_card_name\": \"Open Projects\", \"col\": 4}}, {\"id\": \"69ce81d0bd\", \"type\": \"number_card\", \"data\": {\"number_card_name\": \"Non Completed Tasks\", \"col\": 4}}, {\"id\": \"c7432e7d92\", \"type\": \"number_card\", \"data\": {\"number_card_name\": \"Timesheet Working Hours\", \"col\": 4}}, {\"id\": \"prjcard000\", \"type\": \"card\", \"data\": {\"card_name\": \"Project Reports\", \"col\": 4}}]",
+ "content": "[{\"id\": \"a26c8edf16\", \"type\": \"onboarding\", \"data\": {\"onboarding_name\": \"Projects Onboarding\", \"col\": 12}}, {\"id\": \"7da431fdc9\", \"type\": \"chart\", \"data\": {\"chart_name\": \"Project Summary\", \"col\": 12}}, {\"id\": \"e8d82ebeb8\", \"type\": \"number_card\", \"data\": {\"number_card_name\": \"Open Projects\", \"col\": 4}}, {\"id\": \"69ce81d0bd\", \"type\": \"number_card\", \"data\": {\"number_card_name\": \"Non Completed Tasks\", \"col\": 4}}, {\"id\": \"c7432e7d92\", \"type\": \"number_card\", \"data\": {\"number_card_name\": \"Timesheet Working Hours\", \"col\": 4}}, {\"id\": \"prjcard000\", \"type\": \"card\", \"data\": {\"card_name\": \"Relatórios de projetos\", \"col\": 4}}]",
  "creation": "2020-03-02 15:46:04.874669",
  "custom_blocks": [],
  "docstatus": 0,
@@ -16,12 +16,12 @@
  "icon": "folder-kanban",
  "idx": 1,
  "is_hidden": 0,
- "label": "Projects",
+ "label": "Projetos",
  "links": [
   {
    "hidden": 0,
    "is_query_report": 0,
-   "label": "Project Reports",
+   "label": "Relatórios de projetos",
    "link_count": 5,
    "onboard": 0,
    "type": "Card Break"
@@ -39,7 +39,7 @@
   {
    "hidden": 0,
    "is_query_report": 1,
-   "label": "Timesheet Billing Summary",
+   "label": "Resumo de faturamento de horas",
    "link_count": 0,
    "link_to": "Timesheet Billing Summary",
    "link_type": "Report",
@@ -59,7 +59,7 @@
   {
    "hidden": 0,
    "is_query_report": 1,
-   "label": "Delayed Tasks Summary",
+   "label": "Resumo de tarefas atrasadas",
    "link_count": 0,
    "link_to": "Delayed Tasks Summary",
    "link_type": "Report",
@@ -87,11 +87,11 @@
    "number_card_name": "Open Projects"
   },
   {
-   "label": "Non Completed Tasks",
+   "label": "Tarefas não concluídas",
    "number_card_name": "Non Completed Tasks"
   },
   {
-   "label": "Timesheet Working Hours",
+   "label": "Horas trabalhadas registradas",
    "number_card_name": "Timesheet Working Hours"
   }
  ],
@@ -111,7 +111,7 @@
    "icon": "house",
    "indent": 0,
    "keep_closed": 0,
-   "label": "Home",
+   "label": "Início",
    "link_to": "Projects",
    "link_type": "Workspace",
    "open_in_new_tab": 0,
@@ -125,7 +125,7 @@
    "icon": "chart-column",
    "indent": 0,
    "keep_closed": 0,
-   "label": "Dashboard",
+   "label": "Painel",
    "link_to": "Project",
    "link_type": "Dashboard",
    "open_in_new_tab": 0,
@@ -139,7 +139,7 @@
    "icon": "folder-kanban",
    "indent": 0,
    "keep_closed": 0,
-   "label": "Project",
+   "label": "Projeto",
    "link_to": "Project",
    "link_type": "DocType",
    "open_in_new_tab": 0,
@@ -153,7 +153,7 @@
    "icon": "list-todo",
    "indent": 0,
    "keep_closed": 0,
-   "label": "Task",
+   "label": "Tarefa",
    "link_to": "Task",
    "link_type": "DocType",
    "open_in_new_tab": 0,
@@ -181,7 +181,7 @@
    "icon": "database",
    "indent": 1,
    "keep_closed": 1,
-   "label": "Setup",
+   "label": "Configuração",
    "link_type": "DocType",
    "open_in_new_tab": 0,
    "show_arrow": 0,
@@ -259,7 +259,7 @@
    "icon": "sheet",
    "indent": 1,
    "keep_closed": 1,
-   "label": "Reports",
+   "label": "Relatórios",
    "link_type": "DocType",
    "open_in_new_tab": 0,
    "show_arrow": 0,
@@ -298,7 +298,7 @@
    "default_workspace": 0,
    "indent": 0,
    "keep_closed": 0,
-   "label": "Timesheet Billing Summary",
+   "label": "Resumo de faturamento de horas",
    "link_to": "Timesheet Billing Summary",
    "link_type": "Report",
    "open_in_new_tab": 0,
@@ -324,7 +324,7 @@
    "default_workspace": 0,
    "indent": 0,
    "keep_closed": 0,
-   "label": "Delayed Tasks Summary",
+   "label": "Resumo de tarefas atrasadas",
    "link_to": "Delayed Tasks Summary",
    "link_type": "Report",
    "open_in_new_tab": 0,
@@ -338,7 +338,7 @@
    "icon": "settings",
    "indent": 0,
    "keep_closed": 0,
-   "label": "Settings",
+   "label": "Configurações",
    "link_to": "Projects Settings",
    "link_type": "DocType",
    "open_in_new_tab": 0,
@@ -347,6 +347,6 @@
   }
  ],
  "standard": 1,
- "title": "Projects",
+ "title": "Projetos",
  "type": "Workspace"
 }

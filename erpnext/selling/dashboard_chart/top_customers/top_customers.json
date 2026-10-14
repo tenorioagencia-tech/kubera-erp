@@ -6,7 +6,7 @@
  "docstatus": 0,
  "doctype": "Dashboard Chart",
  "dynamic_filters_json": "{\"company\":\"frappe.defaults.get_user_default(\\\"Company\\\")\",\"fiscal_year\":\"erpnext.utils.get_fiscal_year()\"}",
- "empty_state_message": "Your customers, ranked by what you deliver to them.",
+ "empty_state_message": "Clientes classificados pelo valor das entregas.",
  "filters_json": "{\"period\":\"Yearly\",\"based_on\":\"Customer\"}",
  "idx": 0,
  "is_public": 1,

@@ -3,10 +3,10 @@
  "charts": [
   {
    "chart_name": "Stock Value by Item Group",
-   "label": "Stock Value by Item Group"
+   "label": "Valor do estoque por grupo de itens"
   }
  ],
- "content": "[{\"id\": \"9daa4db8f8\", \"type\": \"onboarding\", \"data\": {\"onboarding_name\": \"Stock Onboarding\", \"col\": 12}}, {\"id\": \"0d4b2a0f05\", \"type\": \"chart\", \"data\": {\"chart_name\": \"Stock Value by Item Group\", \"col\": 12}}, {\"id\": \"606b616c6c\", \"type\": \"number_card\", \"data\": {\"number_card_name\": \"Total Stock Value\", \"col\": 4}}, {\"id\": \"e1c9621c31\", \"type\": \"number_card\", \"data\": {\"number_card_name\": \"Total Warehouses\", \"col\": 4}}, {\"id\": \"ac7a22cfdd\", \"type\": \"number_card\", \"data\": {\"number_card_name\": \"Total Active Items\", \"col\": 4}}, {\"id\": \"stkcard000\", \"type\": \"card\", \"data\": {\"card_name\": \"Stock Reports\", \"col\": 4}}, {\"id\": \"stkcard001\", \"type\": \"card\", \"data\": {\"card_name\": \"Serial & Batch Reports\", \"col\": 4}}, {\"id\": \"stkcard002\", \"type\": \"card\", \"data\": {\"card_name\": \"Movement Reports\", \"col\": 4}}, {\"id\": \"stkcard003\", \"type\": \"card\", \"data\": {\"card_name\": \"Item Reports\", \"col\": 4}}, {\"id\": \"stkcard004\", \"type\": \"card\", \"data\": {\"card_name\": \"Audit Reports\", \"col\": 4}}, {\"id\": \"stkcard005\", \"type\": \"card\", \"data\": {\"card_name\": \"Tools\", \"col\": 4}}, {\"id\": \"stkcard006\", \"type\": \"card\", \"data\": {\"card_name\": \"Setup\", \"col\": 4}}]",
+ "content": "[{\"id\": \"9daa4db8f8\", \"type\": \"onboarding\", \"data\": {\"onboarding_name\": \"Stock Onboarding\", \"col\": 12}}, {\"id\": \"0d4b2a0f05\", \"type\": \"chart\", \"data\": {\"chart_name\": \"Stock Value by Item Group\", \"col\": 12}}, {\"id\": \"606b616c6c\", \"type\": \"number_card\", \"data\": {\"number_card_name\": \"Total Stock Value\", \"col\": 4}}, {\"id\": \"e1c9621c31\", \"type\": \"number_card\", \"data\": {\"number_card_name\": \"Total Warehouses\", \"col\": 4}}, {\"id\": \"ac7a22cfdd\", \"type\": \"number_card\", \"data\": {\"number_card_name\": \"Total Active Items\", \"col\": 4}}, {\"id\": \"stkcard000\", \"type\": \"card\", \"data\": {\"card_name\": \"Stock Reports\", \"col\": 4}}, {\"id\": \"stkcard001\", \"type\": \"card\", \"data\": {\"card_name\": \"Relatórios de séries e lotes\", \"col\": 4}}, {\"id\": \"stkcard002\", \"type\": \"card\", \"data\": {\"card_name\": \"Relatórios de movimentação\", \"col\": 4}}, {\"id\": \"stkcard003\", \"type\": \"card\", \"data\": {\"card_name\": \"Relatórios de itens\", \"col\": 4}}, {\"id\": \"stkcard004\", \"type\": \"card\", \"data\": {\"card_name\": \"Relatórios de auditoria\", \"col\": 4}}, {\"id\": \"stkcard005\", \"type\": \"card\", \"data\": {\"card_name\": \"Tools\", \"col\": 4}}, {\"id\": \"stkcard006\", \"type\": \"card\", \"data\": {\"card_name\": \"Configuração\", \"col\": 4}}]",
  "creation": "2020-03-02 15:43:10.096528",
  "custom_blocks": [],
  "docstatus": 0,
@@ -16,7 +16,7 @@
  "icon": "package",
  "idx": 1,
  "is_hidden": 0,
- "label": "Stock",
+ "label": "Estoque",
  "links": [
   {
    "hidden": 0,
@@ -79,7 +79,7 @@
   {
    "hidden": 0,
    "is_query_report": 1,
-   "label": "Warehouse Wise Stock Balance",
+   "label": "Saldo de estoque por armazém",
    "link_count": 0,
    "link_to": "Warehouse Wise Stock Balance",
    "link_type": "Report",
@@ -129,7 +129,7 @@
   {
    "hidden": 0,
    "is_query_report": 1,
-   "label": "Reserved Stock",
+   "label": "Estoque reservado",
    "link_count": 0,
    "link_to": "Reserved Stock",
    "link_type": "Report",
@@ -159,7 +159,7 @@
   {
    "hidden": 0,
    "is_query_report": 0,
-   "label": "Warehouse Capacity Summary",
+   "label": "Resumo da capacidade de armazéns",
    "link_count": 0,
    "link_to": "warehouse-capacity-summary",
    "link_type": "Page",
@@ -169,7 +169,7 @@
   {
    "hidden": 0,
    "is_query_report": 0,
-   "label": "Serial & Batch Reports",
+   "label": "Relatórios de séries e lotes",
    "link_count": 10,
    "onboard": 0,
    "type": "Card Break"
@@ -177,7 +177,7 @@
   {
    "hidden": 0,
    "is_query_report": 1,
-   "label": "Serial No and Batch Traceability",
+   "label": "Rastreabilidade de séries e lotes",
    "link_count": 0,
    "link_to": "Serial No and Batch Traceability",
    "link_type": "Report",
@@ -187,7 +187,7 @@
   {
    "hidden": 0,
    "is_query_report": 1,
-   "label": "Serial and Batch Summary",
+   "label": "Resumo de séries e lotes",
    "link_count": 0,
    "link_to": "Serial and Batch Summary",
    "link_type": "Report",
@@ -207,7 +207,7 @@
   {
    "hidden": 0,
    "is_query_report": 1,
-   "label": "Serial No Ledger",
+   "label": "Razão de números de série",
    "link_count": 0,
    "link_to": "Serial No Ledger",
    "link_type": "Report",
@@ -257,7 +257,7 @@
   {
    "hidden": 0,
    "is_query_report": 1,
-   "label": "Available Batch Report",
+   "label": "Relatório de lotes disponíveis",
    "link_count": 0,
    "link_to": "Available Batch Report",
    "link_type": "Report",
@@ -267,7 +267,7 @@
   {
    "hidden": 0,
    "is_query_report": 1,
-   "label": "Available Serial No",
+   "label": "Números de série disponíveis",
    "link_count": 0,
    "link_to": "Available Serial No",
    "link_type": "Report",
@@ -277,7 +277,7 @@
   {
    "hidden": 0,
    "is_query_report": 0,
-   "label": "Movement Reports",
+   "label": "Relatórios de movimentação",
    "link_count": 9,
    "onboard": 0,
    "type": "Card Break"
@@ -345,7 +345,7 @@
   {
    "hidden": 0,
    "is_query_report": 1,
-   "label": "Landed Cost Report",
+   "label": "Relatório de custo de aquisição",
    "link_count": 0,
    "link_to": "Landed Cost Report",
    "link_type": "Report",
@@ -355,7 +355,7 @@
   {
    "hidden": 0,
    "is_query_report": 1,
-   "label": "Item Wise Consumption",
+   "label": "Consumo por item",
    "link_count": 0,
    "link_to": "Item Wise Consumption",
    "link_type": "Report",
@@ -365,7 +365,7 @@
   {
    "hidden": 0,
    "is_query_report": 1,
-   "label": "COGS By Item Group",
+   "label": "Custo das mercadorias por grupo de itens",
    "link_count": 0,
    "link_to": "COGS By Item Group",
    "link_type": "Report",
@@ -375,7 +375,7 @@
   {
    "hidden": 0,
    "is_query_report": 0,
-   "label": "Item Reports",
+   "label": "Relatórios de itens",
    "link_count": 5,
    "onboard": 0,
    "type": "Card Break"
@@ -423,7 +423,7 @@
   {
    "hidden": 0,
    "is_query_report": 1,
-   "label": "Item Where Used",
+   "label": "Onde o item é usado",
    "link_count": 0,
    "link_to": "Item Where Used",
    "link_type": "Report",
@@ -433,7 +433,7 @@
   {
    "hidden": 0,
    "is_query_report": 0,
-   "label": "Audit Reports",
+   "label": "Relatórios de auditoria",
    "link_count": 11,
    "onboard": 0,
    "type": "Card Break"
@@ -451,7 +451,7 @@
   {
    "hidden": 0,
    "is_query_report": 1,
-   "label": "Stock Ledger Variance",
+   "label": "Divergência do razão de estoque",
    "link_count": 0,
    "link_to": "Stock Ledger Variance",
    "link_type": "Report",
@@ -461,7 +461,7 @@
   {
    "hidden": 0,
    "is_query_report": 1,
-   "label": "Stock Ledger Invariant Check",
+   "label": "Verificação de consistência do razão de estoque",
    "link_count": 0,
    "link_to": "Stock Ledger Invariant Check",
    "link_type": "Report",
@@ -471,7 +471,7 @@
   {
    "hidden": 0,
    "is_query_report": 1,
-   "label": "Incorrect Balance Qty After Transaction",
+   "label": "Saldo de quantidade incorreto após transação",
    "link_count": 0,
    "link_to": "Incorrect Balance Qty After Transaction",
    "link_type": "Report",
@@ -481,7 +481,7 @@
   {
    "hidden": 0,
    "is_query_report": 1,
-   "label": "Incorrect Stock Value Report",
+   "label": "Relatório de valor incorreto do estoque",
    "link_count": 0,
    "link_to": "Incorrect Stock Value Report",
    "link_type": "Report",
@@ -491,7 +491,7 @@
   {
    "hidden": 0,
    "is_query_report": 1,
-   "label": "Incorrect Serial No Valuation",
+   "label": "Avaliação incorreta de número de série",
    "link_count": 0,
    "link_to": "Incorrect Serial No Valuation",
    "link_type": "Report",
@@ -501,7 +501,7 @@
   {
    "hidden": 0,
    "is_query_report": 1,
-   "label": "Incorrect Serial and Batch Bundle",
+   "label": "Pacote de séries e lotes incorreto",
    "link_count": 0,
    "link_to": "Incorrect Serial and Batch Bundle",
    "link_type": "Report",
@@ -511,7 +511,7 @@
   {
    "hidden": 0,
    "is_query_report": 1,
-   "label": "FIFO Queue vs Qty After Transaction Comparison",
+   "label": "Comparação entre fila PEPS e quantidade após transação",
    "link_count": 0,
    "link_to": "FIFO Queue vs Qty After Transaction Comparison",
    "link_type": "Report",
@@ -521,7 +521,7 @@
   {
    "hidden": 0,
    "is_query_report": 1,
-   "label": "Stock Qty vs Batch Qty",
+   "label": "Quantidade em estoque versus quantidade por lote",
    "link_count": 0,
    "link_to": "Stock Qty vs Batch Qty",
    "link_type": "Report",
@@ -541,7 +541,7 @@
   {
    "hidden": 0,
    "is_query_report": 1,
-   "label": "Negative Batch Report",
+   "label": "Relatório de lotes com saldo negativo",
    "link_count": 0,
    "link_to": "Negative Batch Report",
    "link_type": "Report",
@@ -559,7 +559,7 @@
   {
    "hidden": 0,
    "is_query_report": 0,
-   "label": "Repost Item Valuation",
+   "label": "Reprocessar avaliação de itens",
    "link_count": 0,
    "link_to": "Repost Item Valuation",
    "link_type": "DocType",
@@ -569,7 +569,7 @@
   {
    "hidden": 0,
    "is_query_report": 0,
-   "label": "Stock Closing Entry",
+   "label": "Lançamento de fechamento de estoque",
    "link_count": 0,
    "link_to": "Stock Closing Entry",
    "link_type": "DocType",
@@ -579,7 +579,7 @@
   {
    "hidden": 0,
    "is_query_report": 0,
-   "label": "Stock Reservation Entry",
+   "label": "Lançamento de reserva de estoque",
    "link_count": 0,
    "link_to": "Stock Reservation Entry",
    "link_type": "DocType",
@@ -589,7 +589,7 @@
   {
    "hidden": 0,
    "is_query_report": 0,
-   "label": "Putaway Rule",
+   "label": "Regra de armazenagem",
    "link_count": 0,
    "link_to": "Putaway Rule",
    "link_type": "DocType",
@@ -609,7 +609,7 @@
   {
    "hidden": 0,
    "is_query_report": 0,
-   "label": "Shipment",
+   "label": "Remessa",
    "link_count": 0,
    "link_to": "Shipment",
    "link_type": "DocType",
@@ -629,7 +629,7 @@
   {
    "hidden": 0,
    "is_query_report": 0,
-   "label": "Setup",
+   "label": "Configuração",
    "link_count": 14,
    "onboard": 0,
    "type": "Card Break"
@@ -717,7 +717,7 @@
   {
    "hidden": 0,
    "is_query_report": 0,
-   "label": "Quality Inspection Parameter",
+   "label": "Parâmetro de inspeção de qualidade",
    "link_count": 0,
    "link_to": "Quality Inspection Parameter",
    "link_type": "DocType",
@@ -737,7 +737,7 @@
   {
    "hidden": 0,
    "is_query_report": 0,
-   "label": "Shipment Parcel Template",
+   "label": "Modelo de volume da remessa",
    "link_count": 0,
    "link_to": "Shipment Parcel Template",
    "link_type": "DocType",
@@ -757,7 +757,7 @@
   {
    "hidden": 0,
    "is_query_report": 0,
-   "label": "Stock Reposting Settings",
+   "label": "Configurações de reprocessamento de estoque",
    "link_count": 0,
    "link_to": "Stock Reposting Settings",
    "link_type": "DocType",
@@ -782,15 +782,15 @@
  "name": "Stock",
  "number_cards": [
   {
-   "label": "Total Stock Value",
+   "label": "Valor total do estoque",
    "number_card_name": "Total Stock Value"
   },
   {
-   "label": "Total Warehouses",
+   "label": "Total de armazéns",
    "number_card_name": "Total Warehouses"
   },
   {
-   "label": "Total Active Items",
+   "label": "Total de itens ativos",
    "number_card_name": "Total Active Items"
   }
  ],
@@ -810,7 +810,7 @@
    "icon": "house",
    "indent": 0,
    "keep_closed": 0,
-   "label": "Home",
+   "label": "Início",
    "link_to": "Stock",
    "link_type": "Workspace",
    "open_in_new_tab": 0,
@@ -824,7 +824,7 @@
    "icon": "chart-column",
    "indent": 0,
    "keep_closed": 0,
-   "label": "Dashboard",
+   "label": "Painel",
    "link_to": "Stock",
    "link_type": "Dashboard",
    "open_in_new_tab": 0,
@@ -948,7 +948,7 @@
    "default_workspace": 0,
    "indent": 0,
    "keep_closed": 0,
-   "label": "Repost Item Valuation",
+   "label": "Reprocessar avaliação de itens",
    "link_to": "Repost Item Valuation",
    "link_type": "DocType",
    "open_in_new_tab": 0,
@@ -988,7 +988,7 @@
    "icon": "database",
    "indent": 1,
    "keep_closed": 1,
-   "label": "Setup",
+   "label": "Configuração",
    "link_to": "",
    "link_type": "DocType",
    "open_in_new_tab": 0,
@@ -1041,7 +1041,7 @@
    "default_workspace": 0,
    "indent": 0,
    "keep_closed": 0,
-   "label": "Brand",
+   "label": "Marca",
    "link_to": "Brand",
    "link_type": "DocType",
    "open_in_new_tab": 0,
@@ -1055,7 +1055,7 @@
    "icon": "",
    "indent": 0,
    "keep_closed": 0,
-   "label": "Warehouse",
+   "label": "Armazém",
    "link_to": "Warehouse",
    "link_type": "DocType",
    "open_in_new_tab": 0,
@@ -1068,7 +1068,7 @@
    "default_workspace": 0,
    "indent": 0,
    "keep_closed": 0,
-   "label": "Unit of Measure (UOM)",
+   "label": "Unidade de medida (UM)",
    "link_to": "UOM",
    "link_type": "DocType",
    "open_in_new_tab": 0,
@@ -1120,7 +1120,7 @@
    "default_workspace": 0,
    "indent": 0,
    "keep_closed": 0,
-   "label": "Serial and Batch Bundle",
+   "label": "Conjunto de séries e lotes",
    "link_to": "Serial and Batch Bundle",
    "link_type": "DocType",
    "open_in_new_tab": 0,
@@ -1133,7 +1133,7 @@
    "default_workspace": 0,
    "indent": 0,
    "keep_closed": 0,
-   "label": "Item Standard Cost",
+   "label": "Custo padrão do item",
    "link_to": "Item Standard Cost",
    "link_type": "DocType",
    "open_in_new_tab": 1,
@@ -1146,7 +1146,7 @@
    "default_workspace": 0,
    "indent": 0,
    "keep_closed": 0,
-   "label": "Inventory Dimension",
+   "label": "Dimensão de estoque",
    "link_to": "Inventory Dimension",
    "link_type": "DocType",
    "open_in_new_tab": 0,
@@ -1212,7 +1212,7 @@
    "icon": "sheet",
    "indent": 1,
    "keep_closed": 1,
-   "label": "Reports",
+   "label": "Relatórios",
    "link_type": "DocType",
    "open_in_new_tab": 0,
    "show_arrow": 0,
@@ -1341,7 +1341,7 @@
    "default_workspace": 0,
    "indent": 0,
    "keep_closed": 0,
-   "label": "Warehouse Wise Stock Balance",
+   "label": "Saldo de estoque por armazém",
    "link_to": "Warehouse Wise Stock Balance",
    "link_type": "Report",
    "open_in_new_tab": 0,
@@ -1367,7 +1367,7 @@
    "default_workspace": 0,
    "indent": 0,
    "keep_closed": 0,
-   "label": "Serial No and Batch Traceability",
+   "label": "Rastreabilidade de séries e lotes",
    "link_to": "Serial No and Batch Traceability",
    "link_type": "Report",
    "open_in_new_tab": 0,
@@ -1393,7 +1393,7 @@
    "default_workspace": 0,
    "indent": 0,
    "keep_closed": 0,
-   "label": "Serial No Ledger",
+   "label": "Razão de números de série",
    "link_to": "Serial No Ledger",
    "link_type": "Report",
    "open_in_new_tab": 0,
@@ -1485,7 +1485,7 @@
    "icon": "settings",
    "indent": 1,
    "keep_closed": 1,
-   "label": "Settings",
+   "label": "Configurações",
    "link_type": "DocType",
    "open_in_new_tab": 0,
    "show_arrow": 0,
@@ -1524,7 +1524,7 @@
    "default_workspace": 0,
    "indent": 0,
    "keep_closed": 0,
-   "label": "Stock Reposting Settings",
+   "label": "Configurações de reprocessamento de estoque",
    "link_to": "Stock Reposting Settings",
    "link_type": "DocType",
    "open_in_new_tab": 0,
@@ -1546,6 +1546,6 @@
   }
  ],
  "standard": 1,
- "title": "Stock",
+ "title": "Estoque",
  "type": "Workspace"
 }

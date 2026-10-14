@@ -6,7 +6,7 @@
    "label": "Quality Inspections"
   }
  ],
- "content": "[{\"id\": \"21767b3f04\", \"type\": \"onboarding\", \"data\": {\"onboarding_name\": \"Quality Onboarding\", \"col\": 12}}, {\"id\": \"94a9c2ac37\", \"type\": \"chart\", \"data\": {\"chart_name\": \"Quality Inspections\", \"col\": 12}}, {\"id\": \"e150b6a2e8\", \"type\": \"number_card\", \"data\": {\"number_card_name\": \"Open Quality Actions\", \"col\": 4}}, {\"id\": \"c40c46970c\", \"type\": \"number_card\", \"data\": {\"number_card_name\": \"Open Non Conformances\", \"col\": 4}}, {\"id\": \"5319691877\", \"type\": \"number_card\", \"data\": {\"number_card_name\": \"Open Quality Reviews\", \"col\": 4}}, {\"id\": \"qlycard000\", \"type\": \"card\", \"data\": {\"card_name\": \"Quality Reports\", \"col\": 4}}, {\"id\": \"qlycard001\", \"type\": \"card\", \"data\": {\"card_name\": \"Setup\", \"col\": 4}}]",
+ "content": "[{\"id\": \"21767b3f04\", \"type\": \"onboarding\", \"data\": {\"onboarding_name\": \"Quality Onboarding\", \"col\": 12}}, {\"id\": \"94a9c2ac37\", \"type\": \"chart\", \"data\": {\"chart_name\": \"Quality Inspections\", \"col\": 12}}, {\"id\": \"e150b6a2e8\", \"type\": \"number_card\", \"data\": {\"number_card_name\": \"Open Quality Actions\", \"col\": 4}}, {\"id\": \"c40c46970c\", \"type\": \"number_card\", \"data\": {\"number_card_name\": \"Open Non Conformances\", \"col\": 4}}, {\"id\": \"5319691877\", \"type\": \"number_card\", \"data\": {\"number_card_name\": \"Open Quality Reviews\", \"col\": 4}}, {\"id\": \"qlycard000\", \"type\": \"card\", \"data\": {\"card_name\": \"Relatórios de qualidade\", \"col\": 4}}, {\"id\": \"qlycard001\", \"type\": \"card\", \"data\": {\"card_name\": \"Configuração\", \"col\": 4}}]",
  "creation": "2020-03-02 15:49:28.632014",
  "custom_blocks": [],
  "docstatus": 0,
@@ -16,12 +16,12 @@
  "icon": "shield-check",
  "idx": 0,
  "is_hidden": 0,
- "label": "Quality",
+ "label": "Qualidade",
  "links": [
   {
    "hidden": 0,
    "is_query_report": 0,
-   "label": "Quality Reports",
+   "label": "Relatórios de qualidade",
    "link_count": 3,
    "onboard": 0,
    "type": "Card Break"
@@ -59,7 +59,7 @@
   {
    "hidden": 0,
    "is_query_report": 0,
-   "label": "Setup",
+   "label": "Configuração",
    "link_count": 2,
    "onboard": 0,
    "type": "Card Break"
@@ -67,7 +67,7 @@
   {
    "hidden": 0,
    "is_query_report": 0,
-   "label": "Quality Inspection Parameter",
+   "label": "Parâmetro de inspeção de qualidade",
    "link_count": 0,
    "link_to": "Quality Inspection Parameter",
    "link_type": "DocType",
@@ -77,7 +77,7 @@
   {
    "hidden": 0,
    "is_query_report": 0,
-   "label": "Quality Inspection Parameter Group",
+   "label": "Grupo de parâmetros de inspeção de qualidade",
    "link_count": 0,
    "link_to": "Quality Inspection Parameter Group",
    "link_type": "DocType",
@@ -91,15 +91,15 @@
  "name": "Quality",
  "number_cards": [
   {
-   "label": "Open Quality Actions",
+   "label": "Ações de qualidade abertas",
    "number_card_name": "Open Quality Actions"
   },
   {
-   "label": "Open Non Conformances",
+   "label": "Não conformidades abertas",
    "number_card_name": "Open Non Conformances"
   },
   {
-   "label": "Open Quality Reviews",
+   "label": "Revisões de qualidade abertas",
    "number_card_name": "Open Quality Reviews"
   }
  ],
@@ -118,7 +118,7 @@
    "icon": "house",
    "indent": 0,
    "keep_closed": 0,
-   "label": "Home",
+   "label": "Início",
    "link_to": "Quality",
    "link_type": "Workspace",
    "open_in_new_tab": 0,
@@ -222,7 +222,7 @@
    "icon": "database",
    "indent": 1,
    "keep_closed": 1,
-   "label": "Setup",
+   "label": "Configuração",
    "link_type": "DocType",
    "open_in_new_tab": 0,
    "show_arrow": 0,
@@ -266,6 +266,6 @@
   }
  ],
  "standard": 1,
- "title": "Quality",
+ "title": "Qualidade",
  "type": "Workspace"
 }

@@ -5,7 +5,7 @@
  "docstatus": 0,
  "doctype": "Dashboard Chart",
  "dynamic_filters_json": "{\"company\":\"frappe.defaults.get_user_default(\\\"Company\\\")\",\"fiscal_year\":\"erpnext.utils.get_fiscal_year()\"}",
- "empty_state_message": "Your suppliers, ranked by what they deliver to you.",
+ "empty_state_message": "Fornecedores classificados pelo valor das entregas.",
  "filters_json": "{\"period\":\"Monthly\",\"period_based_on\":\"posting_date\",\"based_on\":\"Supplier\"}",
  "idx": 0,
  "is_public": 1,

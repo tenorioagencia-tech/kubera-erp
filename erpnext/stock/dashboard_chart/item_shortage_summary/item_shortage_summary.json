@@ -5,7 +5,7 @@
  "docstatus": 0,
  "doctype": "Dashboard Chart",
  "dynamic_filters_json": "{\"company\":\"frappe.defaults.get_user_default(\\\"Company\\\")\"}",
- "empty_state_message": "Items you're about to run short of.",
+ "empty_state_message": "Itens cujo estoque está prestes a acabar.",
  "filters_json": "{}",
  "idx": 0,
  "is_public": 1,

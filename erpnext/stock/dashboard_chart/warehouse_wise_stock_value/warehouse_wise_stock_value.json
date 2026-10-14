@@ -5,7 +5,7 @@
  "custom_options": "{\n    \"fieldtype\": \"Currency\"\n}",
  "docstatus": 0,
  "doctype": "Dashboard Chart",
- "empty_state_message": "What your stock is worth in each warehouse.",
+ "empty_state_message": "Valor do estoque em cada armazém.",
  "filters_json": "{}",
  "idx": 0,
  "is_public": 1,

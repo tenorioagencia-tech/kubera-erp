@@ -6,7 +6,7 @@
  "docstatus": 0,
  "doctype": "Dashboard Chart",
  "dynamic_filters_json": "{\"company\":\"frappe.defaults.get_user_default(\\\"Company\\\")\",\"from_date\":\"frappe.defaults.get_user_default(\\\"year_start_date\\\")\",\"to_date\":\"frappe.defaults.get_user_default(\\\"year_end_date\\\")\"}",
- "empty_state_message": "Your work orders by status, from planned to completed.",
+ "empty_state_message": "Ordens de produção por status, do planejamento à conclusão.",
  "filters_json": "{\"charts_based_on\":\"Status\"}",
  "idx": 0,
  "is_public": 1,

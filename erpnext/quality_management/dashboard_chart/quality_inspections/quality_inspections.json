@@ -8,7 +8,7 @@
  "doctype": "Dashboard Chart",
  "document_type": "Quality Inspection",
  "dynamic_filters_json": "[]",
- "empty_state_message": "How many inspections you run each month.",
+ "empty_state_message": "Quantidade de inspeções realizadas a cada mês.",
  "filters_json": "[[\"Quality Inspection\",\"docstatus\",\"=\",\"1\"]]",
  "group_by_type": "Count",
  "idx": 0,

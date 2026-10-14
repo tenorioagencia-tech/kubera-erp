@@ -6,7 +6,7 @@
  "docstatus": 0,
  "doctype": "Dashboard Chart",
  "dynamic_filters_json": "{\"company\":\"frappe.defaults.get_user_default(\\\"Company\\\")\",\"fiscal_year\":\"erpnext.utils.get_fiscal_year()\"}",
- "empty_state_message": "How much you order from suppliers each month.",
+ "empty_state_message": "Valor dos pedidos aos fornecedores a cada mês.",
  "filters_json": "{\"period\":\"Monthly\",\"period_based_on\":\"posting_date\",\"based_on\":\"Item\"}",
  "idx": 1,
  "is_public": 1,

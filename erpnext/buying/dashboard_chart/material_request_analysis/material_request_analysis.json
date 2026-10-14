@@ -7,7 +7,7 @@
  "doctype": "Dashboard Chart",
  "document_type": "Material Request",
  "dynamic_filters_json": "[[\"Material Request\",\"company\",\"=\",\"frappe.defaults.get_user_default(\\\"Company\\\")\"]]",
- "empty_state_message": "Your material requests by status, from pending to ordered.",
+ "empty_state_message": "Requisições de materiais por status, de pendentes a solicitadas.",
  "filters_json": "[[\"Material Request\",\"status\",\"not in\",[\"Draft\",\"Cancelled\",\"Stopped\",null]],[\"Material Request\",\"material_request_type\",\"=\",\"Purchase\"],[\"Material Request\",\"docstatus\",\"=\",\"1\"],[\"Material Request\",\"transaction_date\",\"Timespan\",\"last quarter\"]]",
  "group_by_based_on": "status",
  "group_by_type": "Count",

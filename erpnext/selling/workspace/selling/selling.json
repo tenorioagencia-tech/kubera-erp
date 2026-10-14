@@ -3,10 +3,10 @@
  "charts": [
   {
    "chart_name": "Sales Order Analysis",
-   "label": "Sales Order Analysis"
+   "label": "Análise de pedidos de venda"
   }
  ],
- "content": "[{\"id\": \"36ea8252f4\", \"type\": \"onboarding\", \"data\": {\"onboarding_name\": \"Selling Onboarding\", \"col\": 12}}, {\"id\": \"f4c73734c4\", \"type\": \"chart\", \"data\": {\"chart_name\": \"Sales Order Analysis\", \"col\": 12}}, {\"id\": \"adf8fed2ff\", \"type\": \"number_card\", \"data\": {\"number_card_name\": \"Sales Orders to Deliver\", \"col\": 4}}, {\"id\": \"975633cef2\", \"type\": \"number_card\", \"data\": {\"number_card_name\": \"Sales Orders to Bill\", \"col\": 4}}, {\"id\": \"2900555572\", \"type\": \"number_card\", \"data\": {\"number_card_name\": \"Annual Sales\", \"col\": 4}}, {\"id\": \"selcard000\", \"type\": \"card\", \"data\": {\"card_name\": \"Sales Reports\", \"col\": 4}}, {\"id\": \"selcard001\", \"type\": \"card\", \"data\": {\"card_name\": \"Customer Reports\", \"col\": 4}}, {\"id\": \"selcard002\", \"type\": \"card\", \"data\": {\"card_name\": \"Sales Team Reports\", \"col\": 4}}, {\"id\": \"selcard003\", \"type\": \"card\", \"data\": {\"card_name\": \"Pricing\", \"col\": 4}}, {\"id\": \"selcard004\", \"type\": \"card\", \"data\": {\"card_name\": \"Point of Sale\", \"col\": 4}}, {\"id\": \"selcard005\", \"type\": \"card\", \"data\": {\"card_name\": \"Setup\", \"col\": 4}}]",
+ "content": "[{\"id\": \"36ea8252f4\", \"type\": \"onboarding\", \"data\": {\"onboarding_name\": \"Selling Onboarding\", \"col\": 12}}, {\"id\": \"f4c73734c4\", \"type\": \"chart\", \"data\": {\"chart_name\": \"Sales Order Analysis\", \"col\": 12}}, {\"id\": \"adf8fed2ff\", \"type\": \"number_card\", \"data\": {\"number_card_name\": \"Sales Orders to Deliver\", \"col\": 4}}, {\"id\": \"975633cef2\", \"type\": \"number_card\", \"data\": {\"number_card_name\": \"Sales Orders to Bill\", \"col\": 4}}, {\"id\": \"2900555572\", \"type\": \"number_card\", \"data\": {\"number_card_name\": \"Annual Sales\", \"col\": 4}}, {\"id\": \"selcard000\", \"type\": \"card\", \"data\": {\"card_name\": \"Relatórios de vendas\", \"col\": 4}}, {\"id\": \"selcard001\", \"type\": \"card\", \"data\": {\"card_name\": \"Relatórios de clientes\", \"col\": 4}}, {\"id\": \"selcard002\", \"type\": \"card\", \"data\": {\"card_name\": \"Relatórios da equipe de vendas\", \"col\": 4}}, {\"id\": \"selcard003\", \"type\": \"card\", \"data\": {\"card_name\": \"Pricing\", \"col\": 4}}, {\"id\": \"selcard004\", \"type\": \"card\", \"data\": {\"card_name\": \"Point of Sale\", \"col\": 4}}, {\"id\": \"selcard005\", \"type\": \"card\", \"data\": {\"card_name\": \"Configuração\", \"col\": 4}}]",
  "creation": "2020-01-28 11:49:12.092882",
  "custom_blocks": [],
  "docstatus": 0,
@@ -16,12 +16,12 @@
  "icon": "store",
  "idx": 0,
  "is_hidden": 0,
- "label": "Selling",
+ "label": "Vendas",
  "links": [
   {
    "hidden": 0,
    "is_query_report": 0,
-   "label": "Sales Reports",
+   "label": "Relatórios de vendas",
    "link_count": 11,
    "onboard": 0,
    "type": "Card Break"
@@ -79,7 +79,7 @@
   {
    "hidden": 0,
    "is_query_report": 1,
-   "label": "Sales Order Analysis",
+   "label": "Análise de pedidos de venda",
    "link_count": 0,
    "link_to": "Sales Order Analysis",
    "link_type": "Report",
@@ -129,7 +129,7 @@
   {
    "hidden": 0,
    "is_query_report": 1,
-   "label": "Lost Quotations",
+   "label": "Cotações perdidas",
    "link_count": 0,
    "link_to": "Lost Quotations",
    "link_type": "Report",
@@ -139,7 +139,7 @@
   {
    "hidden": 0,
    "is_query_report": 0,
-   "label": "Customer Reports",
+   "label": "Relatórios de clientes",
    "link_count": 8,
    "onboard": 0,
    "type": "Card Break"
@@ -207,7 +207,7 @@
   {
    "hidden": 0,
    "is_query_report": 1,
-   "label": "Payment Terms Status for Sales Order",
+   "label": "Status das condições de pagamento por pedido de venda",
    "link_count": 0,
    "link_to": "Payment Terms Status for Sales Order",
    "link_type": "Report",
@@ -227,7 +227,7 @@
   {
    "hidden": 0,
    "is_query_report": 0,
-   "label": "Sales Team Reports",
+   "label": "Relatórios da equipe de vendas",
    "link_count": 8,
    "onboard": 0,
    "type": "Card Break"
@@ -411,7 +411,7 @@
   {
    "hidden": 0,
    "is_query_report": 0,
-   "label": "Setup",
+   "label": "Configuração",
    "link_count": 4,
    "onboard": 0,
    "type": "Card Break"
@@ -419,7 +419,7 @@
   {
    "hidden": 0,
    "is_query_report": 0,
-   "label": "Tax Template",
+   "label": "Modelo de impostos",
    "link_count": 0,
    "link_to": "Sales Taxes and Charges Template",
    "link_type": "DocType",
@@ -429,7 +429,7 @@
   {
    "hidden": 0,
    "is_query_report": 0,
-   "label": "Terms Template",
+   "label": "Modelo de termos",
    "link_count": 0,
    "link_to": "Terms and Conditions",
    "link_type": "DocType",
@@ -472,7 +472,7 @@
    "number_card_name": "Sales Orders to Bill"
   },
   {
-   "label": "Annual Sales",
+   "label": "Vendas anuais",
    "number_card_name": "Annual Sales"
   }
  ],
@@ -492,7 +492,7 @@
    "icon": "house",
    "indent": 0,
    "keep_closed": 0,
-   "label": "Home",
+   "label": "Início",
    "link_to": "Selling",
    "link_type": "Workspace",
    "open_in_new_tab": 0,
@@ -506,7 +506,7 @@
    "icon": "chart-column",
    "indent": 0,
    "keep_closed": 0,
-   "label": "Dashboard",
+   "label": "Painel",
    "link_to": "Selling",
    "link_type": "Dashboard",
    "open_in_new_tab": 0,
@@ -693,7 +693,7 @@
    "icon": "package",
    "indent": 1,
    "keep_closed": 1,
-   "label": "Items & Pricing",
+   "label": "Itens e preços",
    "link_type": "DocType",
    "open_in_new_tab": 0,
    "show_arrow": 0,
@@ -811,7 +811,7 @@
    "icon": "database",
    "indent": 1,
    "keep_closed": 1,
-   "label": "Setup",
+   "label": "Configuração",
    "link_type": "DocType",
    "open_in_new_tab": 0,
    "show_arrow": 0,
@@ -850,7 +850,7 @@
    "default_workspace": 0,
    "indent": 0,
    "keep_closed": 0,
-   "label": "Address",
+   "label": "Endereço",
    "link_to": "Address",
    "link_type": "DocType",
    "open_in_new_tab": 0,
@@ -863,7 +863,7 @@
    "default_workspace": 0,
    "indent": 0,
    "keep_closed": 0,
-   "label": "Contact",
+   "label": "Contato",
    "link_to": "Contact",
    "link_type": "DocType",
    "open_in_new_tab": 0,
@@ -889,7 +889,7 @@
    "default_workspace": 0,
    "indent": 0,
    "keep_closed": 0,
-   "label": "Campaign",
+   "label": "Campanha",
    "link_to": "Campaign",
    "link_type": "DocType",
    "open_in_new_tab": 0,
@@ -941,7 +941,7 @@
    "default_workspace": 0,
    "indent": 0,
    "keep_closed": 0,
-   "label": "Terms Template",
+   "label": "Modelo de termos",
    "link_to": "Terms and Conditions",
    "link_type": "DocType",
    "open_in_new_tab": 0,
@@ -954,7 +954,7 @@
    "default_workspace": 0,
    "indent": 0,
    "keep_closed": 0,
-   "label": "Tax Template",
+   "label": "Modelo de impostos",
    "link_to": "Sales Taxes and Charges Template",
    "link_type": "DocType",
    "open_in_new_tab": 0,
@@ -980,7 +980,7 @@
    "default_workspace": 0,
    "indent": 0,
    "keep_closed": 0,
-   "label": "UTM Source",
+   "label": "Origem UTM",
    "link_to": "UTM Source",
    "link_type": "DocType",
    "open_in_new_tab": 0,
@@ -1007,7 +1007,7 @@
    "icon": "sheet",
    "indent": 1,
    "keep_closed": 1,
-   "label": "Reports",
+   "label": "Relatórios",
    "link_type": "DocType",
    "open_in_new_tab": 0,
    "show_arrow": 0,
@@ -1175,7 +1175,7 @@
    "default_workspace": 0,
    "indent": 0,
    "keep_closed": 0,
-   "label": "Sales Partner Target Variance Based On Item Group",
+   "label": "Variação de metas de parceiros por grupo de itens",
    "link_to": "Sales Partner Target Variance based on Item Group",
    "link_type": "Report",
    "open_in_new_tab": 0,
@@ -1214,7 +1214,7 @@
    "default_workspace": 0,
    "indent": 0,
    "keep_closed": 0,
-   "label": "Sales Order Analysis",
+   "label": "Análise de pedidos de venda",
    "link_to": "Sales Order Analysis",
    "link_type": "Report",
    "open_in_new_tab": 0,
@@ -1293,7 +1293,7 @@
    "icon": "settings",
    "indent": 0,
    "keep_closed": 0,
-   "label": "Settings",
+   "label": "Configurações",
    "link_to": "Selling Settings",
    "link_type": "DocType",
    "open_in_new_tab": 0,
@@ -1302,6 +1302,6 @@
   }
  ],
  "standard": 1,
- "title": "Selling",
+ "title": "Vendas",
  "type": "Workspace"
 }

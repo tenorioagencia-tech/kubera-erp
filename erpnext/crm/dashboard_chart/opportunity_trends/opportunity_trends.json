@@ -8,7 +8,7 @@
  "doctype": "Dashboard Chart",
  "document_type": "Opportunity",
  "dynamic_filters_json": "[[\"Opportunity\",\"company\",\"=\",\"frappe.defaults.get_user_default(\\\"Company\\\")\"]]",
- "empty_state_message": "New opportunities coming in each week.",
+ "empty_state_message": "Novas oportunidades a cada semana.",
  "filters_json": "[]",
  "idx": 0,
  "is_public": 1,

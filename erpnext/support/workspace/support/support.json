@@ -3,7 +3,7 @@
  "charts": [
   {
    "chart_name": "Issues Opened",
-   "label": "Issues Opened"
+   "label": "Ocorrências abertas"
   }
  ],
  "content": "[{\"id\": \"729b633ade\", \"type\": \"chart\", \"data\": {\"chart_name\": \"Issues Opened\", \"col\": 12}}, {\"id\": \"160ec56bec\", \"type\": \"number_card\", \"data\": {\"number_card_name\": \"Open Issues\", \"col\": 4}}, {\"id\": \"104a187e86\", \"type\": \"number_card\", \"data\": {\"number_card_name\": \"Overdue Issues\", \"col\": 4}}, {\"id\": \"7f4c92f841\", \"type\": \"number_card\", \"data\": {\"number_card_name\": \"Resolved Issues\", \"col\": 4}}]",
@@ -16,7 +16,7 @@
  "icon": "headset",
  "idx": 0,
  "is_hidden": 0,
- "label": "Support",
+ "label": "Suporte",
  "links": [],
  "modified": "2026-08-26 18:34:03.000000",
  "modified_by": "Administrator",
@@ -28,11 +28,11 @@
    "number_card_name": "Open Issues"
   },
   {
-   "label": "Overdue Issues",
+   "label": "Ocorrências em atraso",
    "number_card_name": "Overdue Issues"
   },
   {
-   "label": "Resolved Issues",
+   "label": "Ocorrências resolvidas",
    "number_card_name": "Resolved Issues"
   }
  ],
@@ -51,7 +51,7 @@
    "icon": "house",
    "indent": 0,
    "keep_closed": 0,
-   "label": "Home",
+   "label": "Início",
    "link_to": "Support",
    "link_type": "Workspace",
    "open_in_new_tab": 0,
@@ -116,7 +116,7 @@
    "icon": "database",
    "indent": 1,
    "keep_closed": 1,
-   "label": "Setup",
+   "label": "Configuração",
    "link_type": "DocType",
    "open_in_new_tab": 0,
    "show_arrow": 0,
@@ -164,7 +164,7 @@
    "icon": "notepad-text",
    "indent": 1,
    "keep_closed": 1,
-   "label": "Reports",
+   "label": "Relatórios",
    "link_type": "DocType",
    "open_in_new_tab": 0,
    "show_arrow": 0,
@@ -188,7 +188,7 @@
    "icon": "settings",
    "indent": 0,
    "keep_closed": 0,
-   "label": "Settings",
+   "label": "Configurações",
    "link_to": "Support Settings",
    "link_type": "DocType",
    "open_in_new_tab": 0,
@@ -197,6 +197,6 @@
   }
  ],
  "standard": 1,
- "title": "Support",
+ "title": "Suporte",
  "type": "Workspace"
 }

@@ -7,7 +7,7 @@
  "doctype": "Dashboard Chart",
  "document_type": "Purchase Invoice",
  "dynamic_filters_json": "",
- "empty_state_message": "What your suppliers bill you each month.",
+ "empty_state_message": "Valor faturado pelos fornecedores a cada mês.",
  "filters_json": "[[\"Purchase Invoice\",\"docstatus\",\"=\",1]]",
  "idx": 0,
  "is_public": 1,

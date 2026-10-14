@@ -10,7 +10,7 @@
  "idx": 0,
  "is_public": 1,
  "is_standard": 1,
- "label": "Total Outgoing Payment",
+ "label": "Total de pagamentos efetuados",
  "modified": "2026-06-01 12:00:00.000000",
  "modified_by": "Administrator",
  "module": "Accounts",

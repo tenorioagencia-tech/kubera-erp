@@ -6,7 +6,7 @@
  "docstatus": 0,
  "doctype": "Dashboard Chart",
  "document_type": "Sales Invoice",
- "empty_state_message": "What you bill your customers each month.",
+ "empty_state_message": "Valor faturado aos clientes a cada mês.",
  "filters_json": "[[\"Sales Invoice\",\"docstatus\",\"=\",1]]",
  "idx": 0,
  "is_public": 1,

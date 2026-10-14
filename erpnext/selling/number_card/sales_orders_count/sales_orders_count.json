@@ -11,7 +11,7 @@
  "idx": 0,
  "is_public": 1,
  "is_standard": 1,
- "label": "Sales Orders Count",
+ "label": "Quantidade de pedidos de venda",
  "modified": "2025-12-24 19:32:58.320589",
  "modified_by": "Administrator",
  "module": "Selling",

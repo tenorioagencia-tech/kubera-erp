@@ -6,7 +6,7 @@
  "docstatus": 0,
  "doctype": "Dashboard Chart",
  "document_type": "Delivery Note",
- "empty_state_message": "What you deliver to your customers each month.",
+ "empty_state_message": "O que você entrega aos clientes a cada mês.",
  "filters_json": "[[\"Delivery Note\",\"docstatus\",\"=\",1]]",
  "idx": 0,
  "is_public": 1,

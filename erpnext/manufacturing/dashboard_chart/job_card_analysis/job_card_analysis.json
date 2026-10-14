@@ -6,7 +6,7 @@
  "docstatus": 0,
  "doctype": "Dashboard Chart",
  "dynamic_filters_json": "{\"company\":\"frappe.defaults.get_user_default(\\\"Company\\\")\",\"from_date\":\"frappe.defaults.get_user_default(\\\"year_start_date\\\")\",\"to_date\":\"frappe.defaults.get_user_default(\\\"year_end_date\\\")\"}",
- "empty_state_message": "Your job cards each month, by status.",
+ "empty_state_message": "Apontamentos de produção por status a cada mês.",
  "filters_json": "{\"docstatus\":1,\"range\":\"Monthly\"}",
  "idx": 0,
  "is_public": 1,

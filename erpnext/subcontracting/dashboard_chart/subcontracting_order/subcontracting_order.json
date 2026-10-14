@@ -8,7 +8,7 @@
  "doctype": "Dashboard Chart",
  "document_type": "Purchase Order",
  "dynamic_filters_json": "[]",
- "empty_state_message": "What you send out for subcontracting each month.",
+ "empty_state_message": "O que você envia para subcontratação a cada mês.",
  "filters_json": "[[\"Purchase Order\",\"is_subcontracted\",\"=\",1],[\"Purchase Order\",\"docstatus\",\"=\",\"1\"]]",
  "group_by_type": "Count",
  "idx": 0,

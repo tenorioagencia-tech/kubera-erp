@@ -22,5 +22,5 @@
  "timespan": "Last Year",
  "type": "Donut",
  "y_axis": [],
- "empty_state_message": "How many of your inspections pass or fail."
+ "empty_state_message": "Quantidade de inspeções aprovadas ou reprovadas."
 }

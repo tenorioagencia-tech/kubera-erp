@@ -3,7 +3,7 @@
  "charts": [
   {
    "chart_name": "Budget Variance",
-   "label": "Budget Variance"
+   "label": "Variação orçamentária"
   }
  ],
  "content": "[{\"id\": \"12e194822e\", \"type\": \"chart\", \"data\": {\"chart_name\": \"Budget Variance\", \"col\": 12}}, {\"id\": \"1e3181e0cb\", \"type\": \"number_card\", \"data\": {\"number_card_name\": \"Total Outgoing Bills\", \"col\": 4}}, {\"id\": \"94f620327b\", \"type\": \"number_card\", \"data\": {\"number_card_name\": \"Total Incoming Bills\", \"col\": 4}}, {\"id\": \"e3e5de6c45\", \"type\": \"number_card\", \"data\": {\"number_card_name\": \"Total Outgoing Payment\", \"col\": 4}}]",
@@ -17,7 +17,7 @@
  "idx": 1,
  "indicator_color": "",
  "is_hidden": 0,
- "label": "Financial Reports",
+ "label": "Relatórios financeiros",
  "links": [],
  "modified": "2026-08-26 18:34:03.000000",
  "modified_by": "Administrator",
@@ -26,15 +26,15 @@
  "name": "Financial Reports",
  "number_cards": [
   {
-   "label": "Total Outgoing Bills",
+   "label": "Total de faturas de venda",
    "number_card_name": "Total Outgoing Bills"
   },
   {
-   "label": "Total Incoming Bills",
+   "label": "Total de faturas de compra",
    "number_card_name": "Total Incoming Bills"
   },
   {
-   "label": "Total Outgoing Payment",
+   "label": "Total de pagamentos efetuados",
    "number_card_name": "Total Outgoing Payment"
   }
  ],
@@ -53,7 +53,7 @@
    "icon": "wallet",
    "indent": 1,
    "keep_closed": 0,
-   "label": "Financial Reports",
+   "label": "Relatórios financeiros",
    "link_type": "DocType",
    "open_in_new_tab": 0,
    "show_arrow": 0,
@@ -76,7 +76,7 @@
    "collapsible": 1,
    "indent": 0,
    "keep_closed": 0,
-   "label": "Profit and Loss",
+   "label": "Lucros e perdas",
    "link_to": "Profit and Loss Statement",
    "link_type": "Report",
    "open_in_new_tab": 0,
@@ -112,7 +112,7 @@
    "collapsible": 1,
    "indent": 0,
    "keep_closed": 0,
-   "label": "Consolidated Report",
+   "label": "Relatório consolidado",
    "link_to": "Consolidated Financial Statement",
    "link_type": "Report",
    "open_in_new_tab": 0,
@@ -124,7 +124,7 @@
    "collapsible": 1,
    "indent": 0,
    "keep_closed": 0,
-   "label": "Custom Financial Statement",
+   "label": "Demonstrativo financeiro personalizado",
    "link_to": "Custom Financial Statement",
    "link_type": "Report",
    "open_in_new_tab": 0,
@@ -137,7 +137,7 @@
    "icon": "",
    "indent": 0,
    "keep_closed": 0,
-   "label": "Financial Report Template",
+   "label": "Modelo de relatório financeiro",
    "link_to": "Financial Report Template",
    "link_type": "DocType",
    "open_in_new_tab": 0,
@@ -150,7 +150,7 @@
    "icon": "book-text",
    "indent": 1,
    "keep_closed": 0,
-   "label": "Ledgers",
+   "label": "Razões",
    "link_type": "DocType",
    "open_in_new_tab": 0,
    "show_arrow": 0,
@@ -173,7 +173,7 @@
    "collapsible": 1,
    "indent": 0,
    "keep_closed": 0,
-   "label": "Customer Ledger",
+   "label": "Razão de clientes",
    "link_to": "Customer Ledger Summary",
    "link_type": "Report",
    "open_in_new_tab": 0,
@@ -185,7 +185,7 @@
    "collapsible": 1,
    "indent": 0,
    "keep_closed": 0,
-   "label": "Supplier Ledger",
+   "label": "Razão de fornecedores",
    "link_to": "Supplier Ledger Summary",
    "link_type": "Report",
    "open_in_new_tab": 0,
@@ -232,7 +232,7 @@
    "collapsible": 1,
    "indent": 0,
    "keep_closed": 0,
-   "label": "AR Summary",
+   "label": "Resumo de contas a receber",
    "link_to": "Accounts Receivable Summary",
    "link_type": "Report",
    "open_in_new_tab": 0,
@@ -244,7 +244,7 @@
    "collapsible": 1,
    "indent": 0,
    "keep_closed": 0,
-   "label": "AP Summary",
+   "label": "Resumo de contas a pagar",
    "link_to": "Accounts Payable Summary",
    "link_type": "Report",
    "open_in_new_tab": 0,
@@ -280,7 +280,7 @@
    "collapsible": 1,
    "indent": 0,
    "keep_closed": 0,
-   "label": "Item-wise sales Register",
+   "label": "Registro de vendas por item",
    "link_to": "Item-wise Sales Register",
    "link_type": "Report",
    "open_in_new_tab": 0,
@@ -436,7 +436,7 @@
    "collapsible": 1,
    "indent": 0,
    "keep_closed": 0,
-   "label": "Address And Contacts",
+   "label": "Endereços e contatos",
    "link_to": "Address And Contacts",
    "link_type": "Report",
    "open_in_new_tab": 0,
@@ -448,7 +448,7 @@
    "collapsible": 1,
    "indent": 0,
    "keep_closed": 0,
-   "label": "UAE VAT 201",
+   "label": "IVA 201 dos Emirados Árabes Unidos",
    "link_to": "UAE VAT 201",
    "link_type": "Report",
    "open_in_new_tab": 0,
@@ -457,6 +457,6 @@
   }
  ],
  "standard": 1,
- "title": "Financial Reports",
+ "title": "Relatórios financeiros",
  "type": "Workspace"
 }

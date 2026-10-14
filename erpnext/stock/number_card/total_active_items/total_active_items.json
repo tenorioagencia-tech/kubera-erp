@@ -8,7 +8,7 @@
  "idx": 0,
  "is_public": 1,
  "is_standard": 1,
- "label": "Total Active Items",
+ "label": "Total de itens ativos",
  "modified": "2020-07-22 13:08:30.430677",
  "modified_by": "Administrator",
  "module": "Stock",

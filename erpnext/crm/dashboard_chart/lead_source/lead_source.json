@@ -7,7 +7,7 @@
  "doctype": "Dashboard Chart",
  "document_type": "Lead",
  "dynamic_filters_json": "[[\"Lead\",\"company\",\"=\",\"frappe.defaults.get_user_default(\\\"Company\\\")\"]]",
- "empty_state_message": "Where your leads come from.",
+ "empty_state_message": "Origem dos seus leads.",
  "filters_json": "[]",
  "group_by_based_on": "utm_source",
  "group_by_type": "Count",

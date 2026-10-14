@@ -8,7 +8,7 @@
  "doctype": "Dashboard Chart",
  "document_type": "Work Order",
  "dynamic_filters_json": "[[\"Work Order\",\"company\",\"=\",\"frappe.defaults.get_user_default(\\\"Company\\\")\"]]",
- "empty_state_message": "How much you produce each month.",
+ "empty_state_message": "Quantidade produzida a cada mês.",
  "filters_json": "[[\"Work Order\",\"docstatus\",\"=\",\"1\"]]",
  "group_by_type": "Count",
  "idx": 0,

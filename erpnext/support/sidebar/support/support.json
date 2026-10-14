@@ -15,7 +15,7 @@
    "indent": 0,
    "is_default_module": 0,
    "keep_closed": 0,
-   "label": "Home",
+   "label": "Início",
    "link_to": "Support",
    "link_type": "Workspace",
    "open_in_new_tab": 0,
@@ -95,7 +95,7 @@
    "indent": 1,
    "is_default_module": 0,
    "keep_closed": 1,
-   "label": "Setup",
+   "label": "Configuração",
    "link_type": "DocType",
    "open_in_new_tab": 0,
    "show_arrow": 0,
@@ -155,7 +155,7 @@
    "indent": 1,
    "is_default_module": 0,
    "keep_closed": 1,
-   "label": "Reports",
+   "label": "Relatórios",
    "link_type": "DocType",
    "open_in_new_tab": 0,
    "show_arrow": 0,
@@ -185,7 +185,7 @@
    "indent": 0,
    "is_default_module": 0,
    "keep_closed": 0,
-   "label": "Settings",
+   "label": "Configurações",
    "link_to": "Support Settings",
    "link_type": "DocType",
    "open_in_new_tab": 0,
@@ -200,5 +200,5 @@
  "owner": "Administrator",
  "sequence_id": 0.0,
  "standard": 1,
- "title": "Support"
+ "title": "Suporte"
 }

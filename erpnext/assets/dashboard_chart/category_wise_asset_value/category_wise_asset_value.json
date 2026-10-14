@@ -6,7 +6,7 @@
  "docstatus": 0,
  "doctype": "Dashboard Chart",
  "dynamic_filters_json": "{\"company\":\"frappe.defaults.get_user_default(\\\"Company\\\")\",\"from_date\":\"frappe.datetime.add_months(frappe.datetime.nowdate(), -12)\",\"to_date\":\"frappe.datetime.nowdate()\"}",
- "empty_state_message": "What your assets are worth, by category.",
+ "empty_state_message": "Valor dos ativos por categoria.",
  "filters_json": "{\"status\":\"In Location\",\"group_by\":\"Asset Category\",\"asset_type\":[\"!=\",\"Existing Asset\"]}",
  "idx": 0,
  "is_public": 1,

@@ -6,7 +6,7 @@
    "label": "Purchase Order Analysis"
   }
  ],
- "content": "[{\"id\": \"d8e6afa60c\", \"type\": \"onboarding\", \"data\": {\"onboarding_name\": \"Buying Onboarding\", \"col\": 12}}, {\"id\": \"983cd8ea63\", \"type\": \"chart\", \"data\": {\"chart_name\": \"Purchase Order Analysis\", \"col\": 12}}, {\"id\": \"d88a483751\", \"type\": \"number_card\", \"data\": {\"number_card_name\": \"Purchase Orders to Receive\", \"col\": 4}}, {\"id\": \"22a7c36674\", \"type\": \"number_card\", \"data\": {\"number_card_name\": \"Purchase Orders to Bill\", \"col\": 4}}, {\"id\": \"5fe5b5c369\", \"type\": \"number_card\", \"data\": {\"number_card_name\": \"Annual Purchase\", \"col\": 4}}, {\"id\": \"buycard000\", \"type\": \"card\", \"data\": {\"card_name\": \"Purchase Reports\", \"col\": 4}}, {\"id\": \"buycard001\", \"type\": \"card\", \"data\": {\"card_name\": \"Order Status Reports\", \"col\": 4}}, {\"id\": \"buycard002\", \"type\": \"card\", \"data\": {\"card_name\": \"Supplier Reports\", \"col\": 4}}, {\"id\": \"buycard003\", \"type\": \"card\", \"data\": {\"card_name\": \"Subcontracting Reports\", \"col\": 4}}, {\"id\": \"buycard004\", \"type\": \"card\", \"data\": {\"card_name\": \"Setup\", \"col\": 4}}]",
+ "content": "[{\"id\": \"d8e6afa60c\", \"type\": \"onboarding\", \"data\": {\"onboarding_name\": \"Buying Onboarding\", \"col\": 12}}, {\"id\": \"983cd8ea63\", \"type\": \"chart\", \"data\": {\"chart_name\": \"Purchase Order Analysis\", \"col\": 12}}, {\"id\": \"d88a483751\", \"type\": \"number_card\", \"data\": {\"number_card_name\": \"Purchase Orders to Receive\", \"col\": 4}}, {\"id\": \"22a7c36674\", \"type\": \"number_card\", \"data\": {\"number_card_name\": \"Purchase Orders to Bill\", \"col\": 4}}, {\"id\": \"5fe5b5c369\", \"type\": \"number_card\", \"data\": {\"number_card_name\": \"Annual Purchase\", \"col\": 4}}, {\"id\": \"buycard000\", \"type\": \"card\", \"data\": {\"card_name\": \"Relatórios de compras\", \"col\": 4}}, {\"id\": \"buycard001\", \"type\": \"card\", \"data\": {\"card_name\": \"Relatórios de status dos pedidos\", \"col\": 4}}, {\"id\": \"buycard002\", \"type\": \"card\", \"data\": {\"card_name\": \"Relatórios de fornecedores\", \"col\": 4}}, {\"id\": \"buycard003\", \"type\": \"card\", \"data\": {\"card_name\": \"Relatórios de subcontratação\", \"col\": 4}}, {\"id\": \"buycard004\", \"type\": \"card\", \"data\": {\"card_name\": \"Configuração\", \"col\": 4}}]",
  "creation": "2020-01-28 11:50:26.195467",
  "custom_blocks": [],
  "docstatus": 0,
@@ -16,12 +16,12 @@
  "icon": "shopping-cart",
  "idx": 0,
  "is_hidden": 0,
- "label": "Buying",
+ "label": "Compras",
  "links": [
   {
    "hidden": 0,
    "is_query_report": 0,
-   "label": "Purchase Reports",
+   "label": "Relatórios de compras",
    "link_count": 11,
    "onboard": 0,
    "type": "Card Break"
@@ -129,7 +129,7 @@
   {
    "hidden": 0,
    "is_query_report": 1,
-   "label": "Item Wise Consumption",
+   "label": "Consumo por item",
    "link_count": 0,
    "link_to": "Item Wise Consumption",
    "link_type": "Report",
@@ -139,7 +139,7 @@
   {
    "hidden": 0,
    "is_query_report": 0,
-   "label": "Order Status Reports",
+   "label": "Relatórios de status dos pedidos",
    "link_count": 4,
    "onboard": 0,
    "type": "Card Break"
@@ -177,7 +177,7 @@
   {
    "hidden": 0,
    "is_query_report": 1,
-   "label": "Billed Items To Be Received",
+   "label": "Itens faturados a receber",
    "link_count": 0,
    "link_to": "Billed Items To Be Received",
    "link_type": "Report",
@@ -187,7 +187,7 @@
   {
    "hidden": 0,
    "is_query_report": 0,
-   "label": "Supplier Reports",
+   "label": "Relatórios de fornecedores",
    "link_count": 4,
    "onboard": 0,
    "type": "Card Break"
@@ -235,7 +235,7 @@
   {
    "hidden": 0,
    "is_query_report": 0,
-   "label": "Subcontracting Reports",
+   "label": "Relatórios de subcontratação",
    "link_count": 3,
    "onboard": 0,
    "type": "Card Break"
@@ -243,7 +243,7 @@
   {
    "hidden": 0,
    "is_query_report": 1,
-   "label": "Subcontract Order Summary",
+   "label": "Resumo de pedidos de subcontratação",
    "link_count": 0,
    "link_to": "Subcontract Order Summary",
    "link_type": "Report",
@@ -253,7 +253,7 @@
   {
    "hidden": 0,
    "is_query_report": 1,
-   "label": "Materials To Be Transferred",
+   "label": "Materiais a transferir",
    "link_count": 0,
    "link_to": "Subcontracted Raw Materials To Be Transferred",
    "link_type": "Report",
@@ -263,7 +263,7 @@
   {
    "hidden": 0,
    "is_query_report": 1,
-   "label": "Items To Be Received",
+   "label": "Itens a receber",
    "link_count": 0,
    "link_to": "Subcontracted Item To Be Received",
    "link_type": "Report",
@@ -273,7 +273,7 @@
   {
    "hidden": 0,
    "is_query_report": 0,
-   "label": "Setup",
+   "label": "Configuração",
    "link_count": 7,
    "onboard": 0,
    "type": "Card Break"
@@ -281,7 +281,7 @@
   {
    "hidden": 0,
    "is_query_report": 0,
-   "label": "Tax Template",
+   "label": "Modelo de impostos",
    "link_count": 0,
    "link_to": "Purchase Taxes and Charges Template",
    "link_type": "DocType",
@@ -291,7 +291,7 @@
   {
    "hidden": 0,
    "is_query_report": 0,
-   "label": "Terms Template",
+   "label": "Modelo de termos",
    "link_count": 0,
    "link_to": "Terms and Conditions",
    "link_type": "DocType",
@@ -364,7 +364,7 @@
    "number_card_name": "Purchase Orders to Bill"
   },
   {
-   "label": "Annual Purchase",
+   "label": "Compras anuais",
    "number_card_name": "Annual Purchase"
   }
  ],
@@ -383,7 +383,7 @@
    "icon": "house",
    "indent": 0,
    "keep_closed": 0,
-   "label": "Home",
+   "label": "Início",
    "link_to": "Buying",
    "link_type": "Workspace",
    "open_in_new_tab": 0,
@@ -396,7 +396,7 @@
    "icon": "chart-column",
    "indent": 0,
    "keep_closed": 0,
-   "label": "Dashboard",
+   "label": "Painel",
    "link_to": "Buying",
    "link_type": "Dashboard",
    "open_in_new_tab": 0,
@@ -474,7 +474,7 @@
    "icon": "database",
    "indent": 1,
    "keep_closed": 1,
-   "label": "Setup",
+   "label": "Configuração",
    "link_type": "DocType",
    "open_in_new_tab": 0,
    "show_arrow": 0,
@@ -535,7 +535,7 @@
    "collapsible": 1,
    "indent": 0,
    "keep_closed": 0,
-   "label": "Address",
+   "label": "Endereço",
    "link_to": "Address",
    "link_type": "DocType",
    "open_in_new_tab": 0,
@@ -547,7 +547,7 @@
    "collapsible": 1,
    "indent": 0,
    "keep_closed": 0,
-   "label": "Contacts",
+   "label": "Contatos",
    "link_to": "Contact",
    "link_type": "DocType",
    "open_in_new_tab": 0,
@@ -608,7 +608,7 @@
    "icon": "rocket",
    "indent": 1,
    "keep_closed": 1,
-   "label": "Subcontracting",
+   "label": "Subcontratação",
    "link_type": "DocType",
    "open_in_new_tab": 0,
    "show_arrow": 0,
@@ -620,7 +620,7 @@
    "icon": "folder-tree",
    "indent": 0,
    "keep_closed": 0,
-   "label": "Subcontracting BOM",
+   "label": "Lista de materiais da subcontratação",
    "link_to": "Subcontracting BOM",
    "link_type": "DocType",
    "open_in_new_tab": 0,
@@ -633,7 +633,7 @@
    "icon": "",
    "indent": 0,
    "keep_closed": 0,
-   "label": "Subcontracting Inward Order",
+   "label": "Ordem de entrada de subcontratação",
    "link_to": "Subcontracting Inward Order",
    "link_type": "DocType",
    "open_in_new_tab": 0,
@@ -646,7 +646,7 @@
    "icon": "",
    "indent": 0,
    "keep_closed": 0,
-   "label": "Subcontracting Delivery",
+   "label": "Entrega para subcontratação",
    "link_to": "Stock Entry",
    "link_type": "DocType",
    "open_in_new_tab": 0,
@@ -659,7 +659,7 @@
    "icon": "",
    "indent": 0,
    "keep_closed": 0,
-   "label": "Subcontracting Order",
+   "label": "Pedido de subcontratação",
    "link_to": "Subcontracting Order",
    "link_type": "DocType",
    "open_in_new_tab": 0,
@@ -672,7 +672,7 @@
    "icon": "",
    "indent": 0,
    "keep_closed": 0,
-   "label": "Subcontracting Receipt",
+   "label": "Recebimento de subcontratação",
    "link_to": "Subcontracting Receipt",
    "link_type": "DocType",
    "open_in_new_tab": 0,
@@ -685,7 +685,7 @@
    "icon": "sheet",
    "indent": 1,
    "keep_closed": 1,
-   "label": "Reports",
+   "label": "Relatórios",
    "link_type": "DocType",
    "open_in_new_tab": 0,
    "show_arrow": 0,
@@ -804,7 +804,7 @@
    "collapsible": 1,
    "indent": 0,
    "keep_closed": 0,
-   "label": "Item Wise Consumption",
+   "label": "Consumo por item",
    "link_to": "Item Wise Consumption",
    "link_type": "Report",
    "open_in_new_tab": 0,
@@ -841,7 +841,7 @@
    "icon": "",
    "indent": 0,
    "keep_closed": 0,
-   "label": "Subcontract Order Summary",
+   "label": "Resumo de pedidos de subcontratação",
    "link_to": "Subcontract Order Summary",
    "link_type": "Report",
    "open_in_new_tab": 0,
@@ -854,7 +854,7 @@
    "icon": "",
    "indent": 0,
    "keep_closed": 0,
-   "label": "Materials To Be Transferred",
+   "label": "Materiais a transferir",
    "link_to": "Subcontracted Raw Materials To Be Transferred",
    "link_type": "Report",
    "open_in_new_tab": 0,
@@ -867,7 +867,7 @@
    "icon": "",
    "indent": 0,
    "keep_closed": 0,
-   "label": "Items To Be Received",
+   "label": "Itens a receber",
    "link_to": "Subcontracted Item To Be Received",
    "link_type": "Report",
    "open_in_new_tab": 0,
@@ -880,7 +880,7 @@
    "icon": "settings",
    "indent": 0,
    "keep_closed": 0,
-   "label": "Settings",
+   "label": "Configurações",
    "link_to": "Buying Settings",
    "link_type": "DocType",
    "open_in_new_tab": 0,
@@ -889,6 +889,6 @@
   }
  ],
  "standard": 1,
- "title": "Buying",
+ "title": "Compras",
  "type": "Workspace"
 }

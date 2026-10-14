@@ -12,7 +12,7 @@
    "icon": "house",
    "indent": 0,
    "keep_closed": 0,
-   "label": "Home",
+   "label": "Início",
    "link_to": "Quality",
    "link_type": "Workspace",
    "show_arrow": 0,
@@ -108,7 +108,7 @@
    "icon": "database",
    "indent": 1,
    "keep_closed": 1,
-   "label": "Setup",
+   "label": "Configuração",
    "link_type": "DocType",
    "show_arrow": 0,
    "type": "Section Break"
@@ -153,5 +153,5 @@
  "name": "Quality",
  "owner": "Administrator",
  "standard": 1,
- "title": "Quality"
+ "title": "Qualidade"
 }
