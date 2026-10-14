@@ -520,3 +520,5 @@ erpnext.patches.v16_0.remove_invalid_fetch_from_italy_payment_schedule_swift_num
 erpnext.patches.v16_0.kubera_app_name
 erpnext.patches.v16_0.kubera_onboarding_title
 erpnext.patches.v16_0.kubera_portuguese_default
+erpnext.patches.v16_0.kubera_onboarding_ptbr
+erpnext.patches.v16_0.kubera_workspace_ptbr

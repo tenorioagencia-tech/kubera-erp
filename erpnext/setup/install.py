@@ -14,7 +14,7 @@ from erpnext.setup.utils import identity as _
 
 from .default_success_action import get_default_success_action
 
-default_mail_footer = """<div style="padding: 7px; text-align: right; color: #888"><small>Sent via
+default_mail_footer = """<div style="padding: 7px; text-align: right; color: #888"><small>Enviado por
 	<a style="color: #888" href="https://kuberamobiliariosobmedida.com.br/">Kubera ERP</a></div>"""
 
 
