@@ -1,6 +1,6 @@
 # Kubera ERP
 
-![Kubera Mobiliário Sob Medida](erpnext/public/images/kubera-logo-white.png)
+![Ícone Kubera ERP](erpnext/public/images/kubera-icon.svg)
 
 Kubera ERP é a edição visual da [Kubera Mobiliário Sob Medida](https://kuberamobiliariosobmedida.com.br/) sobre o ERPNext Community v16. Preserva os módulos, documentos, APIs e fluxos do ERPNext. Esta edição altera marca, cores, rótulos de navegação e o nome padrão exibido no site. O app instalável continua chamado `erpnext` para manter compatibilidade com o Frappe.
 
