@@ -1,5 +1,29 @@
 // This bundle is loaded by app_include_css on the Desk. Keep brand tokens here so
 // ERPNext's website, print formats, and functional layouts retain their defaults.
+@font-face {
+	font-family: Poppins;
+	src: url("/assets/erpnext/fonts/poppins/Poppins-Regular.ttf") format("truetype");
+	font-style: normal;
+	font-weight: 400;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: Poppins;
+	src: url("/assets/erpnext/fonts/poppins/Poppins-Medium.ttf") format("truetype");
+	font-style: normal;
+	font-weight: 500;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: Poppins;
+	src: url("/assets/erpnext/fonts/poppins/Poppins-SemiBold.ttf") format("truetype");
+	font-style: normal;
+	font-weight: 600;
+	font-display: swap;
+}
+
 :root:not([data-theme="dark"]),
 [data-theme="light"] {
 	--kubera-canvas: #f2efe8;

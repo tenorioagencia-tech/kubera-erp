@@ -30,6 +30,8 @@ O logo e o nome padrão são fornecidos pelo fork. Um administrador pode ajustá
 
 Este repositório é um fork de [frappe/erpnext](https://github.com/frappe/erpnext) baseado na branch `version-16`, commit `7474d9e786277383de1242ab882f16856d17a9c9`. O código original e suas alterações continuam sob [GNU GPL v3](license.txt). Frappe Technologies Pvt. Ltd. permanece creditada como autora do projeto original. “ERPNext” é marca de Frappe Technologies; a marca de produto desta edição é “Kubera ERP”. Consulte a [política de marcas do projeto original](TRADEMARK_POLICY.md).
 
+A fonte Poppins incluída no Desk vem do [projeto Google Fonts](https://github.com/google/fonts/tree/main/ofl/poppins) e conserva sua [licença SIL OFL](erpnext/public/fonts/poppins/OFL.txt).
+
 ## Verificação
 
 Os testes de marca, configuração e navegação estão em `erpnext/tests/test_kubera_*.py`. O estado real da validação e suas limitações estão em [verification.md](docs/kubera/verification.md).
