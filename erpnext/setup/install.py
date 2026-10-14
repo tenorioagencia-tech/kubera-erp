@@ -274,6 +274,9 @@ def add_standard_navbar_items():
 def add_app_name():
 	frappe.db.set_single_value("System Settings", "app_name", "Kubera ERP")
 	frappe.db.set_single_value("Website Settings", "app_name", "Kubera ERP")
+	frappe.db.set_single_value(
+		"Website Settings", "app_logo", "/assets/erpnext/images/kubera-wordmark.svg"
+	)
 
 
 def update_roles():

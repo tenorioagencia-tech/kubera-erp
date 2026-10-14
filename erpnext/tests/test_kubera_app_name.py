@@ -18,7 +18,7 @@ class FakeDatabase:
 		self.writes = []
 
 	def get_single_value(self, doctype, fieldname):
-		return self.values[(doctype, fieldname)]
+		return self.values.get((doctype, fieldname))
 
 	def set_single_value(self, doctype, fieldname, value):
 		self.writes.append((doctype, fieldname, value))
@@ -42,6 +42,7 @@ class TestKuberaAppName(unittest.TestCase):
 		initial = {
 			("System Settings", "app_name"): "ERPNext",
 			("Website Settings", "app_name"): "Frappe",
+			("Website Settings", "app_logo"): None,
 		}
 		db = self._run_patch(initial)
 		self.assertEqual(
@@ -49,6 +50,7 @@ class TestKuberaAppName(unittest.TestCase):
 			[
 				("System Settings", "app_name", "Kubera ERP"),
 				("Website Settings", "app_name", "Kubera ERP"),
+				("Website Settings", "app_logo", "/assets/erpnext/images/kubera-wordmark.svg"),
 			],
 		)
 
@@ -56,6 +58,7 @@ class TestKuberaAppName(unittest.TestCase):
 		initial = {
 			("System Settings", "app_name"): "Minha Empresa",
 			("Website Settings", "app_name"): "Portal Próprio",
+			("Website Settings", "app_logo"): "/files/custom-logo.svg",
 		}
 		self.assertEqual(self._run_patch(initial).writes, [])
 
@@ -64,7 +67,7 @@ class TestKuberaAppName(unittest.TestCase):
 			("System Settings", "app_name"): None,
 			("Website Settings", "app_name"): "",
 		}
-		self.assertEqual(len(self._run_patch(initial).writes), 2)
+		self.assertEqual(len(self._run_patch(initial).writes), 3)
 
 	def test_install_sets_both_app_names(self):
 		source = (ERPNEXT_ROOT / "setup" / "install.py").read_text(encoding="utf-8")
@@ -84,6 +87,7 @@ class TestKuberaAppName(unittest.TestCase):
 			[
 				("System Settings", "app_name", "Kubera ERP"),
 				("Website Settings", "app_name", "Kubera ERP"),
+				("Website Settings", "app_logo", "/assets/erpnext/images/kubera-wordmark.svg"),
 			],
 		)
 

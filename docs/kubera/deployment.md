@@ -31,7 +31,7 @@ Use a [construção oficial de imagem customizada](https://github.com/frappe/fra
 ## Marca, menus e papéis
 
 - O app continua com o identificador técnico `erpnext`. Não renomeie pacotes Python, DocTypes, nomes de Workspace, `link_to` ou rotas.
-- O nome exibido é **Kubera ERP**. `Website Settings.app_name` controla o texto do login; `Website Settings.app_logo` e `Navbar Settings.app_logo` podem substituir o logo do hook.
+- O nome exibido é **Kubera ERP**. O instalador define `Website Settings.app_name` e o wordmark de login em `Website Settings.app_logo`. O patch de migração só altera nomes e logos vazios ou padrão; logos personalizados permanecem. `Navbar Settings.app_logo` pode substituir o ícone do hook no Desk.
 - O Dock usa rótulos em português, com destinos, ordem e visibilidade originais. Sidebars, Workspaces e menus mantêm as ações nativas.
 - O fork não altera as permissões de DocTypes. Configure usuários, Role Profiles e Role Permission Manager no site, segundo a matriz de acesso da Kubera. Ocultar um menu não revoga acesso ao documento.
 
