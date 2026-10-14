@@ -35,6 +35,7 @@ def after_install():
 	add_company_to_session_defaults()
 	add_standard_navbar_items()
 	add_app_name()
+	set_default_site_language()
 	update_roles()
 	make_default_operations()
 	update_pegged_currencies()
@@ -277,6 +278,14 @@ def add_app_name():
 	frappe.db.set_single_value(
 		"Website Settings", "app_logo", "/assets/erpnext/images/kubera-wordmark.svg"
 	)
+
+
+def set_default_site_language():
+	"""Use Brazilian Portuguese unless this site chose a different language."""
+	if frappe.db.get_single_value("System Settings", "language") in (None, "", "en"):
+		settings = frappe.get_doc("System Settings")
+		settings.language = "pt-BR"
+		settings.save()
 
 
 def update_roles():
