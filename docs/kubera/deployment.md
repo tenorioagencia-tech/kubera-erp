@@ -16,7 +16,7 @@ bench build --app erpnext
 bench --site kubera.localhost migrate
 ```
 
-Se o site já contém ERPNext v16, faça backup do banco e arquivos, atualize o checkout do app para `kubera-v16`, execute `bench --site <site> migrate`, `bench build --app erpnext` e limpe o cache. Verifique login e fluxos antes de liberar usuários. O patch `kubera_app_name` só troca nomes padrão (`ERPNext`, `Frappe` ou vazio); nomes personalizados não são sobrescritos.
+Se o site já contém ERPNext v16, faça backup do banco e arquivos, atualize o checkout do app para `kubera-v16`, execute `bench --site <site> migrate`, `bench build --app erpnext` e limpe o cache. Verifique login e fluxos antes de liberar usuários. O patch `kubera_app_name` só troca nomes e logos padrão; `kubera_onboarding_title` só troca o título padrão do onboarding. Personalizações existentes não são sobrescritas.
 
 ## Imagem Docker personalizada
 

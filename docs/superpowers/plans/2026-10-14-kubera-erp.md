@@ -32,43 +32,43 @@
 
 **Files:** `erpnext/hooks.py`, `erpnext/public/images/kubera-logo-white.png`, `erpnext/public/images/kubera-icon.svg`, `erpnext/public/images/kubera-favicon.svg`, `erpnext/tests/test_kubera_branding.py`.
 
-- [ ] Escrever teste falhando para `app_title`, `app_logo_url`, Apps Screen, favicon e preservação de `app_name`, `app_publisher`, `app_license`.
-- [ ] Incorporar logo oficial e criar ícone/favicons com monograma Kubera em fundo `#11110f`.
-- [ ] Ajustar apenas os campos de apresentação de hooks e executar teste.
-- [ ] Conferir licença e `git diff`; commit da tarefa.
+- [x] Escrever teste falhando para `app_title`, `app_logo_url`, Apps Screen, favicon e preservação de `app_name`, `app_publisher`, `app_license`.
+- [x] Incorporar logo oficial e criar ícone/favicons com monograma Kubera em fundo `#11110f`.
+- [x] Ajustar apenas os campos de apresentação de hooks e executar teste.
+- [x] Conferir licença e `git diff`; commit da tarefa.
 
 ### Task 2: Configuração do site e migração idempotente
 
 **Files:** `erpnext/setup/install.py`, `erpnext/patches.txt`, `erpnext/patches/v16_0/kubera_app_name.py`, `erpnext/tests/test_kubera_app_name.py`.
 
-- [ ] Escrever teste falhando: instalação usa Kubera ERP em System Settings e Website Settings; patch converte `ERPNext`/`Frappe` para `Kubera ERP`, preserva nome personalizado e não altera outros ajustes.
-- [ ] Implementar patch com entrada ao final de `patches.txt`, ajustar instalador e trocar o rodapé padrão de e-mail para a marca Kubera ERP.
-- [ ] Rodar testes da tarefa e compilação Python; commit.
+- [x] Escrever teste falhando: instalação usa Kubera ERP em System Settings e Website Settings; patch converte `ERPNext`/`Frappe` para `Kubera ERP`, preserva nome personalizado e não altera outros ajustes.
+- [x] Implementar patch com entrada ao final de `patches.txt`, ajustar instalador e trocar o rodapé padrão de e-mail para a marca Kubera ERP.
+- [x] Rodar testes da tarefa e compilação Python; commit.
 
 ### Task 3: Tema do Desk
 
 **Files:** `erpnext/public/scss/erpnext.bundle.scss`, `erpnext/public/scss/kubera.scss`.
 
-- [ ] Adicionar regras de marca ao bundle existente, com tokens de cores e tipografia, sem modificar layout de formulários.
-- [ ] Verificar CSS compilado no ambiente Frappe e contraste visual nos estados claro e escuro.
-- [ ] Commit.
+- [x] Adicionar regras de marca ao bundle existente, com tokens de cores e tipografia, sem modificar layout de formulários.
+- [x] Verificar CSS compilado no ambiente Frappe e contraste visual nos estados claro e escuro.
+- [x] Commit.
 
 ### Task 4: Navegação de apresentação
 
 **Files:** `erpnext/dock/erpnext/erpnext.json`, `erpnext/desktop_icon/erpnext.json`, `erpnext/desktop_icon/erpnext_settings.json`, `erpnext/tests/test_kubera_navigation.py`.
 
-- [ ] Escrever teste que compara `link_to`, `link_type`, `hidden`, ordem e `name` com `git show 7474d9e:...` e verifica os novos rótulos.
-- [ ] Renomear títulos visíveis do Dock em português: Configurações, Contabilidade, Vendas, Compras, Estoque, Produção, Projetos, Patrimônio, Qualidade, CRM, Suporte, Portal. Renomear somente `label` do Desktop Icon do app e de Configurações.
-- [ ] Validar JSON/testes; commit.
+- [x] Escrever teste que compara `link_to`, `link_type`, `hidden`, ordem e `name` com um digest da base `7474d9e`, inclusive em clone raso, e verifica os novos rótulos.
+- [x] Renomear títulos visíveis do Dock em português: Configurações, Contabilidade, Vendas, Compras, Estoque, Produção, Projetos, Patrimônio, Qualidade, CRM, Suporte, Portal. Renomear somente `label` do Desktop Icon do app e de Configurações.
+- [x] Validar JSON/testes; commit.
 
 ### Task 5: Empacotamento, execução e verificação final
 
-**Files:** `README-KUBERA.md`, `docs/kubera/deployment.md`, `docs/kubera/verification.md`.
+**Files:** `README.md`, `docs/kubera/deployment.md`, `docs/kubera/verification.md`.
 
-- [ ] Documentar instalação Frappe v16, uso do fork `kubera-v16`, atualização, licença e configurações de marca/roles pelo Frappe.
-- [ ] Subir ambiente local com o código modificado, instalar/migrar site e compilar assets.
-- [ ] Instalar/usar `agent-browser` da Vercel para login, tela de apps, marca, navegação, captura e erros; registrar resultados reais.
-- [ ] Executar testes automatizados, revisar `git diff` e status, publicar branch no fork e registrar limitações honestamente.
+- [x] Documentar instalação Frappe v16, uso do fork `kubera-v16`, atualização, licença e configurações de marca/roles pelo Frappe.
+- [x] Subir ambiente local com o código modificado, instalar/migrar site e compilar assets.
+- [x] Instalar/usar `agent-browser` da Vercel para login, tela de apps, marca, navegação, captura e erros; registrar resultados reais.
+- [x] Executar testes automatizados, revisar `git diff` e status, publicar branch no fork e registrar limitações honestamente.
 
 ## Execution
 
