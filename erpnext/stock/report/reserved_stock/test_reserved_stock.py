@@ -2,7 +2,13 @@
 # See license.txt
 from random import randint
 
+<<<<<<< HEAD
 from frappe.tests.utils import FrappeTestCase, change_settings
+=======
+import frappe
+from frappe.core.doctype.user_permission.test_user_permission import create_user
+from frappe.desk.query_report import get_report_doc
+>>>>>>> 9f644cc (test(stock): verify reserved stock report access)
 from frappe.utils.data import today
 
 from erpnext.selling.doctype.sales_order.test_sales_order import make_sales_order
@@ -20,11 +26,37 @@ class TestReservedStock(FrappeTestCase):
 		self.stock_qty = 100
 		self.warehouse = "_Test Warehouse - _TC"
 
+<<<<<<< HEAD
 	def tearDown(self) -> None:
 		cancel_all_stock_reservation_entries()
 		return super().tearDown()
 
 	@change_settings(
+=======
+	def test_report_access_for_operational_roles(self):
+		frappe.reload_doc("stock", "report", "reserved_stock", force=True)
+		for role in (
+			"Stock User",
+			"Stock Manager",
+			"Sales User",
+			"Sales Manager",
+			"Purchase User",
+			"Purchase Manager",
+			"Accounts User",
+		):
+			with self.subTest(role=role):
+				user = create_user(f"reserved-stock-{frappe.scrub(role)}@example.com", role)
+				with self.set_user(user.name):
+					if role == "Accounts User":
+						self.assertRaises(frappe.PermissionError, get_report_doc, "Reserved Stock")
+					else:
+						self.assertTrue(frappe.has_permission("Stock Reservation Entry", "report"))
+						self.assertEqual(get_report_doc("Reserved Stock").name, "Reserved Stock")
+		with self.set_user("Guest"):
+			self.assertRaises(frappe.PermissionError, get_report_doc, "Reserved Stock")
+
+	@ERPNextTestSuite.change_settings(
+>>>>>>> 9f644cc (test(stock): verify reserved stock report access)
 		"Stock Settings",
 		{
 			"allow_negative_stock": 0,
