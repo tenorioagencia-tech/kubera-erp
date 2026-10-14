@@ -1,8 +1,8 @@
 {
  "action": "Create Entry",
- "action_label": "Add Supplier",
+ "action_label": "Adicionar fornecedor",
  "creation": "2026-02-19 10:53:56.936107",
- "description": "A business or person you buy from. See [Supplier](https://docs.frappe.io/erpnext/user/manual/en/supplier).",
+ "description": "Cadastre uma empresa ou pessoa de quem você compra. Consulte [Fornecedor](https://docs.frappe.io/erpnext/user/manual/en/supplier).",
  "docstatus": 0,
  "doctype": "Onboarding Step",
  "form_tour": "Supplier Form Tour",
@@ -18,6 +18,6 @@
  "reference_document": "Supplier",
  "show_form_tour": 1,
  "show_full_form": 0,
- "title": "Add a supplier",
+ "title": "Cadastre um fornecedor",
  "validate_action": 1
 }

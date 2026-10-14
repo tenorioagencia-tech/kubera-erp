@@ -1,8 +1,8 @@
 {
  "action": "View Report",
- "action_label": "Open Purchase Order Analysis",
+ "action_label": "Abrir análise de pedidos de compra",
  "creation": "2026-02-23 20:26:29.245112",
- "description": "What you ordered, what has arrived, and what is still to come.",
+ "description": "Veja o que foi pedido, o que já chegou e o que ainda falta receber.",
  "docstatus": 0,
  "doctype": "Onboarding Step",
  "idx": 0,
@@ -15,11 +15,11 @@
  "name": "View Purchase Order Analysis",
  "owner": "Administrator",
  "reference_report": "Purchase Order Analysis",
- "report_description": "What you ordered, what arrived and what is still to come.",
+ "report_description": "Veja o que foi pedido, o que chegou e o que ainda falta receber.",
  "report_reference_doctype": "Purchase Order",
  "report_type": "Script Report",
  "show_form_tour": 0,
  "show_full_form": 1,
- "title": "Track your orders",
+ "title": "Acompanhe seus pedidos de compra",
  "validate_action": 1
 }

@@ -1,8 +1,8 @@
 {
  "action": "Create Entry",
- "action_label": "Add User",
+ "action_label": "Adicionar usuário",
  "creation": "2026-02-24 18:04:21.585575",
- "description": "Add the people you work with and choose what they can see.",
+ "description": "Cadastre as pessoas com quem você trabalha e defina o que cada uma pode acessar.",
  "docstatus": 0,
  "doctype": "Onboarding Step",
  "idx": 0,
@@ -16,6 +16,6 @@
  "reference_document": "User",
  "show_form_tour": 0,
  "show_full_form": 0,
- "title": "Invite your team",
+ "title": "Convide sua equipe",
  "validate_action": 1
 }

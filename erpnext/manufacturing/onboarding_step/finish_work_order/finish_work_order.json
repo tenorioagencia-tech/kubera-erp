@@ -1,8 +1,8 @@
 {
  "action": "Create Entry",
- "action_label": "Create Stock Entry",
+ "action_label": "Criar movimentação de estoque",
  "creation": "2026-10-04 00:49:20.676633",
- "description": "Raw materials come out of stock and the finished products go in. From the work order, **Finish** fills this in for you. See [Stock Entry](https://docs.frappe.io/erpnext/user/manual/en/stock-entry).",
+ "description": "Dê baixa nas matérias-primas e registre a entrada dos produtos acabados. Na ordem de produção, use a ação de conclusão para preencher a movimentação. Consulte [Movimentação de estoque](https://docs.frappe.io/erpnext/user/manual/en/stock-entry).",
  "docstatus": 0,
  "doctype": "Onboarding Step",
  "idx": 0,
@@ -17,6 +17,6 @@
  "route_options": "{\n    \"purpose\": \"Manufacture\",\n    \"stock_entry_type\": \"Manufacture\"\n}",
  "show_form_tour": 0,
  "show_full_form": 1,
- "title": "Finish making it",
+ "title": "Conclua a fabricação",
  "validate_action": 1
 }

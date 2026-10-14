@@ -1,8 +1,8 @@
 {
  "action": "View Report",
- "action_label": "Open Balance Sheet",
+ "action_label": "Abrir balanço patrimonial",
  "creation": "2026-10-04 01:25:22.693265",
- "description": "Assets, liabilities and equity on any date, straight from your ledger. See [Balance Sheet](https://docs.frappe.io/erpnext/user/manual/en/balance-sheet).",
+ "description": "Consulte ativos, passivos e patrimônio líquido em qualquer data, diretamente do razão contábil. Consulte [Balanço patrimonial](https://docs.frappe.io/erpnext/user/manual/en/balance-sheet).",
  "docstatus": 0,
  "doctype": "Onboarding Step",
  "idx": 0,
@@ -15,11 +15,11 @@
  "name": "View Balance Sheet",
  "owner": "Administrator",
  "reference_report": "Balance Sheet",
- "report_description": "Assets, liabilities and equity on any date.",
+ "report_description": "Consulte ativos, passivos e patrimônio líquido em qualquer data.",
  "report_reference_doctype": "GL Entry",
  "report_type": "Script Report",
  "show_form_tour": 0,
  "show_full_form": 0,
- "title": "Know what you own and owe",
+ "title": "Saiba o que possui e deve",
  "validate_action": 1
 }

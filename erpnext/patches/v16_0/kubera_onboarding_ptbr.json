@@ -1,0 +1,1450 @@
+[
+  {
+    "doctype": "Module Onboarding",
+    "name": "Accounting Onboarding",
+    "path": "accounts/module_onboarding/accounting_onboarding/accounting_onboarding.json",
+    "fields": {
+      "title": {
+        "old": "Get your books ready",
+        "new": "Prepare sua contabilidade"
+      }
+    }
+  },
+  {
+    "doctype": "Onboarding Step",
+    "name": "Add Bank Account",
+    "path": "accounts/onboarding_step/add_bank_account/add_bank_account.json",
+    "fields": {
+      "title": {
+        "old": "Add the bank account you use",
+        "new": "Cadastre sua conta bancária"
+      },
+      "description": {
+        "old": "The account your customers pay into and you pay from, linked to its account in your chart of accounts. See [Bank Account](https://docs.frappe.io/erpnext/user/manual/en/bank-account).",
+        "new": "Vincule a conta usada para receber de clientes e pagar fornecedores à conta correspondente no plano de contas. Consulte [Conta bancária](https://docs.frappe.io/erpnext/user/manual/en/bank-account)."
+      },
+      "action_label": {
+        "old": "Add Bank Account",
+        "new": "Adicionar conta bancária"
+      }
+    }
+  },
+  {
+    "doctype": "Onboarding Step",
+    "name": "Chart of Accounts",
+    "path": "accounts/onboarding_step/chart_of_accounts/chart_of_accounts.json",
+    "fields": {
+      "title": {
+        "old": "Review your chart of accounts",
+        "new": "Revise seu plano de contas"
+      },
+      "description": {
+        "old": "We set up a standard chart of accounts for your country. See how your accounts are grouped, and rename or add any to match how you report. See [Chart of Accounts](https://docs.frappe.io/erpnext/user/manual/en/chart-of-accounts).",
+        "new": "Confira a estrutura padrão de contas do seu país. Renomeie ou adicione contas de acordo com os relatórios da sua empresa. Consulte [Plano de contas](https://docs.frappe.io/erpnext/user/manual/en/chart-of-accounts)."
+      },
+      "action_label": {
+        "old": "Open Chart of Accounts",
+        "new": "Abrir plano de contas"
+      }
+    }
+  },
+  {
+    "doctype": "Onboarding Step",
+    "name": "Create Accounting Purchase Invoice",
+    "path": "accounts/onboarding_step/create_accounting_purchase_invoice/create_accounting_purchase_invoice.json",
+    "fields": {
+      "title": {
+        "old": "Enter a supplier's bill",
+        "new": "Registre uma fatura de fornecedor"
+      },
+      "description": {
+        "old": "It posts the expense, and what you owe the supplier, to your ledger. See [Purchase Invoice](https://docs.frappe.io/erpnext/user/manual/en/purchase-invoice).",
+        "new": "A fatura lança a despesa e o valor devido ao fornecedor no razão contábil. Consulte [Fatura de compra](https://docs.frappe.io/erpnext/user/manual/en/purchase-invoice)."
+      },
+      "action_label": {
+        "old": "Create Purchase Invoice",
+        "new": "Criar fatura de compra"
+      }
+    }
+  },
+  {
+    "doctype": "Onboarding Step",
+    "name": "Create Journal Entry",
+    "path": "accounts/onboarding_step/create_journal_entry/create_journal_entry.json",
+    "fields": {
+      "title": {
+        "old": "Post a journal entry",
+        "new": "Registre um lançamento contábil"
+      },
+      "description": {
+        "old": "For anything that isn't an invoice or a payment: accruals, depreciation, or fixing a mistake. See [Journal Entry](https://docs.frappe.io/erpnext/user/manual/en/journal-entry).",
+        "new": "Registre provisões, depreciação ou correções que não venham de uma fatura ou de um pagamento. Consulte [Lançamento contábil](https://docs.frappe.io/erpnext/user/manual/en/journal-entry)."
+      },
+      "action_label": {
+        "old": "Create Journal Entry",
+        "new": "Criar lançamento contábil"
+      }
+    }
+  },
+  {
+    "doctype": "Onboarding Step",
+    "name": "Open Banking",
+    "path": "accounts/onboarding_step/open_banking/open_banking.json",
+    "fields": {
+      "title": {
+        "old": "Match your bank statement",
+        "new": "Concilie seu extrato bancário"
+      },
+      "description": {
+        "old": "Import a statement from your bank and pair each line with a payment, so your books agree with it. See [Bank Reconciliation](https://docs.frappe.io/erpnext/user/manual/en/bank-reconciliation).",
+        "new": "Importe o extrato do banco e associe cada linha a um pagamento para conferir seus registros contábeis. Consulte [Conciliação bancária](https://docs.frappe.io/erpnext/user/manual/en/bank-reconciliation)."
+      },
+      "action_label": {
+        "old": "Open Banking",
+        "new": "Abrir conciliação bancária"
+      }
+    }
+  },
+  {
+    "doctype": "Onboarding Step",
+    "name": "Review Taxes",
+    "path": "accounts/onboarding_step/review_taxes/review_taxes.json",
+    "fields": {
+      "title": {
+        "old": "Review your taxes",
+        "new": "Revise seus impostos"
+      },
+      "description": {
+        "old": "The taxes that fill in on every invoice. We added your country's where we had them; check the rates match what you charge. Purchase taxes live in [Purchase Taxes and Charges Template](/desk/purchase-taxes-and-charges-template). See [Setting Up Taxes](https://docs.frappe.io/erpnext/user/manual/en/setting-up-taxes).",
+        "new": "Confira os impostos aplicados às faturas. Algumas taxas podem ter sido incluídas conforme seu país; confirme se correspondem às praticadas pela empresa. Configure também os impostos de compras. Consulte [Modelo de impostos e encargos de compras](/desk/purchase-taxes-and-charges-template), [Configuração de impostos](https://docs.frappe.io/erpnext/user/manual/en/setting-up-taxes)."
+      },
+      "action_label": {
+        "old": "Open Sales Taxes and Charges Template",
+        "new": "Abrir modelo de impostos e encargos de vendas"
+      }
+    }
+  },
+  {
+    "doctype": "Onboarding Step",
+    "name": "View Balance Sheet",
+    "path": "accounts/onboarding_step/view_balance_sheet/view_balance_sheet.json",
+    "fields": {
+      "title": {
+        "old": "Know what you own and owe",
+        "new": "Saiba o que possui e deve"
+      },
+      "description": {
+        "old": "Assets, liabilities and equity on any date, straight from your ledger. See [Balance Sheet](https://docs.frappe.io/erpnext/user/manual/en/balance-sheet).",
+        "new": "Consulte ativos, passivos e patrimônio líquido em qualquer data, diretamente do razão contábil. Consulte [Balanço patrimonial](https://docs.frappe.io/erpnext/user/manual/en/balance-sheet)."
+      },
+      "action_label": {
+        "old": "Open Balance Sheet",
+        "new": "Abrir balanço patrimonial"
+      },
+      "report_description": {
+        "old": "Assets, liabilities and equity on any date.",
+        "new": "Consulte ativos, passivos e patrimônio líquido em qualquer data."
+      }
+    }
+  },
+  {
+    "doctype": "Onboarding Step",
+    "name": "View General Ledger",
+    "path": "accounts/onboarding_step/view_general_ledger/view_general_ledger.json",
+    "fields": {
+      "title": {
+        "old": "Trace every posting",
+        "new": "Rastreie cada lançamento"
+      },
+      "description": {
+        "old": "Every posting from your invoices and payments, with its debit and credit. See [General Ledger](https://docs.frappe.io/erpnext/user/manual/en/general-ledger).",
+        "new": "Veja cada lançamento de faturas e pagamentos, com seus débitos e créditos. Consulte [Razão contábil](https://docs.frappe.io/erpnext/user/manual/en/general-ledger)."
+      },
+      "action_label": {
+        "old": "Open General Ledger",
+        "new": "Abrir razão contábil"
+      },
+      "report_description": {
+        "old": "Every posting, with its debit and credit.",
+        "new": "Veja cada lançamento, com seu débito e crédito."
+      }
+    }
+  },
+  {
+    "doctype": "Onboarding Step",
+    "name": "View Profit and Loss",
+    "path": "accounts/onboarding_step/view_profit_and_loss/view_profit_and_loss.json",
+    "fields": {
+      "title": {
+        "old": "Check your profit",
+        "new": "Confira seus resultados"
+      },
+      "description": {
+        "old": "Income against expenses for any period, built from every invoice and payment you have recorded.",
+        "new": "Compare receitas e despesas em qualquer período, com base nas faturas e nos pagamentos registrados."
+      },
+      "action_label": {
+        "old": "Open Profit and Loss",
+        "new": "Abrir demonstrativo de resultados"
+      },
+      "report_description": {
+        "old": "Income against expenses, from every invoice and payment.",
+        "new": "Compare receitas e despesas com base nas faturas e nos pagamentos registrados."
+      }
+    }
+  },
+  {
+    "doctype": "Module Onboarding",
+    "name": "Asset Onboarding",
+    "path": "assets/module_onboarding/asset_onboarding/asset_onboarding.json",
+    "fields": {
+      "title": {
+        "old": "Track what your business owns",
+        "new": "Acompanhe os bens da sua empresa"
+      }
+    }
+  },
+  {
+    "doctype": "Onboarding Step",
+    "name": "Create Asset Category",
+    "path": "assets/onboarding_step/create_asset_category/create_asset_category.json",
+    "fields": {
+      "title": {
+        "old": "Set up an asset category",
+        "new": "Configure uma categoria de ativos"
+      },
+      "description": {
+        "old": "Computers, vehicles, furniture: how each kind depreciates, and which accounts it posts to. See [Asset Category](https://docs.frappe.io/erpnext/user/manual/en/asset-category).",
+        "new": "Defina como cada tipo de bem, como computadores, veículos ou móveis, será depreciado e em quais contas será lançado. Consulte [Categoria de ativos](https://docs.frappe.io/erpnext/user/manual/en/asset-category)."
+      },
+      "action_label": {
+        "old": "Create Asset Category",
+        "new": "Criar categoria de ativos"
+      }
+    }
+  },
+  {
+    "doctype": "Onboarding Step",
+    "name": "Create Asset Item",
+    "path": "assets/onboarding_step/create_asset_item/create_asset_item.json",
+    "fields": {
+      "title": {
+        "old": "Add an asset item",
+        "new": "Cadastre um item de ativo"
+      },
+      "description": {
+        "old": "The kind of thing you own, marked as a fixed asset. See [Item](https://docs.frappe.io/erpnext/user/manual/en/item).",
+        "new": "Defina o tipo de bem da empresa e marque o item como ativo imobilizado. Consulte [Item](https://docs.frappe.io/erpnext/user/manual/en/item)."
+      },
+      "action_label": {
+        "old": "Add Item",
+        "new": "Adicionar item"
+      }
+    }
+  },
+  {
+    "doctype": "Onboarding Step",
+    "name": "Create Asset Maintenance",
+    "path": "assets/onboarding_step/create_asset_maintenance/create_asset_maintenance.json",
+    "fields": {
+      "title": {
+        "old": "Schedule its upkeep",
+        "new": "Agende a manutenção de um bem"
+      },
+      "description": {
+        "old": "Servicing, inspections and calibration, with reminders to the team doing it. See [Asset Maintenance](https://docs.frappe.io/erpnext/user/manual/en/asset-maintenance).",
+        "new": "Planeje serviços, inspeções e calibrações, com lembretes para a equipe responsável. Consulte [Manutenção de ativos](https://docs.frappe.io/erpnext/user/manual/en/asset-maintenance)."
+      },
+      "action_label": {
+        "old": "Create Asset Maintenance",
+        "new": "Criar manutenção de ativo"
+      }
+    }
+  },
+  {
+    "doctype": "Onboarding Step",
+    "name": "Create Asset Movement",
+    "path": "assets/onboarding_step/create_asset_movement/create_asset_movement.json",
+    "fields": {
+      "title": {
+        "old": "Hand it to a person or place",
+        "new": "Registre a transferência de um bem"
+      },
+      "description": {
+        "old": "Record who has it and where it is, so you always know. See [Asset Movement](https://docs.frappe.io/erpnext/user/manual/en/asset-movement).",
+        "new": "Informe com quem e onde o bem está para manter seu histórico atualizado. Consulte [Movimentação de ativos](https://docs.frappe.io/erpnext/user/manual/en/asset-movement)."
+      },
+      "action_label": {
+        "old": "Create Asset Movement",
+        "new": "Criar movimentação de ativo"
+      }
+    }
+  },
+  {
+    "doctype": "Onboarding Step",
+    "name": "Create Existing Asset",
+    "path": "assets/onboarding_step/create_existing_asset/create_existing_asset.json",
+    "fields": {}
+  },
+  {
+    "doctype": "Onboarding Step",
+    "name": "View Asset Depreciation",
+    "path": "assets/onboarding_step/view_asset_depreciation/view_asset_depreciation.json",
+    "fields": {
+      "title": {
+        "old": "Check its depreciation",
+        "new": "Confira a depreciação"
+      },
+      "description": {
+        "old": "Depreciation is posted on schedule, asset by asset, without a journal entry from you. See [Depreciation](https://docs.frappe.io/erpnext/user/manual/en/asset-depreciation).",
+        "new": "A depreciação é lançada automaticamente no prazo, bem por bem. Consulte os lançamentos sem precisar criá-los manualmente. Consulte [Depreciação](https://docs.frappe.io/erpnext/user/manual/en/asset-depreciation)."
+      },
+      "action_label": {
+        "old": "Open Asset Depreciation Ledger",
+        "new": "Abrir razão de depreciação"
+      },
+      "report_description": {
+        "old": "Every depreciation posted, asset by asset.",
+        "new": "Consulte os lançamentos de depreciação de cada bem."
+      }
+    }
+  },
+  {
+    "doctype": "Onboarding Step",
+    "name": "View Fixed Asset Register",
+    "path": "assets/onboarding_step/view_fixed_asset_register/view_fixed_asset_register.json",
+    "fields": {
+      "title": {
+        "old": "See everything you own",
+        "new": "Veja todos os seus bens"
+      },
+      "description": {
+        "old": "What you own, where it is, and what it is worth today.",
+        "new": "Saiba quais bens a empresa possui, onde estão e quanto valem hoje."
+      },
+      "action_label": {
+        "old": "Open Fixed Asset Register",
+        "new": "Abrir cadastro de ativos"
+      },
+      "report_description": {
+        "old": "What you own, where it is, and what it is worth today.",
+        "new": "Veja quais bens a empresa possui, onde estão e quanto valem hoje."
+      }
+    }
+  },
+  {
+    "doctype": "Module Onboarding",
+    "name": "Buying Onboarding",
+    "path": "buying/module_onboarding/buying_onboarding/buying_onboarding.json",
+    "fields": {
+      "title": {
+        "old": "Order from your suppliers",
+        "new": "Compre de seus fornecedores"
+      }
+    }
+  },
+  {
+    "doctype": "Onboarding Step",
+    "name": "Create Buying Item",
+    "path": "buying/onboarding_step/create_buying_item/create_buying_item.json",
+    "fields": {
+      "title": {
+        "old": "Add an item you buy",
+        "new": "Cadastre um item de compra"
+      },
+      "description": {
+        "old": "Goods or services you buy from suppliers. See [Item](https://docs.frappe.io/erpnext/user/manual/en/item).",
+        "new": "Cadastre os produtos ou serviços que você compra de fornecedores. Consulte [Item](https://docs.frappe.io/erpnext/user/manual/en/item)."
+      },
+      "action_label": {
+        "old": "Add Item",
+        "new": "Adicionar item"
+      }
+    }
+  },
+  {
+    "doctype": "Onboarding Step",
+    "name": "Create Purchase Invoice",
+    "path": "buying/onboarding_step/create_purchase_invoice/create_purchase_invoice.json",
+    "fields": {
+      "title": {
+        "old": "Enter their bill",
+        "new": "Registre a fatura do fornecedor"
+      },
+      "description": {
+        "old": "The bill your supplier sent, so you know what you owe and when it is due. See [Purchase Invoice](https://docs.frappe.io/erpnext/user/manual/en/purchase-invoice).",
+        "new": "Registre a fatura enviada pelo fornecedor para acompanhar o valor devido e o vencimento. Consulte [Fatura de compra](https://docs.frappe.io/erpnext/user/manual/en/purchase-invoice)."
+      },
+      "action_label": {
+        "old": "Create Purchase Invoice",
+        "new": "Criar fatura de compra"
+      }
+    }
+  },
+  {
+    "doctype": "Onboarding Step",
+    "name": "Create Purchase Order",
+    "path": "buying/onboarding_step/create_purchase_order/create_purchase_order.json",
+    "fields": {
+      "title": {
+        "old": "Place a purchase order",
+        "new": "Faça um pedido de compra"
+      },
+      "description": {
+        "old": "Order from the supplier. When the goods arrive, receive them and record the bill from the order itself. See [Purchase Order](https://docs.frappe.io/erpnext/user/manual/en/purchase-order).",
+        "new": "Faça o pedido ao fornecedor. Quando os itens chegarem, registre o recebimento e a fatura a partir do próprio pedido. Consulte [Pedido de compra](https://docs.frappe.io/erpnext/user/manual/en/purchase-order)."
+      },
+      "action_label": {
+        "old": "Create Purchase Order",
+        "new": "Criar pedido de compra"
+      }
+    }
+  },
+  {
+    "doctype": "Onboarding Step",
+    "name": "Create Supplier",
+    "path": "buying/onboarding_step/create_supplier/create_supplier.json",
+    "fields": {
+      "title": {
+        "old": "Add a supplier",
+        "new": "Cadastre um fornecedor"
+      },
+      "description": {
+        "old": "A business or person you buy from. See [Supplier](https://docs.frappe.io/erpnext/user/manual/en/supplier).",
+        "new": "Cadastre uma empresa ou pessoa de quem você compra. Consulte [Fornecedor](https://docs.frappe.io/erpnext/user/manual/en/supplier)."
+      },
+      "action_label": {
+        "old": "Add Supplier",
+        "new": "Adicionar fornecedor"
+      }
+    }
+  },
+  {
+    "doctype": "Onboarding Step",
+    "name": "Create Supplier Quotation",
+    "path": "buying/onboarding_step/create_supplier_quotation/create_supplier_quotation.json",
+    "fields": {
+      "title": {
+        "old": "Record a supplier's quote",
+        "new": "Registre uma cotação do fornecedor"
+      },
+      "description": {
+        "old": "Note down a price a supplier offered, so you can compare suppliers before you order. See [Supplier Quotation](https://docs.frappe.io/erpnext/user/manual/en/supplier-quotation).",
+        "new": "Anote o preço oferecido para comparar fornecedores antes de fazer o pedido. Consulte [Cotação de fornecedor](https://docs.frappe.io/erpnext/user/manual/en/supplier-quotation)."
+      },
+      "action_label": {
+        "old": "Create Supplier Quotation",
+        "new": "Criar cotação de fornecedor"
+      }
+    }
+  },
+  {
+    "doctype": "Onboarding Step",
+    "name": "Pay Supplier",
+    "path": "buying/onboarding_step/pay_supplier/pay_supplier.json",
+    "fields": {
+      "title": {
+        "old": "Pay your supplier",
+        "new": "Pague seu fornecedor"
+      },
+      "description": {
+        "old": "It clears their bill and takes the money out of your bank or cash account. See [Payment Entry](https://docs.frappe.io/erpnext/user/manual/en/payment-entry).",
+        "new": "Registre o pagamento da fatura do fornecedor e a saída do dinheiro da conta bancária ou do caixa. Consulte [Lançamento de pagamento](https://docs.frappe.io/erpnext/user/manual/en/payment-entry)."
+      },
+      "action_label": {
+        "old": "Create Payment Entry",
+        "new": "Criar lançamento de pagamento"
+      }
+    }
+  },
+  {
+    "doctype": "Onboarding Step",
+    "name": "View Accounts Payable",
+    "path": "buying/onboarding_step/view_accounts_payable/view_accounts_payable.json",
+    "fields": {
+      "title": {
+        "old": "Check what you owe",
+        "new": "Confira suas contas a pagar"
+      },
+      "description": {
+        "old": "Who you owe, how much, and when each bill is due.",
+        "new": "Veja a quem você deve, quanto deve e quando cada fatura vence."
+      },
+      "action_label": {
+        "old": "Open Accounts Payable",
+        "new": "Abrir contas a pagar"
+      },
+      "report_description": {
+        "old": "Who you owe, how much, and when it is due.",
+        "new": "Veja a quem você deve, quanto e quando a fatura vence."
+      }
+    }
+  },
+  {
+    "doctype": "Onboarding Step",
+    "name": "View Purchase Order Analysis",
+    "path": "buying/onboarding_step/view_purchase_order_analysis/view_purchase_order_analysis.json",
+    "fields": {
+      "title": {
+        "old": "Track your orders",
+        "new": "Acompanhe seus pedidos de compra"
+      },
+      "description": {
+        "old": "What you ordered, what has arrived, and what is still to come.",
+        "new": "Veja o que foi pedido, o que já chegou e o que ainda falta receber."
+      },
+      "action_label": {
+        "old": "Open Purchase Order Analysis",
+        "new": "Abrir análise de pedidos de compra"
+      },
+      "report_description": {
+        "old": "What you ordered, what arrived and what is still to come.",
+        "new": "Veja o que foi pedido, o que chegou e o que ainda falta receber."
+      }
+    }
+  },
+  {
+    "doctype": "Module Onboarding",
+    "name": "Manufacturing Onboarding",
+    "path": "manufacturing/module_onboarding/manufacturing_onboarding/manufacturing_onboarding.json",
+    "fields": {
+      "title": {
+        "old": "Plan and run production",
+        "new": "Planeje e execute a produção"
+      }
+    }
+  },
+  {
+    "doctype": "Onboarding Step",
+    "name": "Create Bill of Materials",
+    "path": "manufacturing/onboarding_step/create_bill_of_materials/create_bill_of_materials.json",
+    "fields": {
+      "title": {
+        "old": "Write its bill of materials",
+        "new": "Monte a lista de materiais"
+      },
+      "description": {
+        "old": "The raw materials, and how much of each, that go into one unit of your product. Submit it to use it in production. See [BOM](https://docs.frappe.io/erpnext/user/manual/en/bill-of-materials).\n\nSending some of the work to a supplier? See [Subcontracting](https://docs.frappe.io/erpnext/user/manual/en/subcontracting).",
+        "new": "Defina as matérias-primas e as quantidades necessárias para fabricar uma unidade do produto. Confirme a lista para usá-la na produção. Se terceirizar parte da fabricação, consulte as orientações de subcontratação. Consulte [Lista de materiais](https://docs.frappe.io/erpnext/user/manual/en/bill-of-materials), [Subcontratação](https://docs.frappe.io/erpnext/user/manual/en/subcontracting)."
+      },
+      "action_label": {
+        "old": "Create BOM",
+        "new": "Criar lista de materiais"
+      }
+    }
+  },
+  {
+    "doctype": "Onboarding Step",
+    "name": "Create Finished Goods",
+    "path": "manufacturing/onboarding_step/create_finished_goods/create_finished_goods.json",
+    "fields": {
+      "title": {
+        "old": "Add a product you make",
+        "new": "Cadastre um produto fabricado"
+      },
+      "description": {
+        "old": "What comes out at the end of production, kept in the Products group. See [Item](https://docs.frappe.io/erpnext/user/manual/en/item).",
+        "new": "Cadastre o produto resultante da produção no grupo Produtos. Consulte [Item](https://docs.frappe.io/erpnext/user/manual/en/item)."
+      },
+      "action_label": {
+        "old": "Add Item",
+        "new": "Adicionar item"
+      }
+    }
+  },
+  {
+    "doctype": "Onboarding Step",
+    "name": "Create Production Plan",
+    "path": "manufacturing/onboarding_step/create_production_plan/create_production_plan.json",
+    "fields": {
+      "title": {
+        "old": "Plan production from your orders",
+        "new": "Planeje a produção dos pedidos"
+      },
+      "description": {
+        "old": "Pull in open sales orders and work out what to make, and what to buy, to fill them.",
+        "new": "Reúna os pedidos de venda em aberto e calcule o que precisa fabricar e comprar para atendê-los."
+      },
+      "action_label": {
+        "old": "Create Production Plan",
+        "new": "Criar plano de produção"
+      }
+    }
+  },
+  {
+    "doctype": "Onboarding Step",
+    "name": "Create Raw Materials",
+    "path": "manufacturing/onboarding_step/create_raw_materials/create_raw_materials.json",
+    "fields": {
+      "title": {
+        "old": "Add a raw material",
+        "new": "Cadastre uma matéria-prima"
+      },
+      "description": {
+        "old": "Something you use to make your products, kept in the Raw Material group. See [Item](https://docs.frappe.io/erpnext/user/manual/en/item).",
+        "new": "Cadastre um item usado na fabricação de seus produtos no grupo Matéria-prima. Consulte [Item](https://docs.frappe.io/erpnext/user/manual/en/item)."
+      },
+      "action_label": {
+        "old": "Add Item",
+        "new": "Adicionar item"
+      }
+    }
+  },
+  {
+    "doctype": "Onboarding Step",
+    "name": "Create Work Order",
+    "path": "manufacturing/onboarding_step/create_work_order/create_work_order.json",
+    "fields": {
+      "title": {
+        "old": "Plan a work order",
+        "new": "Planeje uma ordem de produção"
+      },
+      "description": {
+        "old": "Decide how many to make. The raw materials you need are worked out from the BOM. See [Work Order](https://docs.frappe.io/erpnext/user/manual/en/work-order).",
+        "new": "Defina a quantidade a fabricar. O sistema calcula as matérias-primas necessárias a partir da lista de materiais. Consulte [Ordem de produção](https://docs.frappe.io/erpnext/user/manual/en/work-order)."
+      },
+      "action_label": {
+        "old": "Create Work Order",
+        "new": "Criar ordem de produção"
+      }
+    }
+  },
+  {
+    "doctype": "Onboarding Step",
+    "name": "Finish Work Order",
+    "path": "manufacturing/onboarding_step/finish_work_order/finish_work_order.json",
+    "fields": {
+      "title": {
+        "old": "Finish making it",
+        "new": "Conclua a fabricação"
+      },
+      "description": {
+        "old": "Raw materials come out of stock and the finished products go in. From the work order, **Finish** fills this in for you. See [Stock Entry](https://docs.frappe.io/erpnext/user/manual/en/stock-entry).",
+        "new": "Dê baixa nas matérias-primas e registre a entrada dos produtos acabados. Na ordem de produção, use a ação de conclusão para preencher a movimentação. Consulte [Movimentação de estoque](https://docs.frappe.io/erpnext/user/manual/en/stock-entry)."
+      },
+      "action_label": {
+        "old": "Create Stock Entry",
+        "new": "Criar movimentação de estoque"
+      }
+    }
+  },
+  {
+    "doctype": "Onboarding Step",
+    "name": "View Work Order Summary Report",
+    "path": "manufacturing/onboarding_step/view_work_order_summary_report/view_work_order_summary_report.json",
+    "fields": {
+      "title": {
+        "old": "See how production is going",
+        "new": "Acompanhe a produção"
+      },
+      "description": {
+        "old": "Every work order, how far along it is, and what is running late. See [Work Order Summary](https://docs.frappe.io/erpnext/user/manual/en/work-order-summary).",
+        "new": "Veja o andamento e os atrasos de cada ordem de produção. Consulte [Resumo das ordens de produção](https://docs.frappe.io/erpnext/user/manual/en/work-order-summary)."
+      },
+      "action_label": {
+        "old": "Open Work Order Summary",
+        "new": "Abrir resumo de ordens de produção"
+      },
+      "report_description": {
+        "old": "Every work order, how far along it is, and what is late.",
+        "new": "Acompanhe o andamento e os atrasos das ordens de produção."
+      }
+    }
+  },
+  {
+    "doctype": "Module Onboarding",
+    "name": "Projects Onboarding",
+    "path": "projects/module_onboarding/projects_onboarding/projects_onboarding.json",
+    "fields": {
+      "title": {
+        "old": "Plan and deliver projects",
+        "new": "Planeje e entregue projetos"
+      }
+    }
+  },
+  {
+    "doctype": "Onboarding Step",
+    "name": "Create Project",
+    "path": "projects/onboarding_step/create_project/create_project.json",
+    "fields": {
+      "title": {
+        "old": "Start a project",
+        "new": "Inicie um projeto"
+      },
+      "description": {
+        "old": "Anything with a start and an end: a client job, an installation, an internal initiative. See [Project](https://docs.frappe.io/erpnext/user/manual/en/project).",
+        "new": "Organize um trabalho com início e fim, como um pedido de cliente, uma instalação ou uma iniciativa interna. Consulte [Projeto](https://docs.frappe.io/erpnext/user/manual/en/project)."
+      },
+      "action_label": {
+        "old": "Create Project",
+        "new": "Criar projeto"
+      }
+    }
+  },
+  {
+    "doctype": "Onboarding Step",
+    "name": "Create Project Template",
+    "path": "projects/onboarding_step/create_project_template/create_project_template.json",
+    "fields": {
+      "title": {
+        "old": "Reuse it as a template",
+        "new": "Reutilize um modelo de projeto"
+      },
+      "description": {
+        "old": "Save the tasks you repeat on every job, and start the next project from them.",
+        "new": "Salve as tarefas que se repetem em cada trabalho e use-as como ponto de partida no próximo projeto."
+      },
+      "action_label": {
+        "old": "Create Project Template",
+        "new": "Criar modelo de projeto"
+      }
+    }
+  },
+  {
+    "doctype": "Onboarding Step",
+    "name": "Create Tasks",
+    "path": "projects/onboarding_step/create_tasks/create_tasks.json",
+    "fields": {
+      "title": {
+        "old": "Break it into tasks",
+        "new": "Divida o projeto em tarefas"
+      },
+      "description": {
+        "old": "Who does what, by when. Tasks roll up into the project's progress. See [Task](https://docs.frappe.io/erpnext/user/manual/en/task).",
+        "new": "Defina quem faz cada atividade e seu prazo. O avanço das tarefas compõe o andamento do projeto. Consulte [Tarefa](https://docs.frappe.io/erpnext/user/manual/en/task)."
+      },
+      "action_label": {
+        "old": "Create Task",
+        "new": "Criar tarefa"
+      }
+    }
+  },
+  {
+    "doctype": "Onboarding Step",
+    "name": "Create Timesheet",
+    "path": "projects/onboarding_step/create_timesheet/create_timesheet.json",
+    "fields": {
+      "title": {
+        "old": "Log time against it",
+        "new": "Registre as horas trabalhadas"
+      },
+      "description": {
+        "old": "Record the hours spent on tasks. Bill them to the customer or use them to cost the project. See [Timesheet](https://docs.frappe.io/erpnext/user/manual/en/timesheets).",
+        "new": "Registre as horas gastas nas tarefas para faturá-las ao cliente ou calcular o custo do projeto. Consulte [Apontamento de horas](https://docs.frappe.io/erpnext/user/manual/en/timesheets)."
+      },
+      "action_label": {
+        "old": "Create Timesheet",
+        "new": "Criar apontamento de horas"
+      }
+    }
+  },
+  {
+    "doctype": "Onboarding Step",
+    "name": "View Delayed Tasks",
+    "path": "projects/onboarding_step/view_delayed_tasks/view_delayed_tasks.json",
+    "fields": {
+      "title": {
+        "old": "Spot delayed tasks",
+        "new": "Identifique tarefas atrasadas"
+      },
+      "description": {
+        "old": "Tasks past their due date, and how late each one is.",
+        "new": "Veja as tarefas vencidas e quantos dias cada uma está atrasada."
+      },
+      "action_label": {
+        "old": "Open Delayed Tasks Summary",
+        "new": "Abrir tarefas atrasadas"
+      },
+      "report_description": {
+        "old": "Tasks past their due date, and how late each one is.",
+        "new": "Veja as tarefas vencidas e o atraso de cada uma."
+      }
+    }
+  },
+  {
+    "doctype": "Onboarding Step",
+    "name": "View Project Summary",
+    "path": "projects/onboarding_step/view_project_summary/view_project_summary.json",
+    "fields": {
+      "title": {
+        "old": "Track progress and costs",
+        "new": "Acompanhe o avanço e os custos"
+      },
+      "description": {
+        "old": "Progress, hours and costs for every project.",
+        "new": "Consulte o andamento, as horas e os custos de cada projeto."
+      },
+      "action_label": {
+        "old": "Open Project Summary",
+        "new": "Abrir resumo de projetos"
+      },
+      "report_description": {
+        "old": "Progress, hours and costs for every project.",
+        "new": "Consulte o andamento, as horas e os custos de cada projeto."
+      }
+    }
+  },
+  {
+    "doctype": "Module Onboarding",
+    "name": "Quality Onboarding",
+    "path": "quality_management/module_onboarding/quality_onboarding/quality_onboarding.json",
+    "fields": {
+      "title": {
+        "old": "Keep quality in check",
+        "new": "Mantenha a qualidade sob controle"
+      }
+    }
+  },
+  {
+    "doctype": "Onboarding Step",
+    "name": "Create Maintenance Schedule",
+    "path": "quality_management/onboarding_step/create_maintenance_schedule/create_maintenance_schedule.json",
+    "fields": {
+      "title": {
+        "old": "Plan maintenance visits",
+        "new": "Planeje visitas de manutenção"
+      },
+      "description": {
+        "old": "Regular service visits for equipment you sold, planned ahead for the whole contract. See [Maintenance Schedule](https://docs.frappe.io/erpnext/user/manual/en/maintenance-schedule).",
+        "new": "Agende antecipadamente as visitas periódicas de manutenção dos equipamentos vendidos. Consulte [Programação de manutenção](https://docs.frappe.io/erpnext/user/manual/en/maintenance-schedule)."
+      },
+      "action_label": {
+        "old": "Create Maintenance Schedule",
+        "new": "Criar programação de manutenção"
+      }
+    }
+  },
+  {
+    "doctype": "Onboarding Step",
+    "name": "Create Non Conformance",
+    "path": "quality_management/onboarding_step/create_non_conformance/create_non_conformance.json",
+    "fields": {
+      "title": {
+        "old": "Log a problem",
+        "new": "Registre uma não conformidade"
+      },
+      "description": {
+        "old": "When something falls short of the procedure, note what happened, the cause, and what you will do about it. See [Non Conformance](https://docs.frappe.io/erpnext/user/manual/en/non-conformance).",
+        "new": "Quando algo não seguir o procedimento, registre o ocorrido, a causa e a ação corretiva. Consulte [Não conformidade](https://docs.frappe.io/erpnext/user/manual/en/non-conformance)."
+      },
+      "action_label": {
+        "old": "Create Non Conformance",
+        "new": "Criar não conformidade"
+      }
+    }
+  },
+  {
+    "doctype": "Onboarding Step",
+    "name": "Create Quality Goal",
+    "path": "quality_management/onboarding_step/create_quality_goal/create_quality_goal.json",
+    "fields": {
+      "title": {
+        "old": "Set a quality goal",
+        "new": "Defina uma meta de qualidade"
+      },
+      "description": {
+        "old": "Something you want to measure and improve, like on-time delivery or returns, reviewed on a schedule you choose. See [Quality Management](https://docs.frappe.io/erpnext/user/manual/en/quality-management).",
+        "new": "Escolha um resultado para medir e melhorar, como entregas no prazo ou devoluções, e defina a frequência de revisão. Consulte [Gestão da qualidade](https://docs.frappe.io/erpnext/user/manual/en/quality-management)."
+      },
+      "action_label": {
+        "old": "Create Quality Goal",
+        "new": "Criar meta de qualidade"
+      }
+    }
+  },
+  {
+    "doctype": "Onboarding Step",
+    "name": "Create Quality Inspection",
+    "path": "quality_management/onboarding_step/create_quality_inspection/create_quality_inspection.json",
+    "fields": {
+      "title": {
+        "old": "Inspect goods coming in or going out",
+        "new": "Inspecione produtos recebidos ou enviados"
+      },
+      "description": {
+        "old": "Record the results against a receipt or a delivery, and accept or reject the goods. See [Quality Inspection](https://docs.frappe.io/erpnext/user/manual/en/quality-inspection).",
+        "new": "Registre os resultados do recebimento ou da entrega e aprove ou rejeite os produtos. Consulte [Inspeção de qualidade](https://docs.frappe.io/erpnext/user/manual/en/quality-inspection)."
+      },
+      "action_label": {
+        "old": "Create Quality Inspection",
+        "new": "Criar inspeção de qualidade"
+      }
+    }
+  },
+  {
+    "doctype": "Onboarding Step",
+    "name": "Create Quality Inspection Template",
+    "path": "quality_management/onboarding_step/create_quality_inspection_template/create_quality_inspection_template.json",
+    "fields": {
+      "title": {
+        "old": "Decide what to check",
+        "new": "Defina o que será inspecionado"
+      },
+      "description": {
+        "old": "The parameters to inspect and what counts as a pass, reused on every inspection. See [Quality Inspection Template](https://docs.frappe.io/erpnext/user/manual/en/quality-inspection-template).",
+        "new": "Configure os parâmetros e os critérios de aprovação para reutilizá-los em cada inspeção. Consulte [Modelo de inspeção de qualidade](https://docs.frappe.io/erpnext/user/manual/en/quality-inspection-template)."
+      },
+      "action_label": {
+        "old": "Create Quality Inspection Template",
+        "new": "Criar modelo de inspeção de qualidade"
+      }
+    }
+  },
+  {
+    "doctype": "Onboarding Step",
+    "name": "Create Quality Procedure",
+    "path": "quality_management/onboarding_step/create_quality_procedure/create_quality_procedure.json",
+    "fields": {
+      "title": {
+        "old": "Write down how the work is done",
+        "new": "Documente como o trabalho é feito"
+      },
+      "description": {
+        "old": "The steps your team follows, so it is done the same way every time. See [Quality Management](https://docs.frappe.io/erpnext/user/manual/en/quality-management).",
+        "new": "Descreva as etapas seguidas pela equipe para repetir o processo da mesma forma. Consulte [Gestão da qualidade](https://docs.frappe.io/erpnext/user/manual/en/quality-management)."
+      },
+      "action_label": {
+        "old": "Create Quality Procedure",
+        "new": "Criar procedimento de qualidade"
+      }
+    }
+  },
+  {
+    "doctype": "Onboarding Step",
+    "name": "Create Quality Review",
+    "path": "quality_management/onboarding_step/create_quality_review/create_quality_review.json",
+    "fields": {
+      "title": {
+        "old": "Review how a goal is going",
+        "new": "Analise os resultados de qualidade"
+      },
+      "description": {
+        "old": "Compare the results against the goal, and decide what to change. See [Quality Management](https://docs.frappe.io/erpnext/user/manual/en/quality-management).",
+        "new": "Compare os resultados com a meta e decida o que precisa melhorar. Consulte [Gestão da qualidade](https://docs.frappe.io/erpnext/user/manual/en/quality-management)."
+      },
+      "action_label": {
+        "old": "Create Quality Review",
+        "new": "Criar análise de qualidade"
+      }
+    }
+  },
+  {
+    "doctype": "Module Onboarding",
+    "name": "Selling Onboarding",
+    "path": "selling/module_onboarding/selling_onboarding/selling_onboarding.json",
+    "fields": {
+      "title": {
+        "old": "Make your first sale",
+        "new": "Faça sua primeira venda"
+      }
+    }
+  },
+  {
+    "doctype": "Onboarding Step",
+    "name": "Create Customer",
+    "path": "selling/onboarding_step/create_customer/create_customer.json",
+    "fields": {
+      "title": {
+        "old": "Add a customer",
+        "new": "Cadastre um cliente"
+      },
+      "description": {
+        "old": "A business or person you sell to. See [Customer](https://docs.frappe.io/erpnext/user/manual/en/customer).",
+        "new": "Cadastre uma empresa ou pessoa para quem você vende. Consulte [Cliente](https://docs.frappe.io/erpnext/user/manual/en/customer)."
+      },
+      "action_label": {
+        "old": "Add Customer",
+        "new": "Adicionar cliente"
+      }
+    }
+  },
+  {
+    "doctype": "Onboarding Step",
+    "name": "Create Payment Entry",
+    "path": "selling/onboarding_step/create_payment_entry/create_payment_entry.json",
+    "fields": {
+      "title": {
+        "old": "Get paid",
+        "new": "Registre o recebimento"
+      },
+      "description": {
+        "old": "When your customer pays, record it here. It is matched against their invoice, so you can see what is still owed. See [Payment Entry](https://docs.frappe.io/erpnext/user/manual/en/payment-entry).",
+        "new": "Quando o cliente pagar, registre o recebimento e vincule-o à fatura para acompanhar o saldo em aberto. Consulte [Lançamento de pagamento](https://docs.frappe.io/erpnext/user/manual/en/payment-entry)."
+      },
+      "action_label": {
+        "old": "Create Payment Entry",
+        "new": "Criar lançamento de pagamento"
+      }
+    }
+  },
+  {
+    "doctype": "Onboarding Step",
+    "name": "Create Quotation",
+    "path": "selling/onboarding_step/create_quotation/create_quotation.json",
+    "fields": {
+      "title": {
+        "old": "Quote a price",
+        "new": "Prepare uma cotação"
+      },
+      "description": {
+        "old": "Once the customer agrees, turn it into a sales order or an invoice from the quotation itself. See [Quotation](https://docs.frappe.io/erpnext/user/manual/en/quotation).",
+        "new": "Quando o cliente aceitar a cotação, crie um pedido de venda ou uma fatura a partir dela. Consulte [Cotação](https://docs.frappe.io/erpnext/user/manual/en/quotation)."
+      },
+      "action_label": {
+        "old": "Create Quotation",
+        "new": "Criar cotação"
+      }
+    }
+  },
+  {
+    "doctype": "Onboarding Step",
+    "name": "Create Sales Invoice",
+    "path": "selling/onboarding_step/create_sales_invoice/create_sales_invoice.json",
+    "fields": {
+      "title": {
+        "old": "Send your first invoice",
+        "new": "Emita sua primeira fatura"
+      },
+      "description": {
+        "old": "Bill your customer for the item. Submit it, then use **Print** to see it on paper or send it as a PDF. See [Sales Invoice](https://docs.frappe.io/erpnext/user/manual/en/sales-invoice).",
+        "new": "Fature o item ao cliente. Confirme a fatura e use a opção de impressão para gerar um documento ou PDF. Consulte [Fatura de venda](https://docs.frappe.io/erpnext/user/manual/en/sales-invoice)."
+      },
+      "action_label": {
+        "old": "Create Sales Invoice",
+        "new": "Criar fatura de venda"
+      }
+    }
+  },
+  {
+    "doctype": "Onboarding Step",
+    "name": "Create Sales Order",
+    "path": "selling/onboarding_step/create_sales_order/create_sales_order.json",
+    "fields": {
+      "title": {
+        "old": "Confirm a sales order",
+        "new": "Confirme um pedido de venda"
+      },
+      "description": {
+        "old": "Confirm what the customer ordered and when it is due. Deliver and invoice from the order itself. See [Sales Order](https://docs.frappe.io/erpnext/user/manual/en/sales-order).",
+        "new": "Confirme o que o cliente pediu e o prazo de entrega. Crie a entrega e a fatura a partir do pedido. Consulte [Pedido de venda](https://docs.frappe.io/erpnext/user/manual/en/sales-order)."
+      },
+      "action_label": {
+        "old": "Create Sales Order",
+        "new": "Criar pedido de venda"
+      }
+    }
+  },
+  {
+    "doctype": "Onboarding Step",
+    "name": "Create Selling Item",
+    "path": "selling/onboarding_step/create_selling_item/create_selling_item.json",
+    "fields": {
+      "title": {
+        "old": "Add an item you sell",
+        "new": "Cadastre um item de venda"
+      },
+      "description": {
+        "old": "A product or a service you sell. See [Item](https://docs.frappe.io/erpnext/user/manual/en/item).",
+        "new": "Cadastre um produto ou serviço que você vende. Consulte [Item](https://docs.frappe.io/erpnext/user/manual/en/item)."
+      },
+      "action_label": {
+        "old": "Add Item",
+        "new": "Adicionar item"
+      }
+    }
+  },
+  {
+    "doctype": "Onboarding Step",
+    "name": "View Accounts Receivable",
+    "path": "selling/onboarding_step/view_accounts_receivable/view_accounts_receivable.json",
+    "fields": {
+      "title": {
+        "old": "Follow up on unpaid invoices",
+        "new": "Acompanhe faturas em aberto"
+      },
+      "description": {
+        "old": "Who owes you, how much, and for how long. See [Accounts Receivable](https://docs.frappe.io/erpnext/user/manual/en/accounts-receivable).",
+        "new": "Veja quem deve à empresa, quanto e há quanto tempo. Consulte [Contas a receber](https://docs.frappe.io/erpnext/user/manual/en/accounts-receivable)."
+      },
+      "action_label": {
+        "old": "Open Accounts Receivable",
+        "new": "Abrir contas a receber"
+      },
+      "report_description": {
+        "old": "Who owes you, how much, and for how long.",
+        "new": "Veja quem deve à empresa, quanto e há quanto tempo."
+      }
+    }
+  },
+  {
+    "doctype": "Onboarding Step",
+    "name": "View Sales Analytics",
+    "path": "selling/onboarding_step/view_sales_analytics/view_sales_analytics.json",
+    "fields": {
+      "title": {
+        "old": "Spot your best sellers",
+        "new": "Identifique seus produtos mais vendidos"
+      },
+      "description": {
+        "old": "Sales by customer, item or territory, over any period. See [Sales Analytics](https://docs.frappe.io/erpnext/user/manual/en/sales-analytics).",
+        "new": "Analise as vendas por cliente, item ou território em qualquer período. Consulte [Análise de vendas](https://docs.frappe.io/erpnext/user/manual/en/sales-analytics)."
+      },
+      "action_label": {
+        "old": "Open Sales Analytics",
+        "new": "Abrir análise de vendas"
+      },
+      "report_description": {
+        "old": "Sales by customer, item or territory, over any period.",
+        "new": "Analise as vendas por cliente, item ou território em qualquer período."
+      }
+    }
+  },
+  {
+    "doctype": "Module Onboarding",
+    "name": "Organization Onboarding",
+    "path": "setup/module_onboarding/organization_onboarding/organization_onboarding.json",
+    "fields": {}
+  },
+  {
+    "doctype": "Onboarding Step",
+    "name": "Complete Accounting Onboarding",
+    "path": "setup/onboarding_step/complete_accounting_onboarding/complete_accounting_onboarding.json",
+    "fields": {
+      "title": {
+        "old": "Get your books ready",
+        "new": "Prepare sua contabilidade"
+      },
+      "description": {
+        "old": "Check your chart of accounts and taxes, and add the bank account you use.",
+        "new": "Confira o plano de contas e os impostos e cadastre a conta bancária usada pela empresa."
+      },
+      "action_label": {
+        "old": "Open Accounts",
+        "new": "Abrir contabilidade"
+      }
+    }
+  },
+  {
+    "doctype": "Onboarding Step",
+    "name": "Complete Asset Onboarding",
+    "path": "setup/onboarding_step/complete_asset_onboarding/complete_asset_onboarding.json",
+    "fields": {
+      "title": {
+        "old": "Track what your business owns",
+        "new": "Acompanhe os bens da sua empresa"
+      },
+      "description": {
+        "old": "Record an asset and see what it's worth year by year.",
+        "new": "Registre um bem e acompanhe seu valor ao longo dos anos."
+      },
+      "action_label": {
+        "old": "Open Assets",
+        "new": "Abrir ativos"
+      }
+    }
+  },
+  {
+    "doctype": "Onboarding Step",
+    "name": "Complete Buying Onboarding",
+    "path": "setup/onboarding_step/complete_buying_onboarding/complete_buying_onboarding.json",
+    "fields": {
+      "title": {
+        "old": "Order from your suppliers",
+        "new": "Compre de seus fornecedores"
+      },
+      "description": {
+        "old": "Add a supplier, order from them and pay their bill.",
+        "new": "Cadastre um fornecedor, faça um pedido e pague a fatura."
+      },
+      "action_label": {
+        "old": "Open Buying",
+        "new": "Abrir compras"
+      }
+    }
+  },
+  {
+    "doctype": "Onboarding Step",
+    "name": "Complete Manufacturing Onboarding",
+    "path": "setup/onboarding_step/complete_manufacturing_onboarding/complete_manufacturing_onboarding.json",
+    "fields": {
+      "title": {
+        "old": "Plan and run production",
+        "new": "Planeje e execute a produção"
+      },
+      "description": {
+        "old": "Write down what goes into a product and make it with a work order.",
+        "new": "Defina os materiais de um produto e fabrique-o por meio de uma ordem de produção."
+      },
+      "action_label": {
+        "old": "Open Manufacturing",
+        "new": "Abrir produção"
+      }
+    }
+  },
+  {
+    "doctype": "Onboarding Step",
+    "name": "Complete Projects Onboarding",
+    "path": "setup/onboarding_step/complete_projects_onboarding/complete_projects_onboarding.json",
+    "fields": {
+      "title": {
+        "old": "Plan and deliver projects",
+        "new": "Planeje e entregue projetos"
+      },
+      "description": {
+        "old": "Break a project into tasks and log the time your team spends.",
+        "new": "Divida um projeto em tarefas e registre o tempo gasto pela equipe."
+      },
+      "action_label": {
+        "old": "Open Projects",
+        "new": "Abrir projetos"
+      }
+    }
+  },
+  {
+    "doctype": "Onboarding Step",
+    "name": "Complete Quality Onboarding",
+    "path": "setup/onboarding_step/complete_quality_onboarding/complete_quality_onboarding.json",
+    "fields": {
+      "title": {
+        "old": "Keep quality in check",
+        "new": "Mantenha a qualidade sob controle"
+      },
+      "description": {
+        "old": "Set up an inspection and record your first check.",
+        "new": "Configure uma inspeção e registre sua primeira verificação."
+      },
+      "action_label": {
+        "old": "Open Quality",
+        "new": "Abrir qualidade"
+      }
+    }
+  },
+  {
+    "doctype": "Onboarding Step",
+    "name": "Complete Selling Onboarding",
+    "path": "setup/onboarding_step/complete_selling_onboarding/complete_selling_onboarding.json",
+    "fields": {
+      "title": {
+        "old": "Make your first sale",
+        "new": "Faça sua primeira venda"
+      },
+      "description": {
+        "old": "Add an item and a customer, bill them and collect the payment.",
+        "new": "Cadastre um item e um cliente, emita a fatura e registre o recebimento."
+      },
+      "action_label": {
+        "old": "Open Selling",
+        "new": "Abrir vendas"
+      }
+    }
+  },
+  {
+    "doctype": "Onboarding Step",
+    "name": "Complete Stock Onboarding",
+    "path": "setup/onboarding_step/complete_stock_onboarding/complete_stock_onboarding.json",
+    "fields": {
+      "title": {
+        "old": "Keep track of your stock",
+        "new": "Controle seu estoque"
+      },
+      "description": {
+        "old": "Set up your warehouses and enter the stock you have today.",
+        "new": "Configure os armazéns e informe o estoque disponível hoje."
+      },
+      "action_label": {
+        "old": "Open Stock",
+        "new": "Abrir estoque"
+      }
+    }
+  },
+  {
+    "doctype": "Onboarding Step",
+    "name": "Invite Users",
+    "path": "setup/onboarding_step/invite_users/invite_users.json",
+    "fields": {
+      "title": {
+        "old": "Invite your team",
+        "new": "Convide sua equipe"
+      },
+      "description": {
+        "old": "Add the people you work with and choose what they can see.",
+        "new": "Cadastre as pessoas com quem você trabalha e defina o que cada uma pode acessar."
+      },
+      "action_label": {
+        "old": "Add User",
+        "new": "Adicionar usuário"
+      }
+    }
+  },
+  {
+    "doctype": "Module Onboarding",
+    "name": "Stock Onboarding",
+    "path": "stock/module_onboarding/stock_onboarding/stock_onboarding.json",
+    "fields": {
+      "title": {
+        "old": "Keep track of your stock",
+        "new": "Controle seu estoque"
+      }
+    }
+  },
+  {
+    "doctype": "Onboarding Step",
+    "name": "Create Delivery Note",
+    "path": "stock/onboarding_step/create_delivery_note/create_delivery_note.json",
+    "fields": {
+      "title": {
+        "old": "Ship to a customer",
+        "new": "Registre a entrega ao cliente"
+      },
+      "description": {
+        "old": "Stock goes down as the goods leave, and the invoice can be made from the delivery. See [Delivery Note](https://docs.frappe.io/erpnext/user/manual/en/delivery-note).",
+        "new": "Dê baixa nos produtos entregues e crie a fatura a partir do comprovante de entrega. Consulte [Comprovante de entrega](https://docs.frappe.io/erpnext/user/manual/en/delivery-note)."
+      },
+      "action_label": {
+        "old": "Create Delivery Note",
+        "new": "Criar comprovante de entrega"
+      }
+    }
+  },
+  {
+    "doctype": "Onboarding Step",
+    "name": "Create Item",
+    "path": "stock/onboarding_step/create_item/create_item.json",
+    "fields": {
+      "title": {
+        "old": "Add an item you stock",
+        "new": "Cadastre um item de estoque"
+      },
+      "description": {
+        "old": "Anything you keep on shelves and count. See [Item](https://docs.frappe.io/erpnext/user/manual/en/item).",
+        "new": "Cadastre os produtos que você armazena e controla por quantidade. Consulte [Item](https://docs.frappe.io/erpnext/user/manual/en/item)."
+      },
+      "action_label": {
+        "old": "Add Item",
+        "new": "Adicionar item"
+      }
+    }
+  },
+  {
+    "doctype": "Onboarding Step",
+    "name": "Create Opening Stock",
+    "path": "stock/onboarding_step/create_opening_stock/create_opening_stock.json",
+    "fields": {
+      "title": {
+        "old": "Enter the stock you have today",
+        "new": "Informe o estoque inicial"
+      },
+      "description": {
+        "old": "How much of each item is on your shelves, and what it is worth. From here, every receipt and delivery keeps it up to date. See [Stock Reconciliation](https://docs.frappe.io/erpnext/user/manual/en/stock-reconciliation).",
+        "new": "Registre a quantidade e o valor dos itens disponíveis hoje. Os próximos recebimentos e entregas atualizarão o saldo. Consulte [Conciliação de estoque](https://docs.frappe.io/erpnext/user/manual/en/stock-reconciliation)."
+      },
+      "action_label": {
+        "old": "Create Stock Reconciliation",
+        "new": "Criar conciliação de estoque"
+      }
+    }
+  },
+  {
+    "doctype": "Onboarding Step",
+    "name": "Create Purchase Receipt",
+    "path": "stock/onboarding_step/create_purchase_receipt/create_purchase_receipt.json",
+    "fields": {
+      "title": {
+        "old": "Receive goods from a supplier",
+        "new": "Receba produtos de um fornecedor"
+      },
+      "description": {
+        "old": "Stock goes up in the warehouse you receive into, and the bill can be made from the receipt. See [Purchase Receipt](https://docs.frappe.io/erpnext/user/manual/en/purchase-receipt).",
+        "new": "Registre a entrada dos produtos no armazém e crie a fatura a partir do recebimento. Consulte [Recebimento de compra](https://docs.frappe.io/erpnext/user/manual/en/purchase-receipt)."
+      },
+      "action_label": {
+        "old": "Create Purchase Receipt",
+        "new": "Criar recebimento de compra"
+      }
+    }
+  },
+  {
+    "doctype": "Onboarding Step",
+    "name": "Move Stock",
+    "path": "stock/onboarding_step/move_stock/move_stock.json",
+    "fields": {
+      "title": {
+        "old": "Move stock between warehouses",
+        "new": "Transfira itens entre armazéns"
+      },
+      "description": {
+        "old": "From the store to the shop floor, or between branches. See [Stock Entry](https://docs.frappe.io/erpnext/user/manual/en/stock-entry).",
+        "new": "Movimente itens do depósito para a produção ou entre filiais. Consulte [Movimentação de estoque](https://docs.frappe.io/erpnext/user/manual/en/stock-entry)."
+      },
+      "action_label": {
+        "old": "Create Stock Entry",
+        "new": "Criar movimentação de estoque"
+      }
+    }
+  },
+  {
+    "doctype": "Onboarding Step",
+    "name": "Setup Warehouse",
+    "path": "stock/onboarding_step/setup_warehouse/setup_warehouse.json",
+    "fields": {
+      "title": {
+        "old": "Review your warehouses",
+        "new": "Revise seus armazéns"
+      },
+      "description": {
+        "old": "We created a few to start with. Rename them, or add the places you actually keep stock. See [Warehouse](https://docs.frappe.io/erpnext/user/manual/en/warehouse).",
+        "new": "Revise os armazéns criados inicialmente. Renomeie-os ou cadastre os locais onde você realmente guarda os itens. Consulte [Armazém](https://docs.frappe.io/erpnext/user/manual/en/warehouse)."
+      },
+      "action_label": {
+        "old": "Open Warehouse",
+        "new": "Abrir armazém"
+      }
+    }
+  },
+  {
+    "doctype": "Onboarding Step",
+    "name": "View Stock Balance Report",
+    "path": "stock/onboarding_step/view_stock_balance_report/view_stock_balance_report.json",
+    "fields": {
+      "title": {
+        "old": "Check your stock levels",
+        "new": "Confira os saldos do estoque"
+      },
+      "description": {
+        "old": "What you have in each warehouse, and what it is worth.",
+        "new": "Veja a quantidade disponível e o valor dos itens em cada armazém."
+      },
+      "action_label": {
+        "old": "Open Stock Balance",
+        "new": "Abrir saldo de estoque"
+      },
+      "report_description": {
+        "old": "What you have in each warehouse, and what it is worth.",
+        "new": "Veja a quantidade e o valor dos itens em cada armazém."
+      }
+    }
+  },
+  {
+    "doctype": "Onboarding Step",
+    "name": "View Stock Ledger",
+    "path": "stock/onboarding_step/view_stock_ledger/view_stock_ledger.json",
+    "fields": {
+      "title": {
+        "old": "Follow every movement",
+        "new": "Acompanhe cada movimentação"
+      },
+      "description": {
+        "old": "Every movement of every item, in and out, with the balance after each. See [Stock Ledger](https://docs.frappe.io/erpnext/user/manual/en/stock-ledger).",
+        "new": "Veja as entradas e saídas de cada item e o saldo após cada movimentação. Consulte [Razão de estoque](https://docs.frappe.io/erpnext/user/manual/en/stock-ledger)."
+      },
+      "action_label": {
+        "old": "Open Stock Ledger",
+        "new": "Abrir razão de estoque"
+      },
+      "report_description": {
+        "old": "Every movement of every item, in and out.",
+        "new": "Veja as entradas e saídas de cada item."
+      }
+    }
+  }
+]

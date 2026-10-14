@@ -1,8 +1,8 @@
 {
  "action": "Create Entry",
- "action_label": "Create Purchase Order",
+ "action_label": "Criar pedido de compra",
  "creation": "2026-02-19 12:13:44.068135",
- "description": "Order from the supplier. When the goods arrive, receive them and record the bill from the order itself. See [Purchase Order](https://docs.frappe.io/erpnext/user/manual/en/purchase-order).",
+ "description": "Faça o pedido ao fornecedor. Quando os itens chegarem, registre o recebimento e a fatura a partir do próprio pedido. Consulte [Pedido de compra](https://docs.frappe.io/erpnext/user/manual/en/purchase-order).",
  "docstatus": 0,
  "doctype": "Onboarding Step",
  "form_tour": "",
@@ -18,6 +18,6 @@
  "reference_document": "Purchase Order",
  "show_form_tour": 0,
  "show_full_form": 1,
- "title": "Place a purchase order",
+ "title": "Faça um pedido de compra",
  "validate_action": 1
 }

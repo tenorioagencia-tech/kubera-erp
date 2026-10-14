@@ -1,8 +1,8 @@
 {
  "action": "Complete Onboarding",
- "action_label": "Open Projects",
+ "action_label": "Abrir projetos",
  "creation": "2026-10-04 03:16:15.373547",
- "description": "Break a project into tasks and log the time your team spends.",
+ "description": "Divida um projeto em tarefas e registre o tempo gasto pela equipe.",
  "docstatus": 0,
  "doctype": "Onboarding Step",
  "idx": 0,
@@ -16,6 +16,6 @@
  "owner": "Administrator",
  "show_form_tour": 0,
  "show_full_form": 0,
- "title": "Plan and deliver projects",
+ "title": "Planeje e entregue projetos",
  "validate_action": 1
 }

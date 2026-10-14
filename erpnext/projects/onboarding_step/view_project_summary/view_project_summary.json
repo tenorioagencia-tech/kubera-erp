@@ -1,8 +1,8 @@
 {
  "action": "View Report",
- "action_label": "Open Project Summary",
+ "action_label": "Abrir resumo de projetos",
  "creation": "2026-02-23 22:47:20.530482",
- "description": "Progress, hours and costs for every project.",
+ "description": "Consulte o andamento, as horas e os custos de cada projeto.",
  "docstatus": 0,
  "doctype": "Onboarding Step",
  "idx": 0,
@@ -15,11 +15,11 @@
  "name": "View Project Summary",
  "owner": "Administrator",
  "reference_report": "Project Summary",
- "report_description": "Progress, hours and costs for every project.",
+ "report_description": "Consulte o andamento, as horas e os custos de cada projeto.",
  "report_reference_doctype": "Project",
  "report_type": "Script Report",
  "show_form_tour": 0,
  "show_full_form": 1,
- "title": "Track progress and costs",
+ "title": "Acompanhe o avanço e os custos",
  "validate_action": 1
 }

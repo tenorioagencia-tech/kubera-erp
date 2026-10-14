@@ -1,8 +1,8 @@
 {
  "action": "View Report",
- "action_label": "Open Delayed Tasks Summary",
+ "action_label": "Abrir tarefas atrasadas",
  "creation": "2026-10-04 01:51:25.818827",
- "description": "Tasks past their due date, and how late each one is.",
+ "description": "Veja as tarefas vencidas e quantos dias cada uma está atrasada.",
  "docstatus": 0,
  "doctype": "Onboarding Step",
  "idx": 0,
@@ -14,11 +14,11 @@
  "name": "View Delayed Tasks",
  "owner": "Administrator",
  "reference_report": "Delayed Tasks Summary",
- "report_description": "Tasks past their due date, and how late each one is.",
+ "report_description": "Veja as tarefas vencidas e o atraso de cada uma.",
  "report_reference_doctype": "Task",
  "report_type": "Script Report",
  "show_form_tour": 0,
  "show_full_form": 0,
- "title": "Spot delayed tasks",
+ "title": "Identifique tarefas atrasadas",
  "validate_action": 1
 }

@@ -1,8 +1,8 @@
 {
  "action": "Complete Onboarding",
- "action_label": "Open Quality",
+ "action_label": "Abrir qualidade",
  "creation": "2026-10-04 03:16:15.376980",
- "description": "Set up an inspection and record your first check.",
+ "description": "Configure uma inspeção e registre sua primeira verificação.",
  "docstatus": 0,
  "doctype": "Onboarding Step",
  "idx": 0,
@@ -16,6 +16,6 @@
  "owner": "Administrator",
  "show_form_tour": 0,
  "show_full_form": 0,
- "title": "Keep quality in check",
+ "title": "Mantenha a qualidade sob controle",
  "validate_action": 1
 }

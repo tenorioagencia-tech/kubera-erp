@@ -1,8 +1,8 @@
 {
  "action": "View Report",
- "action_label": "Open Stock Balance",
+ "action_label": "Abrir saldo de estoque",
  "creation": "2026-02-20 13:52:54.499787",
- "description": "What you have in each warehouse, and what it is worth.",
+ "description": "Veja a quantidade disponível e o valor dos itens em cada armazém.",
  "docstatus": 0,
  "doctype": "Onboarding Step",
  "idx": 0,
@@ -15,11 +15,11 @@
  "name": "View Stock Balance Report",
  "owner": "Administrator",
  "reference_report": "Stock Balance",
- "report_description": "What you have in each warehouse, and what it is worth.",
+ "report_description": "Veja a quantidade e o valor dos itens em cada armazém.",
  "report_reference_doctype": "Stock Ledger Entry",
  "report_type": "Script Report",
  "show_form_tour": 0,
  "show_full_form": 1,
- "title": "Check your stock levels",
+ "title": "Confira os saldos do estoque",
  "validate_action": 1
 }

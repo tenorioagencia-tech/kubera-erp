@@ -1,8 +1,8 @@
 {
  "action": "Create Entry",
- "action_label": "Create Quality Inspection Template",
+ "action_label": "Criar modelo de inspeção de qualidade",
  "creation": "2026-10-04 01:54:23.337891",
- "description": "The parameters to inspect and what counts as a pass, reused on every inspection. See [Quality Inspection Template](https://docs.frappe.io/erpnext/user/manual/en/quality-inspection-template).",
+ "description": "Configure os parâmetros e os critérios de aprovação para reutilizá-los em cada inspeção. Consulte [Modelo de inspeção de qualidade](https://docs.frappe.io/erpnext/user/manual/en/quality-inspection-template).",
  "docstatus": 0,
  "doctype": "Onboarding Step",
  "idx": 0,
@@ -16,6 +16,6 @@
  "reference_document": "Quality Inspection Template",
  "show_form_tour": 0,
  "show_full_form": 1,
- "title": "Decide what to check",
+ "title": "Defina o que será inspecionado",
  "validate_action": 1
 }

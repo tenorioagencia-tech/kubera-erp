@@ -1,8 +1,8 @@
 {
  "action": "View Report",
- "action_label": "Open Fixed Asset Register",
+ "action_label": "Abrir cadastro de ativos",
  "creation": "2026-10-04 00:49:20.694578",
- "description": "What you own, where it is, and what it is worth today.",
+ "description": "Saiba quais bens a empresa possui, onde estão e quanto valem hoje.",
  "docstatus": 0,
  "doctype": "Onboarding Step",
  "idx": 0,
@@ -14,11 +14,11 @@
  "name": "View Fixed Asset Register",
  "owner": "Administrator",
  "reference_report": "Fixed Asset Register",
- "report_description": "What you own, where it is, and what it is worth today.",
+ "report_description": "Veja quais bens a empresa possui, onde estão e quanto valem hoje.",
  "report_reference_doctype": "Asset",
  "report_type": "Script Report",
  "show_form_tour": 0,
  "show_full_form": 1,
- "title": "See everything you own",
+ "title": "Veja todos os seus bens",
  "validate_action": 1
 }

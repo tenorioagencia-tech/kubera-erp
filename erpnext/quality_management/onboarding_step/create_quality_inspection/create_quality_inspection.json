@@ -1,8 +1,8 @@
 {
  "action": "Create Entry",
- "action_label": "Create Quality Inspection",
+ "action_label": "Criar inspeção de qualidade",
  "creation": "2026-10-04 01:54:23.339721",
- "description": "Record the results against a receipt or a delivery, and accept or reject the goods. See [Quality Inspection](https://docs.frappe.io/erpnext/user/manual/en/quality-inspection).",
+ "description": "Registre os resultados do recebimento ou da entrega e aprove ou rejeite os produtos. Consulte [Inspeção de qualidade](https://docs.frappe.io/erpnext/user/manual/en/quality-inspection).",
  "docstatus": 0,
  "doctype": "Onboarding Step",
  "idx": 0,
@@ -16,6 +16,6 @@
  "reference_document": "Quality Inspection",
  "show_form_tour": 0,
  "show_full_form": 1,
- "title": "Inspect goods coming in or going out",
+ "title": "Inspecione produtos recebidos ou enviados",
  "validate_action": 1
 }

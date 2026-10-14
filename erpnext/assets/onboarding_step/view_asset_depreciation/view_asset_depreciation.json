@@ -1,8 +1,8 @@
 {
  "action": "View Report",
- "action_label": "Open Asset Depreciation Ledger",
+ "action_label": "Abrir razão de depreciação",
  "creation": "2026-10-04 01:52:52.535987",
- "description": "Depreciation is posted on schedule, asset by asset, without a journal entry from you. See [Depreciation](https://docs.frappe.io/erpnext/user/manual/en/asset-depreciation).",
+ "description": "A depreciação é lançada automaticamente no prazo, bem por bem. Consulte os lançamentos sem precisar criá-los manualmente. Consulte [Depreciação](https://docs.frappe.io/erpnext/user/manual/en/asset-depreciation).",
  "docstatus": 0,
  "doctype": "Onboarding Step",
  "idx": 0,
@@ -14,11 +14,11 @@
  "name": "View Asset Depreciation",
  "owner": "Administrator",
  "reference_report": "Asset Depreciation Ledger",
- "report_description": "Every depreciation posted, asset by asset.",
+ "report_description": "Consulte os lançamentos de depreciação de cada bem.",
  "report_reference_doctype": "Asset",
  "report_type": "Script Report",
  "show_form_tour": 0,
  "show_full_form": 0,
- "title": "Check its depreciation",
+ "title": "Confira a depreciação",
  "validate_action": 1
 }

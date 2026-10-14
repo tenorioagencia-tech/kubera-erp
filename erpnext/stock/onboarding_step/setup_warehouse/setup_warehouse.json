@@ -1,8 +1,8 @@
 {
  "action": "Go to Page",
- "action_label": "Open Warehouse",
+ "action_label": "Abrir armazém",
  "creation": "2026-02-20 13:51:56.762299",
- "description": "We created a few to start with. Rename them, or add the places you actually keep stock. See [Warehouse](https://docs.frappe.io/erpnext/user/manual/en/warehouse).",
+ "description": "Revise os armazéns criados inicialmente. Renomeie-os ou cadastre os locais onde você realmente guarda os itens. Consulte [Armazém](https://docs.frappe.io/erpnext/user/manual/en/warehouse).",
  "docstatus": 0,
  "doctype": "Onboarding Step",
  "idx": 3,
@@ -17,6 +17,6 @@
  "path": "Tree/Warehouse",
  "show_form_tour": 0,
  "show_full_form": 1,
- "title": "Review your warehouses",
+ "title": "Revise seus armazéns",
  "validate_action": 1
 }

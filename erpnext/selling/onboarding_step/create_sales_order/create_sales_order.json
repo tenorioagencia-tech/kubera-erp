@@ -1,8 +1,8 @@
 {
  "action": "Create Entry",
- "action_label": "Create Sales Order",
+ "action_label": "Criar pedido de venda",
  "creation": "2026-10-04 01:16:00.386120",
- "description": "Confirm what the customer ordered and when it is due. Deliver and invoice from the order itself. See [Sales Order](https://docs.frappe.io/erpnext/user/manual/en/sales-order).",
+ "description": "Confirme o que o cliente pediu e o prazo de entrega. Crie a entrega e a fatura a partir do pedido. Consulte [Pedido de venda](https://docs.frappe.io/erpnext/user/manual/en/sales-order).",
  "docstatus": 0,
  "doctype": "Onboarding Step",
  "idx": 0,
@@ -17,6 +17,6 @@
  "reference_document": "Sales Order",
  "show_form_tour": 0,
  "show_full_form": 1,
- "title": "Confirm a sales order",
+ "title": "Confirme um pedido de venda",
  "validate_action": 1
 }

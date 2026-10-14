@@ -1,8 +1,8 @@
 {
  "action": "Create Entry",
- "action_label": "Create Quality Procedure",
+ "action_label": "Criar procedimento de qualidade",
  "creation": "2026-10-04 01:54:23.335887",
- "description": "The steps your team follows, so it is done the same way every time. See [Quality Management](https://docs.frappe.io/erpnext/user/manual/en/quality-management).",
+ "description": "Descreva as etapas seguidas pela equipe para repetir o processo da mesma forma. Consulte [Gestão da qualidade](https://docs.frappe.io/erpnext/user/manual/en/quality-management).",
  "docstatus": 0,
  "doctype": "Onboarding Step",
  "idx": 0,
@@ -16,6 +16,6 @@
  "reference_document": "Quality Procedure",
  "show_form_tour": 0,
  "show_full_form": 1,
- "title": "Write down how the work is done",
+ "title": "Documente como o trabalho é feito",
  "validate_action": 1
 }

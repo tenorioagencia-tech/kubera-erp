@@ -1,8 +1,8 @@
 {
  "action": "Create Entry",
- "action_label": "Add Customer",
+ "action_label": "Adicionar cliente",
  "creation": "2026-02-20 13:38:17.043231",
- "description": "A business or person you sell to. See [Customer](https://docs.frappe.io/erpnext/user/manual/en/customer).",
+ "description": "Cadastre uma empresa ou pessoa para quem você vende. Consulte [Cliente](https://docs.frappe.io/erpnext/user/manual/en/customer).",
  "docstatus": 0,
  "doctype": "Onboarding Step",
  "form_tour": "Customer Form Tour",
@@ -18,6 +18,6 @@
  "reference_document": "Customer",
  "show_form_tour": 1,
  "show_full_form": 0,
- "title": "Add a customer",
+ "title": "Cadastre um cliente",
  "validate_action": 1
 }

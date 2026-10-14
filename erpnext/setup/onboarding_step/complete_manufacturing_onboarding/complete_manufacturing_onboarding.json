@@ -1,8 +1,8 @@
 {
  "action": "Complete Onboarding",
- "action_label": "Open Manufacturing",
+ "action_label": "Abrir produção",
  "creation": "2026-10-04 03:16:15.371604",
- "description": "Write down what goes into a product and make it with a work order.",
+ "description": "Defina os materiais de um produto e fabrique-o por meio de uma ordem de produção.",
  "docstatus": 0,
  "doctype": "Onboarding Step",
  "idx": 0,
@@ -16,6 +16,6 @@
  "owner": "Administrator",
  "show_form_tour": 0,
  "show_full_form": 0,
- "title": "Plan and run production",
+ "title": "Planeje e execute a produção",
  "validate_action": 1
 }

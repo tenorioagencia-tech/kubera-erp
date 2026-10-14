@@ -1,8 +1,8 @@
 {
  "action": "Create Entry",
- "action_label": "Create Non Conformance",
+ "action_label": "Criar não conformidade",
  "creation": "2026-10-04 01:54:23.341428",
- "description": "When something falls short of the procedure, note what happened, the cause, and what you will do about it. See [Non Conformance](https://docs.frappe.io/erpnext/user/manual/en/non-conformance).",
+ "description": "Quando algo não seguir o procedimento, registre o ocorrido, a causa e a ação corretiva. Consulte [Não conformidade](https://docs.frappe.io/erpnext/user/manual/en/non-conformance).",
  "docstatus": 0,
  "doctype": "Onboarding Step",
  "idx": 0,
@@ -16,6 +16,6 @@
  "reference_document": "Non Conformance",
  "show_form_tour": 0,
  "show_full_form": 1,
- "title": "Log a problem",
+ "title": "Registre uma não conformidade",
  "validate_action": 1
 }

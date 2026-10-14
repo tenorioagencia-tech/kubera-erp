@@ -1,8 +1,8 @@
 {
  "action": "Create Entry",
- "action_label": "Create Asset Movement",
+ "action_label": "Criar movimentação de ativo",
  "creation": "2026-10-04 01:52:52.537909",
- "description": "Record who has it and where it is, so you always know. See [Asset Movement](https://docs.frappe.io/erpnext/user/manual/en/asset-movement).",
+ "description": "Informe com quem e onde o bem está para manter seu histórico atualizado. Consulte [Movimentação de ativos](https://docs.frappe.io/erpnext/user/manual/en/asset-movement).",
  "docstatus": 0,
  "doctype": "Onboarding Step",
  "idx": 0,
@@ -16,6 +16,6 @@
  "reference_document": "Asset Movement",
  "show_form_tour": 0,
  "show_full_form": 1,
- "title": "Hand it to a person or place",
+ "title": "Registre a transferência de um bem",
  "validate_action": 1
 }

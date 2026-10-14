@@ -1,8 +1,8 @@
 {
  "action": "View Report",
- "action_label": "Open General Ledger",
+ "action_label": "Abrir razão contábil",
  "creation": "2026-10-04 01:25:22.678661",
- "description": "Every posting from your invoices and payments, with its debit and credit. See [General Ledger](https://docs.frappe.io/erpnext/user/manual/en/general-ledger).",
+ "description": "Veja cada lançamento de faturas e pagamentos, com seus débitos e créditos. Consulte [Razão contábil](https://docs.frappe.io/erpnext/user/manual/en/general-ledger).",
  "docstatus": 0,
  "doctype": "Onboarding Step",
  "idx": 0,
@@ -15,11 +15,11 @@
  "name": "View General Ledger",
  "owner": "Administrator",
  "reference_report": "General Ledger",
- "report_description": "Every posting, with its debit and credit.",
+ "report_description": "Veja cada lançamento, com seu débito e crédito.",
  "report_reference_doctype": "GL Entry",
  "report_type": "Script Report",
  "show_form_tour": 0,
  "show_full_form": 0,
- "title": "Trace every posting",
+ "title": "Rastreie cada lançamento",
  "validate_action": 1
 }

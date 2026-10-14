@@ -1,8 +1,8 @@
 {
  "action": "Create Entry",
- "action_label": "Create Project Template",
+ "action_label": "Criar modelo de projeto",
  "creation": "2026-10-04 01:51:25.812416",
- "description": "Save the tasks you repeat on every job, and start the next project from them.",
+ "description": "Salve as tarefas que se repetem em cada trabalho e use-as como ponto de partida no próximo projeto.",
  "docstatus": 0,
  "doctype": "Onboarding Step",
  "idx": 0,
@@ -16,6 +16,6 @@
  "reference_document": "Project Template",
  "show_form_tour": 0,
  "show_full_form": 1,
- "title": "Reuse it as a template",
+ "title": "Reutilize um modelo de projeto",
  "validate_action": 1
 }

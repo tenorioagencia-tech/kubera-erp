@@ -1,8 +1,8 @@
 {
  "action": "Create Entry",
- "action_label": "Create Journal Entry",
+ "action_label": "Criar lançamento contábil",
  "creation": "2026-10-04 01:25:22.675609",
- "description": "For anything that isn't an invoice or a payment: accruals, depreciation, or fixing a mistake. See [Journal Entry](https://docs.frappe.io/erpnext/user/manual/en/journal-entry).",
+ "description": "Registre provisões, depreciação ou correções que não venham de uma fatura ou de um pagamento. Consulte [Lançamento contábil](https://docs.frappe.io/erpnext/user/manual/en/journal-entry).",
  "docstatus": 0,
  "doctype": "Onboarding Step",
  "idx": 0,
@@ -17,6 +17,6 @@
  "reference_document": "Journal Entry",
  "show_form_tour": 0,
  "show_full_form": 1,
- "title": "Post a journal entry",
+ "title": "Registre um lançamento contábil",
  "validate_action": 1
 }

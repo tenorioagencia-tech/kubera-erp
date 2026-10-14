@@ -1,8 +1,8 @@
 {
  "action": "Complete Onboarding",
- "action_label": "Open Stock",
+ "action_label": "Abrir estoque",
  "creation": "2026-10-04 03:16:15.370066",
- "description": "Set up your warehouses and enter the stock you have today.",
+ "description": "Configure os armazéns e informe o estoque disponível hoje.",
  "docstatus": 0,
  "doctype": "Onboarding Step",
  "idx": 0,
@@ -16,6 +16,6 @@
  "owner": "Administrator",
  "show_form_tour": 0,
  "show_full_form": 0,
- "title": "Keep track of your stock",
+ "title": "Controle seu estoque",
  "validate_action": 1
 }

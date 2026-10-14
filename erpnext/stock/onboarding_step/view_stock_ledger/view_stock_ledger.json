@@ -1,8 +1,8 @@
 {
  "action": "View Report",
- "action_label": "Open Stock Ledger",
+ "action_label": "Abrir razão de estoque",
  "creation": "2026-10-04 01:45:40.810819",
- "description": "Every movement of every item, in and out, with the balance after each. See [Stock Ledger](https://docs.frappe.io/erpnext/user/manual/en/stock-ledger).",
+ "description": "Veja as entradas e saídas de cada item e o saldo após cada movimentação. Consulte [Razão de estoque](https://docs.frappe.io/erpnext/user/manual/en/stock-ledger).",
  "docstatus": 0,
  "doctype": "Onboarding Step",
  "idx": 0,
@@ -14,11 +14,11 @@
  "name": "View Stock Ledger",
  "owner": "Administrator",
  "reference_report": "Stock Ledger",
- "report_description": "Every movement of every item, in and out.",
+ "report_description": "Veja as entradas e saídas de cada item.",
  "report_reference_doctype": "Stock Ledger Entry",
  "report_type": "Script Report",
  "show_form_tour": 0,
  "show_full_form": 0,
- "title": "Follow every movement",
+ "title": "Acompanhe cada movimentação",
  "validate_action": 1
 }

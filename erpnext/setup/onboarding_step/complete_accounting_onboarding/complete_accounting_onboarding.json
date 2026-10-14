@@ -1,8 +1,8 @@
 {
  "action": "Complete Onboarding",
- "action_label": "Open Accounts",
+ "action_label": "Abrir contabilidade",
  "creation": "2026-10-04 03:16:15.365319",
- "description": "Check your chart of accounts and taxes, and add the bank account you use.",
+ "description": "Confira o plano de contas e os impostos e cadastre a conta bancária usada pela empresa.",
  "docstatus": 0,
  "doctype": "Onboarding Step",
  "idx": 0,
@@ -16,6 +16,6 @@
  "owner": "Administrator",
  "show_form_tour": 0,
  "show_full_form": 0,
- "title": "Get your books ready",
+ "title": "Prepare sua contabilidade",
  "validate_action": 1
 }

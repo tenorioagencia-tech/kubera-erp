@@ -1,8 +1,8 @@
 {
  "action": "Create Entry",
- "action_label": "Create Payment Entry",
+ "action_label": "Criar lançamento de pagamento",
  "creation": "2026-10-04 00:49:20.654299",
- "description": "It clears their bill and takes the money out of your bank or cash account. See [Payment Entry](https://docs.frappe.io/erpnext/user/manual/en/payment-entry).",
+ "description": "Registre o pagamento da fatura do fornecedor e a saída do dinheiro da conta bancária ou do caixa. Consulte [Lançamento de pagamento](https://docs.frappe.io/erpnext/user/manual/en/payment-entry).",
  "docstatus": 0,
  "doctype": "Onboarding Step",
  "idx": 0,
@@ -18,6 +18,6 @@
  "route_options": "{\n    \"payment_type\": \"Pay\",\n    \"party_type\": \"Supplier\"\n}",
  "show_form_tour": 0,
  "show_full_form": 1,
- "title": "Pay your supplier",
+ "title": "Pague seu fornecedor",
  "validate_action": 1
 }

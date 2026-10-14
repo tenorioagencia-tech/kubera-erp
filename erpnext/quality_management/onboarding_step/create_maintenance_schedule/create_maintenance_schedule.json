@@ -1,8 +1,8 @@
 {
  "action": "Create Entry",
- "action_label": "Create Maintenance Schedule",
+ "action_label": "Criar programação de manutenção",
  "creation": "2026-10-04 01:54:23.344166",
- "description": "Regular service visits for equipment you sold, planned ahead for the whole contract. See [Maintenance Schedule](https://docs.frappe.io/erpnext/user/manual/en/maintenance-schedule).",
+ "description": "Agende antecipadamente as visitas periódicas de manutenção dos equipamentos vendidos. Consulte [Programação de manutenção](https://docs.frappe.io/erpnext/user/manual/en/maintenance-schedule).",
  "docstatus": 0,
  "doctype": "Onboarding Step",
  "idx": 0,
@@ -17,6 +17,6 @@
  "reference_document": "Maintenance Schedule",
  "show_form_tour": 0,
  "show_full_form": 1,
- "title": "Plan maintenance visits",
+ "title": "Planeje visitas de manutenção",
  "validate_action": 1
 }

@@ -1,8 +1,8 @@
 {
  "action": "Complete Onboarding",
- "action_label": "Open Assets",
+ "action_label": "Abrir ativos",
  "creation": "2026-10-04 03:16:15.375405",
- "description": "Record an asset and see what it's worth year by year.",
+ "description": "Registre um bem e acompanhe seu valor ao longo dos anos.",
  "docstatus": 0,
  "doctype": "Onboarding Step",
  "idx": 0,
@@ -16,6 +16,6 @@
  "owner": "Administrator",
  "show_form_tour": 0,
  "show_full_form": 0,
- "title": "Track what your business owns",
+ "title": "Acompanhe os bens da sua empresa",
  "validate_action": 1
 }

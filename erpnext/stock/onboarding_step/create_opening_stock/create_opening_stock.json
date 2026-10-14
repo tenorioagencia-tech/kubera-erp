@@ -1,8 +1,8 @@
 {
  "action": "Create Entry",
- "action_label": "Create Stock Reconciliation",
+ "action_label": "Criar conciliação de estoque",
  "creation": "2026-10-04 00:49:20.659264",
- "description": "How much of each item is on your shelves, and what it is worth. From here, every receipt and delivery keeps it up to date. See [Stock Reconciliation](https://docs.frappe.io/erpnext/user/manual/en/stock-reconciliation).",
+ "description": "Registre a quantidade e o valor dos itens disponíveis hoje. Os próximos recebimentos e entregas atualizarão o saldo. Consulte [Conciliação de estoque](https://docs.frappe.io/erpnext/user/manual/en/stock-reconciliation).",
  "docstatus": 0,
  "doctype": "Onboarding Step",
  "idx": 0,
@@ -18,6 +18,6 @@
  "route_options": "{\n    \"purpose\": \"Opening Stock\"\n}",
  "show_form_tour": 0,
  "show_full_form": 1,
- "title": "Enter the stock you have today",
+ "title": "Informe o estoque inicial",
  "validate_action": 1
 }

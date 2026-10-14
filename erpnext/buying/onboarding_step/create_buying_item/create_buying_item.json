@@ -1,8 +1,8 @@
 {
  "action": "Create Entry",
- "action_label": "Add Item",
+ "action_label": "Adicionar item",
  "creation": "2026-10-04 01:42:03.855747",
- "description": "Goods or services you buy from suppliers. See [Item](https://docs.frappe.io/erpnext/user/manual/en/item).",
+ "description": "Cadastre os produtos ou serviços que você compra de fornecedores. Consulte [Item](https://docs.frappe.io/erpnext/user/manual/en/item).",
  "docstatus": 0,
  "doctype": "Onboarding Step",
  "idx": 0,
@@ -18,6 +18,6 @@
  "route_options": "{\n    \"is_purchase_item\": 1\n}",
  "show_form_tour": 0,
  "show_full_form": 0,
- "title": "Add an item you buy",
+ "title": "Cadastre um item de compra",
  "validate_action": 1
 }

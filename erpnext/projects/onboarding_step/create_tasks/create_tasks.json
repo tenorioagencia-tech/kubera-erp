@@ -1,8 +1,8 @@
 {
  "action": "Create Entry",
- "action_label": "Create Task",
+ "action_label": "Criar tarefa",
  "creation": "2026-02-23 22:45:36.152388",
- "description": "Who does what, by when. Tasks roll up into the project's progress. See [Task](https://docs.frappe.io/erpnext/user/manual/en/task).",
+ "description": "Defina quem faz cada atividade e seu prazo. O avanço das tarefas compõe o andamento do projeto. Consulte [Tarefa](https://docs.frappe.io/erpnext/user/manual/en/task).",
  "docstatus": 0,
  "doctype": "Onboarding Step",
  "idx": 0,
@@ -17,6 +17,6 @@
  "reference_document": "Task",
  "show_form_tour": 0,
  "show_full_form": 1,
- "title": "Break it into tasks",
+ "title": "Divida o projeto em tarefas",
  "validate_action": 1
 }

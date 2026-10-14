@@ -1,8 +1,8 @@
 {
  "action": "Create Entry",
- "action_label": "Create Production Plan",
+ "action_label": "Criar plano de produção",
  "creation": "2026-10-04 01:49:02.880390",
- "description": "Pull in open sales orders and work out what to make, and what to buy, to fill them.",
+ "description": "Reúna os pedidos de venda em aberto e calcule o que precisa fabricar e comprar para atendê-los.",
  "docstatus": 0,
  "doctype": "Onboarding Step",
  "idx": 0,
@@ -16,6 +16,6 @@
  "reference_document": "Production Plan",
  "show_form_tour": 0,
  "show_full_form": 1,
- "title": "Plan production from your orders",
+ "title": "Planeje a produção dos pedidos",
  "validate_action": 1
 }

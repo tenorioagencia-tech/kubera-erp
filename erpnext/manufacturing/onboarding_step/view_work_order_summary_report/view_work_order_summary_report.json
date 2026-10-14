@@ -1,8 +1,8 @@
 {
  "action": "View Report",
- "action_label": "Open Work Order Summary",
+ "action_label": "Abrir resumo de ordens de produção",
  "creation": "2026-02-20 13:35:44.259865",
- "description": "Every work order, how far along it is, and what is running late. See [Work Order Summary](https://docs.frappe.io/erpnext/user/manual/en/work-order-summary).",
+ "description": "Veja o andamento e os atrasos de cada ordem de produção. Consulte [Resumo das ordens de produção](https://docs.frappe.io/erpnext/user/manual/en/work-order-summary).",
  "docstatus": 0,
  "doctype": "Onboarding Step",
  "idx": 0,
@@ -14,11 +14,11 @@
  "name": "View Work Order Summary Report",
  "owner": "Administrator",
  "reference_report": "Work Order Summary",
- "report_description": "Every work order, how far along it is, and what is late.",
+ "report_description": "Acompanhe o andamento e os atrasos das ordens de produção.",
  "report_reference_doctype": "Work Order",
  "report_type": "Script Report",
  "show_form_tour": 0,
  "show_full_form": 1,
- "title": "See how production is going",
+ "title": "Acompanhe a produção",
  "validate_action": 1
 }

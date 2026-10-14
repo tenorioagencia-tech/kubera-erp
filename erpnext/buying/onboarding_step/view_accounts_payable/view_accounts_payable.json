@@ -1,8 +1,8 @@
 {
  "action": "View Report",
- "action_label": "Open Accounts Payable",
+ "action_label": "Abrir contas a pagar",
  "creation": "2026-10-04 01:42:03.965447",
- "description": "Who you owe, how much, and when each bill is due.",
+ "description": "Veja a quem você deve, quanto deve e quando cada fatura vence.",
  "docstatus": 0,
  "doctype": "Onboarding Step",
  "idx": 0,
@@ -14,11 +14,11 @@
  "name": "View Accounts Payable",
  "owner": "Administrator",
  "reference_report": "Accounts Payable",
- "report_description": "Who you owe, how much, and when it is due.",
+ "report_description": "Veja a quem você deve, quanto e quando a fatura vence.",
  "report_reference_doctype": "Purchase Invoice",
  "report_type": "Script Report",
  "show_form_tour": 0,
  "show_full_form": 0,
- "title": "Check what you owe",
+ "title": "Confira suas contas a pagar",
  "validate_action": 1
 }

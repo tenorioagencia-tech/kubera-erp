@@ -1,8 +1,8 @@
 {
  "action": "Create Entry",
- "action_label": "Create Asset Category",
+ "action_label": "Criar categoria de ativos",
  "creation": "2026-02-23 20:50:50.211884",
- "description": "Computers, vehicles, furniture: how each kind depreciates, and which accounts it posts to. See [Asset Category](https://docs.frappe.io/erpnext/user/manual/en/asset-category).",
+ "description": "Defina como cada tipo de bem, como computadores, veículos ou móveis, será depreciado e em quais contas será lançado. Consulte [Categoria de ativos](https://docs.frappe.io/erpnext/user/manual/en/asset-category).",
  "docstatus": 0,
  "doctype": "Onboarding Step",
  "idx": 1,
@@ -16,6 +16,6 @@
  "reference_document": "Asset Category",
  "show_form_tour": 0,
  "show_full_form": 1,
- "title": "Set up an asset category",
+ "title": "Configure uma categoria de ativos",
  "validate_action": 1
 }

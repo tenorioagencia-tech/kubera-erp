@@ -1,8 +1,8 @@
 {
  "action": "View Report",
- "action_label": "Open Accounts Receivable",
+ "action_label": "Abrir contas a receber",
  "creation": "2026-10-04 00:49:20.644080",
- "description": "Who owes you, how much, and for how long. See [Accounts Receivable](https://docs.frappe.io/erpnext/user/manual/en/accounts-receivable).",
+ "description": "Veja quem deve à empresa, quanto e há quanto tempo. Consulte [Contas a receber](https://docs.frappe.io/erpnext/user/manual/en/accounts-receivable).",
  "docstatus": 0,
  "doctype": "Onboarding Step",
  "idx": 0,
@@ -14,11 +14,11 @@
  "name": "View Accounts Receivable",
  "owner": "Administrator",
  "reference_report": "Accounts Receivable",
- "report_description": "Who owes you, how much, and for how long.",
+ "report_description": "Veja quem deve à empresa, quanto e há quanto tempo.",
  "report_reference_doctype": "Sales Invoice",
  "report_type": "Script Report",
  "show_form_tour": 0,
  "show_full_form": 1,
- "title": "Follow up on unpaid invoices",
+ "title": "Acompanhe faturas em aberto",
  "validate_action": 1
 }

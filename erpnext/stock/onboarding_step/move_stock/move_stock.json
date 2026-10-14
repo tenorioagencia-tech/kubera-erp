@@ -1,8 +1,8 @@
 {
  "action": "Create Entry",
- "action_label": "Create Stock Entry",
+ "action_label": "Criar movimentação de estoque",
  "creation": "2026-10-04 01:45:40.809249",
- "description": "From the store to the shop floor, or between branches. See [Stock Entry](https://docs.frappe.io/erpnext/user/manual/en/stock-entry).",
+ "description": "Movimente itens do depósito para a produção ou entre filiais. Consulte [Movimentação de estoque](https://docs.frappe.io/erpnext/user/manual/en/stock-entry).",
  "docstatus": 0,
  "doctype": "Onboarding Step",
  "idx": 0,
@@ -18,6 +18,6 @@
  "route_options": "{\n    \"purpose\": \"Material Transfer\",\n    \"stock_entry_type\": \"Material Transfer\"\n}",
  "show_form_tour": 0,
  "show_full_form": 1,
- "title": "Move stock between warehouses",
+ "title": "Transfira itens entre armazéns",
  "validate_action": 1
 }

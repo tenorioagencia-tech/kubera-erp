@@ -1,8 +1,8 @@
 {
  "action": "Create Entry",
- "action_label": "Create Purchase Invoice",
+ "action_label": "Criar fatura de compra",
  "creation": "2026-10-04 01:25:22.673945",
- "description": "It posts the expense, and what you owe the supplier, to your ledger. See [Purchase Invoice](https://docs.frappe.io/erpnext/user/manual/en/purchase-invoice).",
+ "description": "A fatura lança a despesa e o valor devido ao fornecedor no razão contábil. Consulte [Fatura de compra](https://docs.frappe.io/erpnext/user/manual/en/purchase-invoice).",
  "docstatus": 0,
  "doctype": "Onboarding Step",
  "idx": 0,
@@ -17,6 +17,6 @@
  "reference_document": "Purchase Invoice",
  "show_form_tour": 0,
  "show_full_form": 1,
- "title": "Enter a supplier's bill",
+ "title": "Registre uma fatura de fornecedor",
  "validate_action": 1
 }
