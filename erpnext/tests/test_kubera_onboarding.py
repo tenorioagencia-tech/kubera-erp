@@ -42,14 +42,19 @@ class TestKuberaOnboarding(unittest.TestCase):
 
 	def test_replaces_upstream_title(self):
 		db = self.run_patch("Get to know ERPNext")
-		self.assertEqual(db.title, "Get to know Kubera ERP")
+		self.assertEqual(db.title, "Conheça o Kubera ERP")
+		self.assertEqual(len(db.writes), 1)
+
+	def test_replaces_english_kubera_title(self):
+		db = self.run_patch("Get to know Kubera ERP")
+		self.assertEqual(db.title, "Conheça o Kubera ERP")
 		self.assertEqual(len(db.writes), 1)
 
 	def test_preserves_custom_title(self):
 		self.assertEqual(self.run_patch("Boas-vindas da Empresa").writes, [])
 
 	def test_idempotent(self):
-		self.assertEqual(self.run_patch("Get to know Kubera ERP").writes, [])
+		self.assertEqual(self.run_patch("Conheça o Kubera ERP").writes, [])
 
 
 if __name__ == "__main__":

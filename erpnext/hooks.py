@@ -1,7 +1,7 @@
 app_name = "erpnext"
 app_title = "Kubera ERP"
 app_publisher = "Frappe Technologies Pvt. Ltd."
-app_description = """ERP made simple"""
+app_description = """Gestão empresarial simplificada"""
 app_icon = "fa fa-th"
 app_color = "#11110f"
 app_email = "hello@frappe.io"
@@ -16,7 +16,7 @@ add_to_apps_screen = [
 		"logo": "/assets/erpnext/images/kubera-icon.svg",
 		"title": app_title,
 		"route": app_home,
-		"setup_wizard_text": "Let's give your business a home.",
+		"setup_wizard_text": "Vamos organizar a gestão da sua empresa.",
 		"has_permission": "erpnext.check_app_permission",
 		"sequence_id": 1,
 	}
@@ -537,7 +537,7 @@ email_brand_image = "assets/erpnext/images/kubera-email-logo.png"
 
 default_mail_footer = """
 	<span>
-		Sent via
+		Enviado por
 		<a class="text-muted" href="https://kuberamobiliariosobmedida.com.br/" target="_blank">
 			Kubera ERP
 		</a>

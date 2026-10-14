@@ -39754,7 +39754,7 @@ msgstr ""
 
 #: erpnext/templates/includes/footer/footer_powered.html:1
 msgid "Powered by {0}"
-msgstr ""
+msgstr "Desenvolvido com {0}"
 
 #: erpnext/accounts/doctype/item_tax_template/item_tax_template_dashboard.py:8
 #: erpnext/accounts/doctype/shipping_rule/shipping_rule_dashboard.py:9
@@ -64174,4 +64174,37 @@ msgstr "{} {} já está vinculado a {} {}"
 #: erpnext/accounts/doctype/bank_transaction/bank_transaction.py:448
 msgid "{} {} is not affecting bank account {}"
 msgstr "{} {} não está afetando a conta bancária {}"
+
+# Kubera ERP: textos de marca exibidos em sites existentes e em pt-BR.
+#: erpnext/setup/module_onboarding/organization_onboarding/organization_onboarding.json
+msgid "Get to know ERPNext"
+msgstr "Conheça o Kubera ERP"
+
+#: erpnext/patches/v16_0/kubera_onboarding_title.py
+msgid "Get to know Kubera ERP"
+msgstr "Conheça o Kubera ERP"
+
+#: erpnext/assets/onboarding_step/create_existing_asset/create_existing_asset.json
+msgid "Something you bought before using Kubera ERP, with what you paid, where it is, and how much has already depreciated. See [Asset](https://docs.frappe.io/erpnext/user/manual/en/asset)."
+msgstr "Registre um bem adquirido antes de usar o Kubera ERP: quanto custou, onde está e quanto já foi depreciado. Consulte [Ativo](https://docs.frappe.io/erpnext/user/manual/en/asset)."
+
+#: erpnext/crm/frappe_crm_api.py
+msgid "Frappe CRM data synchronization is not enabled on Kubera ERP. Contact the System Manager."
+msgstr "A sincronização de dados com o Frappe CRM não está habilitada no Kubera ERP. Entre em contato com o administrador do sistema."
+
+#: erpnext/crm/frappe_crm_api.py
+msgid "User not allowed to synchronize data from Frappe CRM on Kubera ERP. Contact the System Manager."
+msgstr "Usuário sem permissão para sincronizar dados do Frappe CRM com o Kubera ERP. Entre em contato com o administrador do sistema."
+
+#: erpnext/buying/doctype/buying_settings/buying_settings.js
+msgid "If this option is configured 'Yes', Kubera ERP will prevent you from creating a Purchase Invoice or Receipt without creating a Purchase Order first. This configuration can be overridden for a particular supplier by enabling the 'Allow Purchase Invoice Creation Without Purchase Order' checkbox in the Supplier master."
+msgstr "Se esta opção estiver definida como 'Sim', o Kubera ERP impedirá a criação de uma Fatura de Compra ou de um Recibo de Compra sem antes criar um Pedido de Compra. Para um fornecedor específico, é possível substituir essa regra habilitando a opção 'Permitir criação de Fatura de Compra sem Pedido de Compra' no cadastro do Fornecedor."
+
+#: erpnext/buying/doctype/buying_settings/buying_settings.js
+msgid "If this option is configured 'Yes', Kubera ERP will prevent you from creating a Purchase Invoice without creating a Purchase Receipt first. This configuration can be overridden for a particular supplier by enabling the 'Allow Purchase Invoice Creation Without Purchase Receipt' checkbox in the Supplier master."
+msgstr "Se esta opção estiver definida como 'Sim', o Kubera ERP impedirá a criação de uma Fatura de Compra sem antes criar um Recibo de Compra. Para um fornecedor específico, é possível substituir essa regra habilitando a opção 'Permitir criação de Fatura de Compra sem Recibo de Compra' no cadastro do Fornecedor."
+
+#: erpnext/accounts/doctype/bank_account/bank_account.js
+msgid "This action will unlink this account from any external service integrating Kubera ERP with your bank accounts. It cannot be undone. Are you certain?"
+msgstr "Esta ação desvinculará esta conta de qualquer serviço externo que integre o Kubera ERP às suas contas bancárias. Não é possível desfazê-la. Tem certeza?"
 
