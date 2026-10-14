@@ -44,7 +44,9 @@ class TestKuberaBranding(unittest.TestCase):
 
 	def test_website_and_email_assets(self):
 		hooks = self.hooks
-		self.assertTrue((ERPNEXT_ROOT / "public" / "images" / "kubera-wordmark.svg").is_file())
+		wordmark = ERPNEXT_ROOT / "public" / "images" / "kubera-wordmark.svg"
+		self.assertTrue(wordmark.is_file())
+		self.assertNotIn("prefers-color-scheme", wordmark.read_text(encoding="utf-8"))
 		self.assert_brand_asset(hooks["website_context"]["favicon"], ".svg")
 		self.assert_brand_asset(hooks["website_context"]["splash_image"], ".svg")
 		self.assert_brand_asset("/" + hooks["email_brand_image"].lstrip("/"), ".png")
