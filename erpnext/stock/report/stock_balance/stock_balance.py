@@ -65,6 +65,7 @@ class StockBalanceReport:
 		self.data = []
 		self.columns = []
 		self.sle_entries: list[SLEntry] = []
+		self.latest_valuation_rates = {}
 		self.set_company_currency()
 
 	def set_company_currency(self) -> None:
@@ -230,7 +231,6 @@ class StockBalanceReport:
 		# HACK: This is required to avoid causing db query in flt
 		_system_settings = frappe.get_cached_doc("System Settings")
 		adjustment_netting = AdjustmentNetting()
-		self.latest_valuation_rates = {}
 		track_rates = self.filters.get("show_dimension_wise_stock") and not self.has_dimension_filter
 		with frappe.db.unbuffered_cursor():
 			if not self.filters.get("show_stock_ageing_data"):
