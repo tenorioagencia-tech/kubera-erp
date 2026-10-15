@@ -43,6 +43,30 @@ class TestKuberaFrappeTranslations(unittest.TestCase):
 			keys.add(key)
 			self.assertEqual(sorted(PLACEHOLDER.findall(source)), sorted(PLACEHOLDER.findall(target)), source)
 
+	def test_common_frappe_workflows_have_portuguese_text(self):
+		with TRANSLATIONS.open(encoding="utf-8-sig", newline="") as stream:
+			rows = list(csv.reader(stream))
+		translations = {(source, context[0] if context else ""): target for source, target, *context in rows}
+		for source, context in (
+			("Back to sign in", ""),
+			("Invalid credentials, try again.", ""),
+			("Please check your email.", ""),
+			("Use strong passwords.", ""),
+			("Clear all filters", ""),
+			("Deleted all documents successfully", ""),
+			("Save the document to attach files.", ""),
+			("Please fill the following mandatory fields before saving:", ""),
+			("Permission Manager", ""),
+			("You do not have permission to restore this document.", ""),
+			("You need write permissions to add attachments to this record.", ""),
+			("Create a new document", "Description of a list view shortcut"),
+			("Enter Value", "Title of prompt dialog"),
+		):
+			with self.subTest(source=source, context=context):
+				self.assertIn((source, context), translations)
+				self.assertTrue(translations[source, context].strip())
+				self.assertNotEqual(source, translations[source, context])
+
 
 if __name__ == "__main__":
 	unittest.main()
