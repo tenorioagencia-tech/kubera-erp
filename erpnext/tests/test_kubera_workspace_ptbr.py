@@ -56,6 +56,18 @@ class TestKuberaWorkspacePortuguese(unittest.TestCase):
 		))
 
 	def test_home_cards_and_chart_copy(self):
+		stock = source("stock", "workspace", "stock", "stock.json")
+		self.assertTrue(any(
+			row.get("link_to") == "Warehouse wise Item Balance Age and Value"
+			and row.get("label") == "Idade e valor do estoque por armazém e item"
+			for row in stock["links"]
+		))
+		manufacturing = source("manufacturing", "workspace", "manufacturing", "manufacturing.json")
+		self.assertTrue(any(
+			row.get("link_to") == "Work Order Summary"
+			and row.get("label") == "Resumo das ordens de trabalho"
+			for row in manufacturing["links"]
+		))
 		home = source("setup", "workspace", "home", "home.json")
 		self.assertEqual(home["name"], "Home")
 		self.assertEqual(home["label"], "Início")

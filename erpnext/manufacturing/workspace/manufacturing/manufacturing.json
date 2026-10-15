@@ -39,7 +39,7 @@
   {
    "hidden": 0,
    "is_query_report": 1,
-   "label": "Resumo da Ordem de Serviço",
+   "label": "Resumo das ordens de trabalho",
    "link_count": 0,
    "link_to": "Work Order Summary",
    "link_type": "Report",
@@ -49,7 +49,7 @@
   {
    "hidden": 0,
    "is_query_report": 1,
-   "label": "Abrir Ordens de Serviço",
+   "label": "Ordens de trabalho abertas",
    "link_count": 0,
    "link_to": "Open Work Orders",
    "link_type": "Report",
@@ -59,7 +59,7 @@
   {
    "hidden": 0,
    "is_query_report": 1,
-   "label": "Ordens de Serviço Em Andamento",
+   "label": "Cartões de trabalho em andamento",
    "link_count": 0,
    "link_to": "Work Orders in Progress",
    "link_type": "Report",
@@ -89,7 +89,7 @@
   {
    "hidden": 0,
    "is_query_report": 1,
-   "label": "Relatório de Estoque de Ordem de Trabalho",
+   "label": "Relatório de estoque das ordens de trabalho",
    "link_count": 0,
    "link_to": "Work Order Stock Report",
    "link_type": "Report",
@@ -99,7 +99,7 @@
   {
    "hidden": 0,
    "is_query_report": 1,
-   "label": "Itens Emitidos Contra Ordem de Serviço",
+   "label": "Itens lançados para ordens de trabalho",
    "link_count": 0,
    "link_to": "Issued Items Against Work Order",
    "link_type": "Report",
@@ -354,7 +354,7 @@
  "name": "Manufacturing",
  "number_cards": [
   {
-   "label": "Abrir Ordens de Serviço",
+   "label": "Ordens de trabalho abertas",
    "number_card_name": "Open Work Orders"
   },
   {
@@ -649,7 +649,7 @@
    "default_workspace": 0,
    "indent": 0,
    "keep_closed": 0,
-   "label": "Resumo da Ordem de Serviço",
+   "label": "Resumo das ordens de trabalho",
    "link_to": "Work Order Summary",
    "link_type": "Report",
    "open_in_new_tab": 0,
